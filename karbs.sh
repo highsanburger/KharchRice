@@ -5,7 +5,7 @@
 
 ### OPTIONS AND VARIABLES ###
 dotfilesrepo="https://github.com/highsanburger/KharchRice.git"
-progsfile="https://github.com/highsanburger/KharchRice/blob/main/progs.csv"
+progsfile="https://raw.githubusercontent.com/highsanburger/KharchRice/main/progs.csv"
 aurhelper="yay"
 repobranch="master"
 
