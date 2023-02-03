@@ -1,0 +1,8 @@
+#!/usr/bin/zsh
+
+# Turn on case-insensitive globs and make ones that
+# don't match anything expand to nothing
+#shopt -s nocaseglob nullglob
+
+readarray -d '' -t images < <(printf "%s\0" *.jpg *.jpeg *.png *.gif *.tiff *.webp *.bmp | sort -Vz)
+convert "${images[@]}" compilation_images.pdf 

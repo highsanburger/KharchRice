@@ -1,0 +1,24 @@
+[colors]
+${xrdb:
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+alert = ${xrdb:cursor}
+
+darkred = ${xrdb:color0}
+red = ${xrdb:color1}
+darkgreen = ${xrdb:color2}
+green = ${xrdb:color3}
+darkyellow = #${xrdb:color4}
+yellow = #${xrdb:color5}
+darkblue = #${xrdb:color6}
+blue = ${xrdb:color7}
+darkpurple = ${xrdb:color8}
+purple = ${xrdb:color9}
+darkaqua = ${xrdb:color10}
+aqua = ${xrdb:color11}
+gray = ${xrdb:color12}
+darkbg = ${xrdb:color13}
+lightbg = #3230${xrdb:color14}
+lightbg2 = ${xrdb:color15}
+
+
