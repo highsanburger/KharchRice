@@ -4,8 +4,8 @@
 # by Syed Khalid <khalid.theosoc.org>
 
 ### OPTIONS AND VARIABLES ###
-dotfilesrepo="https://github.com/highsanburger/KharchRice"
-progsfile="https://github.com/highsanburger/KharchRice/progs.csv"
+dotfilesrepo="https://github.com/highsanburger/KharchRice.git"
+progsfile="https://github.com/highsanburger/KharchRice/blob/main/progs.csv"
 aurhelper="yay"
 repobranch="master"
 
