@@ -1,0 +1,10 @@
+swipe:
+  3:
+    left:
+      command: bspc desktop -f prev
+    right:
+      command: bspc desktop -f next
+threshold:
+  swipe: 0
+interval:
+  swipe: 0.5

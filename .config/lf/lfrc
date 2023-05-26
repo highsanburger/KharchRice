@@ -1,0 +1,223 @@
+# Set Options Settings
+set ratios 2:3
+set promptfmt "\033[34;1m%d\033[0m\033[1m"
+set timefmt ''
+set info #size:time
+set shell zsh
+set shellopts '-euy'
+set ifs "\n"
+set preview true
+set previewer ~/.config/lf/preview
+set cleaner ~/.config/lf/cleaner
+set drawbox true
+set icons true
+set mouse true
+set incsearch true
+set ignorecase true
+set tempmarks 123456789
+#set number true
+#set relativenumber true
+#set selmode dir
+#set dircounts true
+
+# Commands 
+cmd open ${{
+    case $(file --mime-type "$f" -bL) in
+        text/*|application/json) $EDITOR "$f";;
+        *) xdg-open "$f" & exit;;
+    esac
+}}
+cmd mkdir ${{
+  printf "Directory Name: "
+  read ans
+  mkdir $ans
+}}
+cmd mkfile ${{
+  printf "File Name: "
+  read ans
+  $EDITOR $ans
+}}
+cmd chmod ${{
+  printf "Mode Bits: "
+  read ans
+  for file in "$fx"
+  do
+    chmod $ans $file
+  done
+  lf -remote 'send reload'
+}}
+cmd sudomkfile ${{
+  printf "File Name: "
+  read ans
+  sudo $EDITOR $ans
+}}
+cmd fzf_jump ${{
+  res="$(find . -maxdepth 3 | fzf --reverse --header='Jump to location')"
+  if [ -f "$res" ]; then
+    cmd="select"
+  elif [ -d "$res" ]; then
+    cmd="cd"
+  fi
+  lf -remote "send $id $cmd \"$res\""
+}}
+
+# (un)Archive 
+cmd unarchive ${{
+  case "$f" in
+      *.zip) unzip "$f" ;;
+      *.tar.gz) tar -xzvf "$f" ;;
+      *.tar.bz2) tar -xjvf "$f" ;;
+      *.tar) tar -xvf "$f" ;;
+      *) echo "Unsupported format" ;;
+  esac
+}}
+map au unarchive
+map az %zip -r "$f" "$f"
+map at %tar -cvf "$f.tar" "$f"
+map ag %tar -cvzf "$f.tar.gz" "$f"
+map ab %tar -cjvf "$f.tar.bz2" "$f"
+
+# Trash-cli
+cmd trash ${{
+  files=$(printf "$fx" | tr '\n' ';')
+  while [ "$files" ]; do
+    file=${files%%;*}
+    trash-put "$(basename "$file")"
+    if [ "$files" = "$file" ]; then
+      files=''
+    else
+      files="${files#*;}"
+    fi
+  done
+}}
+cmd restore_trash ${{
+  trash-restore
+}}
+map dd trash
+map dr restore_trash
+
+# Who needs GUI 
+cmd dragon %dragon-drop -a -x $fx
+cmd dragon-stay %dragon-drop -a $fx
+map dn dragon
+map ds dragon-stay
+map dl %dlfile
+
+# 😎
+cmd bulk-rename ${{
+	index=$(mktemp /tmp/lf-bulk-rename-index.XXXXXXXXXX)
+	if [ -n "${fs}" ]; then
+		echo "$fs" > $index
+	else
+		echo "$(ls "$(dirname $f)" | tr ' ' "\n")" > $index
+	fi
+	index_edit=$(mktemp /tmp/lf-bulk-rename.XXXXXXXXXX)
+	cat $index > $index_edit
+	$EDITOR $index_edit
+	if [ $(cat $index | wc -l) -eq $(cat $index_edit | wc -l) ]; then
+		max=$(($(cat $index | wc -l)+1))
+		counter=1
+		while [ $counter -le $max ]; do
+			a="$(cat $index | sed "${counter}q;d")"
+			b="$(cat $index_edit | sed "${counter}q;d")"
+			counter=$(($counter+1))
+			
+			[ "$a" = "$b" ] && continue
+			[ -e "$b" ] && echo "File exists: $b" && continue
+			mv "$a" "$b"
+		done
+	else
+		echo "Number of lines must stay the same"
+	fi
+	rm $index $index_edit
+}}
+map br bulk-rename
+
+# Bindings
+# Unbind some defaults
+map m
+map o
+map n
+map d
+map e
+map f
+
+# Basic Functions
+map DD delete
+map p paste
+map x cut
+map y copy
+map <c-r> rename
+map K top
+map J bottom
+map r reload
+map u unselect
+map <enter> open
+map . set hidden!
+map sN set number
+map mf mkfile
+map mr sudomkfile
+map md mkdir
+map ms $mkscript
+map Ch chmod
+map <a-r> source ~/.config/lf/lfrc
+map f search 
+map F fzf_jump 
+map M mark-save
+map <c-f> filter
+
+# Mouse 👍
+map <m-1> updir
+map <m-2> open
+map <m-3> toggle
+
+# Pain Control
+map s1 set ratios 99:1
+map s2 set ratios 2:3
+map s3 set ratios 1:2:3
+map s4 set ratios 1:5
+
+# Some Epicness
+map dc calcdirsize
+map bg %wal -i $f # set wallpaper 😎
+
+# Movement
+map gh cd ~
+map gr cd /
+map gm cd /media/
+map gu cd /run/media/khal/
+
+map gG cd ~/GitHubRepos
+map gd cd ~/Downloads
+map gn cd ~/Documents/
+map gp cd ~/Pictures 
+map gb cd ~/Books 
+map gM cd ~/Music
+map gvv cd ~/Videos 
+map gvg cd ~/Videos/Physics/NPTEL/Group_Theory/
+map gvc cd ~/Videos/Physics/NPTEL/Computational/
+
+map glb cd ~/.local/bin
+map gls cd ~/.local/share
+
+map gcc cd ~/.config
+map gcp cd ~/.config/picom/
+map gcn cd ~/.config/nvim/
+map gcs cd ~/.config/sxhkd/
+map gcl cd ~/.config/lf/
+map gcb cd ~/.config/bspwm/
+map gcz cd ~/.config/zsh/
+map gcm cd ~/.config/mpv/
+map gcx cd ~/.config/X11/
+map gcv cd ~/.config/nvim/
+map gcd cd ~/.config/dunst/
+
+map gei cd ~/College/sem5/_info/
+map gep cd ~/College/sem5/EEE304L/
+map gei cd ~/College/sem5/ECE351E/
+map gee cd ~/College/sem5/EEE301L/
+map ges cd ~/College/sem5/STS301P/
+map ged cd ~/College/sem5/EEE302L/
+map geld cd ~/College/sem5/EEE302P/
+map gem cd ~/College/sem5/EEE309L/
+map gelm cd ~/College/sem5/EEE309P/

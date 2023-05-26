@@ -1,0 +1,17 @@
+env:
+  TERM: xterm-256color
+font:
+  normal:
+    family: Hack
+    style:  Medium
+  bold:
+    family: Hack
+    style:  Bold
+  italic:
+    family: Hack
+    style:  MediumItalic
+  bold_italic:
+    family: Hack
+    style: BoldItalic
+  size: 12
+draw_bold_text_with_bright_colors: true
