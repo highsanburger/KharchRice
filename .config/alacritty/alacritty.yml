@@ -1,17 +1,60 @@
 env:
   TERM: xterm-256color
 font:
-  normal:
-    family: Hack
-    style:  Medium
+  normal: 
+    # family: JetBrainsMonoNerdFont
+    family: Iosevka
+    # family: FiraCodeNerdFont
+    # family: Hack
+    # family: HasklugNerdFontMono
+  #   style:  Medium
+    # size: 20
   bold:
-    family: Hack
+    # family: Hack
+    family: JetBrainsMonoNerdFont
+    # family: HasklugNerdFontMono 
     style:  Bold
-  italic:
-    family: Hack
-    style:  MediumItalic
-  bold_italic:
-    family: Hack
-    style: BoldItalic
-  size: 12
+  # italic:
+    # family: Hack
+  #
+    # family: FiraCodeNerdFont
+  #   family: JetBrainsMonoNerdFont
+    # style:  MediumItalic
+  # bold_italic:
+  #   family: HasklugNerdFontMono 
+  size: 11
+    # style: BoldItalic
 draw_bold_text_with_bright_colors: true
+cursor:
+  unfocused_hollow: false
+  style:
+    blinking: Always
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/zsh
+# melangeeeeeeeee
+colors:
+  primary:
+    foreground: '#ECE1D7'
+    background: '#292522'
+  normal:
+    black:   '#34302C'
+    red:     '#BD8183'
+    green:   '#78997A'
+    yellow:  '#E49B5D'
+    blue:    '#7F91B2'
+    magenta: '#B380B0'
+    cyan:    '#7B9695'
+    white:   '#C1A78E'
+  bright:
+    black:   '#867462'
+    red:     '#D47766'
+    green:   '#85B695'
+    yellow:  '#EBC06D'
+    blue:    '#A3A9CE'
+    magenta: '#CF9BC2'
+    cyan:    '#89B3B6'
+    white:   '#ECE1D7'

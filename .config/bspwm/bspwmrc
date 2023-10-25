@@ -2,13 +2,13 @@
 bspc rule -r "*"
 
 # wal -i ~/.wallpapers/athens.jpeg &
-feh --bg-fill ~/Pictures/Wallpapers/athens.jpeg
+wal -i ~/Pictures/Wallpapers/athens.jpeg
 . $HOME/.xprofile
 . $HOME/.cache/wal/colors.sh
 $HOME/.config/polybar/launch.sh &
-fusuma &
+# fusuma &
 
-bspc monitor -d 1 2 3 4 5 6
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
 # Set the border colors.
 bspc config normal_border_color "$color1"
@@ -41,3 +41,6 @@ bspc config window_gap 5
 ###---Rules---###
 bspc rule -a Zathura state=tiled
 bspc rule -a discord desktop=^5
+bspc rule -a Emacs state=tiled
+
+

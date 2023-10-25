@@ -1,17 +1,38 @@
-return({
+return {
+  "ray-x/starry.nvim",
+  "glepnir/zephyr-nvim",
+  "sainnhe/sonokai",
+  "franbach/miramare",
   "folke/tokyonight.nvim",
+  "catppuccin/nvim",
+  "rebelot/kanagawa.nvim",
+  "ellisonleao/gruvbox.nvim",
   "EdenEast/nightfox.nvim",
-  "Mofiqul/dracula.nvim",
+  "nyoom-engineering/nyoom.nvim",
+  "nyoom-engineering/oxocarbon.nvim",
+  "bluz71/vim-nightfly-colors",
+  "bluz71/vim-moonfly-colors",
+  "savq/melange-nvim",
+  -- "mcchrish/zenbones.nvim",
+  "rmehri01/onenord.nvim",
+  "AlexvZyl/nordic.nvim",
+  "marko-cerovac/material.nvim",
+  "patstockwell/vim-monokai-tasty",
   "luisiacc/gruvbox-baby",
-  "morhetz/gruvbox",
-  {"Mofiqul/vscode.nvim",
-    config = function ()
-local colorscheme = "gruvbox-baby"  -- set colorscheme here
-
-local status_ok, _ = pcall(vim.cmd.colorscheme, colorscheme)
-if not status_ok then
-  return
-end
-  end}
-})
-
+  "Shatur/neovim-ayu",
+  "ray-x/aurora",
+  "ramojus/mellifluous.nvim",
+  "Mofiqul/adwaita.nvim",
+  "Mofiqul/vscode.nvim",
+  "Mofiqul/dracula.nvim",
+  "Mofiqul/vscode.nvim",
+  "navarasu/onedark.nvim",
+  "LunarVim/darkplus.nvim",
+  "LunarVim/synthwave84.nvim",
+  "projekt0n/github-nvim-theme",
+  "rose-pine/neovim",
+  -- minimal
+  "jaredgorski/fogbell.vim",
+  "owickstrom/vim-colors-paramount",
+  "nikolvs/vim-sunbather",
+}

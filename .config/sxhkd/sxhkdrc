@@ -1,14 +1,25 @@
+#
+# Toggle window flags
+super + n ; {s,p,l}
+    bspc node -g {sticky,private,locked}
+
 # BASICs
-super + {space,b,B,v,e}
-  {$TERMINAL,$BROWSER,$BROWSER --incognito, $TERMINAL -e lvim,$TERMINAL -e lf}
+super + shift + space 
+  st
+super + ctrl + b 
+  qutebrowser
+super + {space,b,B,v,V,e}
+  {$TERMINAL,$BROWSER,$BROWSER --incognito, $TERMINAL -e nvim, $TERMINAL -e lvim,$TERMINAL -e lfrun}
+# super + ctrl + e 
+#   emacsclient -c -a 'emacs'
 
 # Scratchpad
 super + t
-   tdrop -ma -w 1916 -y 0 $TERMINAL -e lf
+   tdrop -ma -w 1916 -y 0 $TERMINAL -e lfrun
 
 # Opening apps
-super + r ; {m,s}
-	{stremio,spotify}
+super + r ; {o,t}
+  {obsidian,teams}
 
 # Program launcher
 super + Return
@@ -19,23 +30,23 @@ super + shift + Return
   rofi -no-lazy-grab -show run -modi run 
 
 # Switch Tabs
-super + Tab
- rofi -show window -modi drun -theme ~/.config/rofi/alttab.rasi
+# super + Tab
+ # rofi -show window -modi drun -theme ~/.config/rofi/alttab.rasi
 
 
 # Scripts
-super + g ; {e,m,x,k,n}
-  ~/.local/bin/{emoji,mansplain,powermenu,killprocess,rofi-wifi-menu}
+super + g ; {e,m,x,k,n,z}
+  ~/.local/bin/{emoji,mansplain,powermenu,killprocess,rofi-wifi-menu,muzic}
 super + g ; l
   rofi -show calc -modi calc -no-show-match -no-sort
 
 # TUI
-super + c ; {e,b,n,a,p,c}
-  $TERMINAL -e {lf,bluetuith,nmtui,pulsemixer,ncmpcpp,calcure}
+super + c ; {e,b,n,a,p,c,r}
+  $TERMINAL -e {lfrun,bluetuith,nmtui,pulsemixer,ncmpcpp,calcurse,newsboat}
 
 # Editing configs
 super + y ; {s,b,l,n,p}
-  $TERMINAL -e lvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf}
+  $TERMINAL -e nvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf}
 
 #Load Stuff 
 super + u ; {c}
@@ -45,7 +56,7 @@ super + U ; {c,a,d}
   pkill {picom,polybar && bspc config bottom_padding 2,dunst}
 
 # Opacity
-super + {0,minus,equal,9} 
+super + {shift + minus ,minus,equal,shift + equal} 
   picom-trans -c {0,-1,+2,100}
 
 # Toggle Bar
@@ -59,16 +70,34 @@ super + Menu
   dunstctl {history-pop,close-all}
 
 # playback 
-super + F1 
+# Browsers
+super + shift + F1 
   playerctl play-pause 
+
 XF86AudioPlay
   playerctl play-pause 
 super + {ctrl,_} + F2 
   playerctl {previous,next}
-super + {F3,F4} 
+super + shift + {F3,F4} 
   playerctl position {5-,5+} 
-super + ctrl + {F3,F4}
-  playerctl position {30-,30+}
+# super + ctrl + {F3,F4}
+#   playerctl position {30-,30+}
+
+# mpv 
+super + F1 
+  xdotool key --window "$(xdotool search --class mpv)" p
+
+super + {F3,F4} 
+  xdotool key --window "$(xdotool search --class mpv)" {Left,Right}
+
+# mpd mpc muzic
+super + ctrl + F1 
+  mpc toggle
+
+super + shift + {ctrl,_} + F2 
+  mpc {prev,next}
+super + ctrl + {F3,F4} 
+  mpc seek {-5,+5}
 
 # Volume
 super + {F5,F6}
@@ -93,19 +122,19 @@ super + shift + ctrl + F9
 
 # Screenshots 
 {_,ctrl} + Print   
-	flameshot {gui -p ~/Pictures/Screenshots,gui -c}
+	flameshot {gui -p ~/Pictures/Screenshots/RA,gui -c}
 
 # Lock
 super + Escape
   betterlockscreen -l
 
 # swtich workspace
-super + {_,shift + }{1-6}
-	bspc {desktop -f,node -d} '^{1-6}'
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Send window to desktop and swap to desktop
-super + ctrl + {1-6}
-  bspc node -d '^{1-6}' --follow
+super + ctrl + {1-9,0}
+  bspc node -d '^{1-9,0}' --follow
 
 # Adjust ratio TILED
 super + m : {h,j,k,l,H,J,K,L}
@@ -123,6 +152,7 @@ super + q
 # Toggle Fullscreen / Floating
 super + {f,o}
   bspc node {-t \~fullscreen,focused.tiled -t floating || bspc node focused.floating -t tiled
+
 
 # Change window gap
 super + {p,P}
@@ -182,8 +212,6 @@ super + slash
 # Epic Copy-pasting
 super + g ; c
     CM_LAUNCHER=rofi clipmenu \
-        -location 1 \
-        -m -3 \
         -no-show-icons \
         -theme-str '* \{ font: 10px; \}' \
         -theme-str 'listview \{ spacing: 0; \}' \

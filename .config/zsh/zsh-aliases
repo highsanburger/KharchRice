@@ -1,21 +1,32 @@
 #!/bin/sh
 
-# Consoom better
+#GPUs
+alias gputest='glxinfo | grep "OpenGL renderer"'
+alias fanauto=' nbfc set -f 0 -a && nbfc set -f 1 -a'
+alias fanoff=' nbfc set -f 0 -s 0 && nbfc set -f 1 -s 0'
+alias fanfull=' nbfc set -f 0 -s 100 && nbfc set -f 1 -s 100'
 
+# Consoom better
+alias D='dust .'
+alias M='mpv .'
 alias yt='ytfzf -t'
 
+alias yw='yt-dlp -S "ext:webm:webm" '
 alias yd=yt-dlp
 alias ytmp3ch='yt-dlp --extract-audio --audio-format mp3 --split-chapters --no-check-certificate'
 alias ytmp3='yt-dlp --extract-audio --audio-format mp3 '
 alias ytmp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
 alias ytmp4low='yt-dlp -f "bestvideo[height<=480]+bestaudio/best[height<=480]"'
+alias yt360='yt-dlp -f "bestvideo[height<=360]+bestaudio/best[height<=360]"'
 alias ytplaylist='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4" -ciw -o "%(title)s.%(ext)s" -v '
 alias ytlist="yt-dlp --write-sub -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]' "
+alias ytlow="yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' --embed-subs --merge-output-format mkv"
+alias ytlm="yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' --embed-subs --merge-output-format mkv -o '%(playlist_index)s-%(title)s.%(ext)s' "
+alias ytlffs="yt-dlp -f 'bestvideo[height<=360]+bestaudio/best[height<=360]' --embed-subs --merge-output-format mkv -o '%(playlist_index)s-%(title)s.%(ext)s' "
 
 #PACMAN & YAY
 
-alias ps='sudo pacman -S'
-alias pss='sudo pacman -Ss'
+alias pss='sudo pacman -S'
 alias psyu='sudo pacman -Syu'
 alias psyyu='sudo pacman -Syyu'
 
@@ -32,6 +43,7 @@ alias yi='yay -P --stats'
 # Files Stuff
 alias mf=touch
 alias md=mkdir
+alias v=nvim
 alias o=xdg-open
 
 # git
@@ -40,7 +52,9 @@ alias push='git push origin master'
 alias gc='git clone'
 
 # Programs
-alias n=nvim
+alias n=node
+alias g=ghci
+alias gw='ghci -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -Wmissing-import-lists'
 alias ls=lsd 
 alias f=lfrun
 
@@ -99,3 +113,24 @@ alias randompassword='tr -dc "a-zA-Z0-9_#@.-" < /dev/urandom | head -c 14 | xcli
 alias theo='ssh root@theosoc.org'
 
 alias dict='cambrinary -w'
+alias sg='sudo gparted'
+# Go
+alias gr="go run"
+alias gb="go build"
+alias gd="go doc"
+alias arthur="yt-dlp -f \"bestvideo[height<=360]+bestaudio/best[height<=480]\" --embed-chapters --embed-subs --merge-output-format mkv \"https://www.youtube.com/watch?v=Yat0ZKduW18&list=PL9GwT4_YRZdBf9nIUHs0zjrnUVl-KBNSM\""
+
+
+# pandoc 🐐
+
+alias html2pdf="pandoc -s --toc -o out.pdf --pdf-engine=pdflatex --variable=geometry:"top=20pt,bottom=20pt,left=20pt,right=20pt" " 
+
+
+jv() {
+  f=$1
+  f2=${f%.*}
+  trap "/bin/rm -f $f2.class" 
+  javac $1
+  java $f2
+  /bin/rm -f $f2.class
+}

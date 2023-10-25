@@ -1,4 +1,8 @@
 #!/bin/sh
+export MANGOHUD=1
+export MUSIC_DIR=~/Music
+export SPOTIFY_ID=6f78f73c8cb44a869b2f61c88c966bb7
+export SPOTIFY_SECRET=f8bc08e647e6475f95863de94b6f8761
 # HISTFILE="$XDG_DATA_HOME"/zsh/history
 HISTSIZE=1000000
 SAVEHIST=1000000
@@ -9,6 +13,7 @@ export MANWIDTH=999
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/share/go/bin:$PATH
 export GOPATH=$HOME/.local/share/go
+export PATH=$HOME/.ghcup/bin:$PATH
 export PATH=$HOME/.fnm:$PATH
 export PATH="$PATH:./node_modules/.bin"
 #eval "$(fnm env)"

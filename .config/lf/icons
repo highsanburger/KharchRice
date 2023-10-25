@@ -5,17 +5,34 @@ ow	📂
 ln	⛓
 or	❌
 ex	🎯
+*.c     🚮
+*.hs    (λ)
+*.js    🟨
+*.srt   💬
+*.java	♨
+*.go    
+*.lua   🫐
+*.py    🐍
+*.class 🏛️
 *.txt	✍
+*.bib   🎓
+*.ged   👪
+*.part  💔
+*.torrent 🔽
+*.jar   ♨
+*.norg  🦄
+*.org  🦄
+*.crdownload ️📲
 *.mom	✍
 *.me	✍
 *.ms	✍
 *.png	🖼
-*.webp	🖼
+*.webp	🖼 
 *.ico	🖼
 *.jpg	📸
 *.jpe	📸
 *.jpeg	📸
-*.gif	🖼
+*.gif	📼
 *.svg	🗺
 *.tif	🖼
 *.tiff	🖼
@@ -25,17 +42,17 @@ ex	🎯
 *.gpg	🔒
 *.css	🎨
 *.pdf	📚
-*.djvu	📚
-*.epub	📚
+*.djvu	📎
+*.epub	📑
 *.csv	📓
 *.xlsx	📓
 *.tex	📜
 *.md	📘
-*.r	    📊
-*.R	    📊
+*.r	📊
+*.R	📊
 *.rmd	📊
 *.Rmd	📊
-*.m	    📊
+*.m	📊
 *.mp3	🎵
 *.opus	🎵
 *.ogg	🎵
@@ -43,8 +60,8 @@ ex	🎯
 *.flac	🎼
 *.wav	🎼
 *.mkv	🎥
-*.mp4	🎥
-*.webm	🎥
+*.mp4	📹
+*.webm	📼
 *.mpeg	🎥
 *.avi	🎥
 *.mov	🎥
@@ -62,15 +79,17 @@ ex	🎯
 *.gba	🎮
 *.nes	🎮
 *.gdi	🎮
-*.1	    ℹ
+*.1	ℹ
 *.nfo	ℹ
 *.info	ℹ
 *.log	📙
 *.iso	📀
 *.img   📀
-*.bib   🎓
-*.ged   👪
-*.part  💔
-*.torrent 🔽
-*.jar   ♨
-*.java	♨
+
+
+
+
+
+
+
+

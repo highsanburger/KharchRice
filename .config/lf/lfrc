@@ -7,9 +7,9 @@ set shell zsh
 set shellopts '-euy'
 set ifs "\n"
 set preview true
-set previewer ~/.config/lf/preview
-set cleaner ~/.config/lf/cleaner
 set drawbox true
+set cleaner '~/.config/lf/cleaner'
+set previewer '~/.config/lf/scope'
 set icons true
 set mouse true
 set incsearch true
@@ -20,13 +20,32 @@ set tempmarks 123456789
 #set selmode dir
 #set dircounts true
 
-# Commands 
+#
+cmd symmlink ${{
+    # Move to the desired new directory
+    cd ~/dir2/
+    
+    # Create symlinks for selected files
+    for file in "$@"; do
+        ln -s "$file" .
+    done
+}}
+
+ #Commands 
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
         text/*|application/json) $EDITOR "$f";;
         *) xdg-open "$f" & exit;;
     esac
 }}
+
+cmd openvim ${{
+  	for x in $fx; do
+        nvim --server /tmp/nvim.pipe --remote "$x"
+    done 
+  }}
+
+
 cmd mkdir ${{
   printf "Directory Name: "
   read ans
@@ -61,6 +80,8 @@ cmd fzf_jump ${{
   lf -remote "send $id $cmd \"$res\""
 }}
 
+
+map n1 symmlink
 # (un)Archive 
 cmd unarchive ${{
   case "$f" in
@@ -71,6 +92,7 @@ cmd unarchive ${{
       *) echo "Unsupported format" ;;
   esac
 }}
+map O openvim
 map au unarchive
 map az %zip -r "$f" "$f"
 map at %tar -cvf "$f.tar" "$f"
@@ -178,31 +200,110 @@ map s3 set ratios 1:2:3
 map s4 set ratios 1:5
 
 # Some Epicness
+cmd share $curl -F"file=@$fx" https://0x0.st | xclip -selection c
 map dc calcdirsize
 map bg %wal -i $f # set wallpaper 😎
+cmd follow_link %{{
+  lf -remote "send ${id} select '$(readlink $f)'"
+}}
+map gL follow_link
 
+map <c-n> newfold
+
+cmd newfold ${{
+    set -f
+    read newd
+    printf "Directory name: "
+    mkdir -- "$newd"
+    mv -- $fx "$newd"
+}}
+
+cmd topdfs ${{
+	for x in $fx; do
+		eval soffice --headless --convert-to pdf %s \"$x\" 	
+    done 
+}}
+ 
+map ad topdfs
+ 
+# cmd combine-pdf ${{
+#     printf "Output PDF File: "
+#     read output_name
+#     output_name="${output_name%.pdf}.pdf"  # Ensure .webm extension
+#     cmd="pdftk"
+#     for x in $fx; do
+#         cmd+=" \"$x\" +"
+#     done
+#     # Remove the trailing '+'
+#     cmd+="cat output \"$output_name\""
+#     cmd=${cmd%+}
+#     eval $cmd
+#
+# }}
+#
+# map ap combine-pdf
+
+cmd combine-webm ${{ 
+    printf "Output WebM File: "
+    read output_name
+    output_name="${output_name%.webm}.webm"  # Ensure .webm extension
+    cmd="mkvmerge -o \"$output_name\""
+    for x in $fx; do
+        cmd+=" \"$x\" +"
+    done
+    # Remove the trailing '+'
+    cmd=${cmd%+}
+    eval $cmd
+}}
+
+map aw combine-webm
 # Movement
-map gh cd ~
+#
 map gr cd /
-map gm cd /media/
+map gM cd /media/
 map gu cd /run/media/khal/
 
-map gG cd ~/GitHubRepos
-map gd cd ~/Downloads
-map gn cd ~/Documents/
-map gp cd ~/Pictures 
-map gb cd ~/Books 
-map gM cd ~/Music
-map gvv cd ~/Videos 
-map gvg cd ~/Videos/Physics/NPTEL/Group_Theory/
-map gvc cd ~/Videos/Physics/NPTEL/Computational/
+#  ~ HOME ~
+map gh cd ~
+
+map gbb cd ~/Books 
+map gbt cd ~/Books/Philosophy/Texts/
+
+map goo cd ~/Coding
+map gog cd ~/Coding/github/
+map goc cd ~/Coding/gitclones/
+map gol cd ~/Coding/langs/
+map gor cd ~/Coding/rices/
+map gop cd ~/Coding/projs/
+
+
+map gei cd ~/College/sem5/_info/
+map gem cd ~/College/MERN/
+map gej cd ~/College/JAVA/
+
+map gt cd ~/Documents/
+map gd cd ~/Downloads/
+map gf cd ~/Fone/
+
+map gpp cd ~/Pictures 
+map gps cd ~/Pictures/Screenshots/
+
+map gm cd ~/Music
+
+map gs cd ~/Psyche/Sophia/
+
+map gvv cd ~/Videos/
+map gvm cd ~/Videos/Movies/
+map gvn cd ~/Videos/Physics/NPTEL/
+
+# DOTs
 
 map glb cd ~/.local/bin
 map gls cd ~/.local/share
 
 map gcc cd ~/.config
 map gcp cd ~/.config/picom/
-map gcn cd ~/.config/nvim/
+map gcn cd ~/.config/nvim/lua/plugins/
 map gcs cd ~/.config/sxhkd/
 map gcl cd ~/.config/lf/
 map gcb cd ~/.config/bspwm/
@@ -211,13 +312,8 @@ map gcm cd ~/.config/mpv/
 map gcx cd ~/.config/X11/
 map gcv cd ~/.config/nvim/
 map gcd cd ~/.config/dunst/
+map gcr cd ~/.config/newsboat/
+map gck cd ~/.config/kitty/
+map gca cd ~/.config/alacritty/
+map gce cd ~/.config/emacs/
 
-map gei cd ~/College/sem5/_info/
-map gep cd ~/College/sem5/EEE304L/
-map gei cd ~/College/sem5/ECE351E/
-map gee cd ~/College/sem5/EEE301L/
-map ges cd ~/College/sem5/STS301P/
-map ged cd ~/College/sem5/EEE302L/
-map geld cd ~/College/sem5/EEE302P/
-map gem cd ~/College/sem5/EEE309L/
-map gelm cd ~/College/sem5/EEE309P/
