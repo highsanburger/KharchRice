@@ -1,6 +1,7 @@
-return
-{"terrortylor/nvim-comment",
-config = function()
-require('nvim_comment').setup()
-end}
-
+return {
+  "terrortylor/nvim-comment",
+  dependencies = 'numToStr/Comment.nvim',
+  config = function()
+    require('nvim_comment').setup()
+  end
+}
