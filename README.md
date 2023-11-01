@@ -47,11 +47,6 @@ KARBS automatically installs and configures the following (simply rad) programs:
 After logging in to the shell, and upon entering `startx` the `~/.xinitrc` script will be run. In it we have started a bunch of daemons and most importantly in the last line have started our window manager `bspwm`. In its configuration file located at `~/.config/bspwm/bspwmrc` we have source `~/.xprofile` which I have arbitrarily decided to make the main file for exporting global variables. I know this isn't the most elegant solution and am open to hear your ideas.
 Just go through the aforementioned files to familiarize yourself with the setup of the system.
 
-### LVIM aka neovim-im(proved)
-
-It is an IDE layer for Neovim with sane defaults. Completely free and community driven.
-I actually am working on a semi-decent configuration for lvim, mainly centered around working with `latex,python,c++` and ofcourse for endlessly customizing those pesky dotfiles. I highly recommend you to check out the software at https://lunarvim.org/ and also my config 👍.
-
 
 ## Customization
 
