@@ -96,3 +96,7 @@ several basic sudo commands without a password (`shutdown`, `reboot`,
 `pacman -Syu`).
 
 
+## TODO 
+- betterlockscreen -u ~/.wallpapers/socrates.jpg 
+- fusuma 
+- 

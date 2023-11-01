@@ -126,7 +126,7 @@ super + shift + ctrl + F9
 
 # Lock
 super + Escape
-  betterlockscreen -l
+  betterlockscreen -l pixel
 
 # swtich workspace
 super + {_,shift + }{1-9,0}

@@ -1,8 +1,7 @@
 #!/bin/zsh
 bspc rule -r "*"
 
-# wal -i ~/.wallpapers/athens.jpeg &
-wal -i ~/Pictures/Wallpapers/athens.jpeg
+wal -i ~/.wallpapers/athens.jpeg &
 . $HOME/.xprofile
 . $HOME/.cache/wal/colors.sh
 $HOME/.config/polybar/launch.sh &
@@ -42,5 +41,3 @@ bspc config window_gap 5
 bspc rule -a Zathura state=tiled
 bspc rule -a discord desktop=^5
 bspc rule -a Emacs state=tiled
-
-
