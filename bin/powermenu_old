@@ -1,8 +1,0 @@
-#!/bin/bash
-
-poweroff()   { sudo systemctl poweroff;}
-reboot()    { sudo systemctl reboot;}
-suspend()     { sudo systemctl suspend;}
-
-func="$(declare -F | awk '{print $3}' | rofi -dmenu  -i -p "Powermenu:")"
-[ -z "$func" ] || "$func"
