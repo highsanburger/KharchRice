@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Check if ffmpeg is installed
+if ! command -v ffmpeg &> /dev/null; then
+    echo "Error: ffmpeg is not installed. Please install ffmpeg."
+    exit 1
+fi
+
+# Check the number of arguments
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <input_file1.webm> <input_file2.webm> [<input_file3.webm> ...]"
+    exit 1
+fi
+
+# Prompt for the output filename
+read -p "Enter the name of the merged output file (e.g., merged_output.webm): " output_file
+
+# Concatenate input files
+input_files=("$@")
+
+# Run ffmpeg to merge the files
+ffmpeg -i "concat:${input_files[*]}" -c:v libvpx-vp9 -c:a libopus "$output_file"
+
+echo "Merged WebM files saved as $output_file"
+

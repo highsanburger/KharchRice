@@ -1,0 +1,46 @@
+#!/bin/sh
+
+if [ -n "$NVIM_LISTEN_ADDRESS" ] ; then
+  nvr --remote-tab "$@"
+else
+  exec nvim "$@"
+fi
+# #!/bin/bash
+#
+# file="$1"
+#
+# # Check if Neovim server is running
+# if nvim --remote-expr "1" &>/dev/null; then
+#     # Attach the file to the existing Neovim server and open it in a new buffer
+#     nvim --remote-send ":split $file<CR>"
+# else
+#     echo "No existing Neovim server found."
+# fi
+
+# #!/bin/bash
+
+# file="$1"
+
+# # Get the Neovim server name
+# nvim_server=$(nvim --serverlist)
+
+# # Check if Neovim server is running
+# if [[ -n "$nvim_server" ]]; then
+#     # Attach the file to the existing Neovim server and open it in a new buffer
+#     nvim --servername "$nvim_server" --remote-send "<C-w>:split $file<CR>"
+# else
+#     echo "No existing Neovim server found."
+# fi
+
+# #!/bin/bash
+
+# file="$1"
+
+# # Check if nvim process is running
+# if pgrep -x nvim >/dev/null; then
+#     # Open the file in the existing Neovim window
+#     nvim --remote-silent +"silent! call remote_start(\"+call\\ vsplit\\ '\"$(realpath "$file")\"'\\\")"
+# else
+#     echo "No existing Neovim window found."
+# fi
+

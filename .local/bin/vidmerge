@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Check if ffmpeg is installed
+if ! command -v ffmpeg &> /dev/null; then
+    echo "Error: ffmpeg is not installed. Please install ffmpeg."
+    exit 1
+fi
+
+# Check the number of arguments
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <input_file1> <input_file2> [<input_file3> ...]"
+    exit 1
+fi
+
+# Prompt for the output filename
+read -p "Enter the name of the merged output file (e.g., merged_output.mp4): " output_file
+
+# Concatenate input files
+input_files=("$@")
+filter=""
+for ((i = 0; i < ${#input_files[@]}; i++)); do
+    filter+="[$i:v:0][$i:a:0]"
+done
+filter+="concat=n=${#input_files[@]}:v=1:a=1[v][a]"
+
+# Determine the output format based on the output file extension
+output_extension="${output_file##*.}"
+case "$output_extension" in
+    mp4)
+        output_codec="libx264"
+        ;;
+    mkv)
+        output_codec="copy"
+        ;;
+    webm)
+        output_codec="libvpx-vp9"
+        ;;
+    *)
+        echo "Unsupported output format. Supported formats: mp4, mkv, webm."
+        exit 1
+        ;;
+esac
+
+# Run ffmpeg to merge the files
+ffmpeg -i "${input_files[0]}" -i "${input_files[1]}" ${input_files[@]:2} -filter_complex "$filter" -map "[v]" -map "[a]" -c:v "$output_codec" "$output_file"
+
+echo "Merged files saved as $output_file"
+

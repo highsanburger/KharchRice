@@ -1,0 +1,25 @@
+#!/bin/bash
+
+read -p "Enter the YouTube channel link: " channel_link
+
+# Extract the channel ID from the channel page source
+channel_id=$(curl -s "$channel_link" | grep -oP '(?<=channelId":")[^"]+' | head -1)
+
+# Generate the RSS feed link
+rss_feed_link="https://www.youtube.com/feeds/videos.xml?channel_id=$channel_id"
+
+# Extract the channel name from the channel page source
+channel_name=$(curl -s "$channel_link" | grep -oP '(?<=<title>)([^<]+)' | head -1)
+
+# Append the channel name as a comment to the RSS feed link
+rss_feed_link_with_comment="$rss_feed_link # $channel_name"
+
+# Echo the RSS feed link with the channel name comment
+echo "RSS Feed Link: $rss_feed_link_with_comment"
+
+# Copy the RSS feed link to the clipboard
+echo -n "$rss_feed_link_with_comment" | xclip -selection clipboard
+
+# Notify the user that the RSS feed link has been copied to the clipboard
+echo "RSS Feed Link has been copied to the clipboard."
+

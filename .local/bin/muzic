@@ -1,0 +1,148 @@
+#!/bin/bash
+
+# Dependencies :
+#       * rofi - for prompting 
+#       * freyr - for downloading
+
+# Instructions 
+ :' 
+mkdir ~/Gotify
+cd ~/Gotify
+vim spotify_query.go       // copy paste the following code, add your spotify client id and secret, save and quit
+go get github.com/zmb3/spotify
+go mod init Gotify
+go get golang.org/x/oauth2/clientcredentials
+go build spotify_query.go
+mv spotify_query ~/.local/bin
+cd ~
+rm -rf ~/Gotify
+cd ~/.local/bin     // assuming you have appended this path to your $PATH
+vim muzic          // copy pase the following shell script and save and quit
+chmod +x muzic
+'
+
+# ######### BASH SCRIPT ##########
+
+#!/bin/bash
+
+# Prompt for the type of item (track, album, or artist)
+selected_type=$(echo -e "album\nartist\ntrack"| rofi -dmenu -p "Select type:")
+
+# Prompt for the name of the item
+selected_name=$(echo "" | rofi  -dmenu -p "Enter name:")
+
+# Run the Go program and capture the output check below for source code
+output=$(spotify_query "$selected_type" "$selected_name")
+
+# Extract the ID from the output
+id=$(echo "$output" | grep -oP '(?<=ID: ).*')
+
+echo -n $id | xclip -selection clipboard
+
+
+case $selected_type in
+  "track")
+    spotify_url="spotify:track:$id"
+    ;;
+  "album")
+    spotify_url="spotify:album:$id"
+    ;;
+  "artist")
+    spotify_url="spotify:artist:$id"
+    ;;
+  *)
+    echo "Invalid type selected."
+    exit 1
+    ;;
+esac
+
+cd $HOME/Music/
+
+notify-send "Started downloading ! ️️️⌛🎵"
+
+freyr $spotify_url 
+
+notify-send "Muzic downloaded ! ✅🎶"
+
+# ######### GOLANG ##########
+: '
+package main
+
+import (
+	"context"
+	"fmt"
+	"log"
+	"os"
+	"github.com/zmb3/spotify"
+	"golang.org/x/oauth2/clientcredentials"
+)
+
+func main() {
+	// Replace 'YOUR_CLIENT_ID' and 'YOUR_CLIENT_SECRET' with your actual Spotify API credentials.
+  clientID:="YOUR_CLIENT_ID"
+  clientSecret:="YOUR_CLIENT_SECRET"
+	// Create a Spotify client with client credentials flow.
+	config := &clientcredentials.Config{
+		ClientID:     clientID,
+		ClientSecret: clientSecret,
+		TokenURL:     spotify.TokenURL,
+	}
+
+	// Obtain an access token.
+	token, err := config.Token(context.Background())
+	if err != nil {
+		log.Fatalf("failed to get token: %v", err)
+	}
+
+	// Create a new Spotify client with the obtained access token.
+	client := spotify.Authenticator{}.NewClient(token)
+
+    searchType := os.Args[1] // Prompt for the type of search.
+    name := os.Args[2]       // Prompt for the name of the item.
+
+	// Search for the track, album, or artist using the Spotify API.
+	var searchResult *spotify.SearchResult
+	var errSearch error
+
+	switch searchType {
+	case "track":
+		searchResult, errSearch = client.Search(name, spotify.SearchTypeTrack)
+	case "album":
+		searchResult, errSearch = client.Search(name, spotify.SearchTypeAlbum)
+	case "artist":
+		searchResult, errSearch = client.Search(name, spotify.SearchTypeArtist)
+	default:
+		log.Fatalf("Invalid search type. Must be track, album, or artist.")
+	}
+
+	if errSearch != nil {
+		log.Fatalf("failed to search: %v", errSearch)
+	}
+
+	// Check if any tracks, albums, or artists were found.
+	switch searchType {
+	case "track":
+		if searchResult.Tracks != nil && searchResult.Tracks.Total > 0 {
+			trackID := searchResult.Tracks.Tracks[0].ID.String()
+			fmt.Printf("Track ID: %s\n", trackID)
+		} else {
+			fmt.Println("No tracks found.")
+		}
+	case "album":
+		if searchResult.Albums != nil && searchResult.Albums.Total > 0 {
+			albumID := searchResult.Albums.Albums[0].ID.String()
+			fmt.Printf("Album ID: %s\n", albumID)
+		} else {
+			fmt.Println("No albums found.")
+		}
+	case "artist":
+		if searchResult.Artists != nil && searchResult.Artists.Total > 0 {
+			artistID := searchResult.Artists.Artists[0].ID.String()
+			fmt.Printf("Artist ID: %s\n", artistID)
+		} else {
+			fmt.Println("No artists found.")
+		}
+	}
+}
+
+'
