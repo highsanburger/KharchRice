@@ -1,11 +1,8 @@
 require("core.options")
 require("core.keymaps")
 require("core.autocommands")
-require("core.lazy")
+require("core.lazy_bootstrap")
 
-require('lazy').setup({
-  { import = 'plugins' },
-  { import = 'langs' },
-}, {})
+require("lazy").setup("plugins")
 
-vim.cmd.colorscheme 'melange'
+vim.cmd.colorscheme("melange")
