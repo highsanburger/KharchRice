@@ -6,9 +6,8 @@ return {
 	"kshenoy/vim-signature",
 	"lervag/vimtex",
 	"chrisbra/csv.vim",
-	"SirVer/ultisnips",
-	"honza/vim-snippets",
-	"vimwiki/vimwiki",
+	-- "SirVer/ultisnips",
+	-- "honza/vim-snippets",
 
 	-- Git related plugins
 	"turbio/bracey.vim",

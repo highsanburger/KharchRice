@@ -1,4 +1,6 @@
 #!/bin/sh
+export TASKRC=~/.config/taskwarrior/taskrc
+export TASKDATA=~/.config/taskwarrior/tasks
 export MANGOHUD=1
 export MUSIC_DIR=~/Music
 export SPOTIFY_ID=6f78f73c8cb44a869b2f61c88c966bb7

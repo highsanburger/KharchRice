@@ -267,6 +267,7 @@ map gu cd /run/media/khal/
 map gh cd ~
 
 map gbb cd ~/Books 
+map gbp cd ~/Books/Programming/Haskell/
 map gbt cd ~/Books/Philosophy/Texts/
 
 map goo cd ~/Coding
@@ -277,13 +278,13 @@ map gor cd ~/Coding/rices/
 map gop cd ~/Coding/projs/
 
 
-map gei cd ~/College/sem5/_info/
-map gem cd ~/College/MERN/
+map gei cd ~/College/sem6/
+map gem cd ~/Downloads/MERN/HUBS/mern_stack_course/
 map gej cd ~/College/JAVA/
 
 map gt cd ~/Documents/
 map gd cd ~/Downloads/
-map gf cd ~/Fone/
+map gf cd /media/Fone/
 
 map gpp cd ~/Pictures 
 map gps cd ~/Pictures/Screenshots/
@@ -316,4 +317,6 @@ map gcr cd ~/.config/newsboat/
 map gck cd ~/.config/kitty/
 map gca cd ~/.config/alacritty/
 map gce cd ~/.config/emacs/
+map gct cd ~/.config/taskwarrior/
+
 

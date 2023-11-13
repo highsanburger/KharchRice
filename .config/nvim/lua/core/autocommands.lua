@@ -25,3 +25,5 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 	pattern = { "*dunstrc" },
 	command = "!killall dunst",
 })
+
+vim.cmd([[autocmd FileType help wincmd L]])

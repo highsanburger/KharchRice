@@ -45,8 +45,8 @@ super + c ; {e,b,n,a,p,c,r}
   $TERMINAL -e {lfrun,bluetuith,nmtui,pulsemixer,ncmpcpp,calcurse,newsboat}
 
 # Editing configs
-super + y ; {s,b,l,n,p}
-  $TERMINAL -e nvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf}
+super + y ; {s,b,l,n,p,a}
+  $TERMINAL -e nvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf,alacritty/alacritty.yml}
 
 #Load Stuff 
 super + u ; {c}

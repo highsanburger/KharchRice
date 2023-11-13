@@ -1,0 +1,1949 @@
+time 1690201223
+new [description:"read lysis" due:"1690546823" entry:"1690201223" modified:"1690201223" status:"pending" tags:"plato" tags_plato:"x" uuid:"e8266e4f-0ae0-43f1-8ec2-03e6b289949a"]
+---
+time 1699300940
+new [description:"finish haskell book" entry:"1699300940" modified:"1699300940" status:"pending" uuid:"3f4a9752-be0b-4ed8-9ce6-70de0d73b982"]
+---
+time 1699300947
+old [description:"read lysis" due:"1690546823" entry:"1690201223" modified:"1690201223" status:"pending" tags:"plato" tags_plato:"x" uuid:"e8266e4f-0ae0-43f1-8ec2-03e6b289949a"]
+new [description:"read lysis" due:"1690546823" end:"1699300947" entry:"1690201223" modified:"1699300947" status:"completed" tags:"plato" tags_plato:"x" uuid:"e8266e4f-0ae0-43f1-8ec2-03e6b289949a"]
+---
+time 1699300966
+old [description:"finish haskell book" entry:"1699300940" modified:"1699300940" status:"pending" uuid:"3f4a9752-be0b-4ed8-9ce6-70de0d73b982"]
+new [description:"finish haskell book" end:"1699300966" entry:"1699300940" modified:"1699300966" status:"completed" uuid:"3f4a9752-be0b-4ed8-9ce6-70de0d73b982"]
+---
+time 1699300980
+new [description:"K and R" entry:"1699300980" modified:"1699300980" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699300985
+new [description:"Haskell Book" entry:"1699300985" modified:"1699300985" status:"pending" uuid:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77"]
+---
+time 1699300992
+new [description:"Programming in Haskell" entry:"1699300992" modified:"1699300992" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+---
+time 1699301001
+new [description:"cis194" entry:"1699301001" modified:"1699301001" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+---
+time 1699301021
+new [description:"LA Axler" entry:"1699301021" modified:"1699301021" status:"pending" uuid:"355e9493-beef-43a2-a0d2-7774f74ac5f6"]
+---
+time 1699301033
+new [description:"Susskind SR" entry:"1699301033" modified:"1699301033" status:"pending" uuid:"5a486c12-523c-48ad-bd21-a7b892c44f50"]
+---
+time 1699301039
+new [description:"Feynman CM" entry:"1699301039" modified:"1699301039" status:"pending" uuid:"0d8bbb8a-536c-4ae8-813c-8e5d7e566dc2"]
+---
+time 1699301050
+new [description:"Iliad" entry:"1699301050" modified:"1699301050" status:"pending" uuid:"e5ece411-9c63-4801-91d0-a05aa6653344"]
+---
+time 1699301056
+new [description:"Odyssey" entry:"1699301056" modified:"1699301056" status:"pending" uuid:"34c02862-c323-43be-9d14-cd940c4c1c26"]
+---
+time 1699301063
+new [description:"Plato" entry:"1699301063" modified:"1699301063" status:"pending" uuid:"eb39bc52-402b-4865-b1f6-70a6ed7537ad"]
+---
+time 1699301079
+new [description:"Category Theory" entry:"1699301079" modified:"1699301079" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+---
+time 1699301291
+new [description:"Haskell" entry:"1699301291" modified:"1699301291" status:"pending" uuid:"fba9a36e-ee55-4b30-b56c-b8415b48688c"]
+---
+time 1699301300
+old [description:"Haskell" entry:"1699301291" modified:"1699301291" status:"pending" uuid:"fba9a36e-ee55-4b30-b56c-b8415b48688c"]
+new [description:"Haskell" end:"1699301300" entry:"1699301291" modified:"1699301300" status:"completed" uuid:"fba9a36e-ee55-4b30-b56c-b8415b48688c"]
+---
+time 1699301645
+old [description:"Haskell Book" entry:"1699300985" modified:"1699300985" status:"pending" uuid:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77"]
+new [description:"Haskell Book" entry:"1699300985" modified:"1699301645" project:"Haskell" status:"pending" uuid:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77"]
+---
+time 1699301654
+old [description:"K and R" entry:"1699300980" modified:"1699300980" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+new [description:"K and R" entry:"1699300980" modified:"1699301654" project:"C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699301660
+old [description:"Programming in Haskell" entry:"1699300992" modified:"1699300992" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+new [description:"Programming in Haskell" entry:"1699300992" modified:"1699301660" project:"Haskell" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+---
+time 1699301663
+old [description:"cis194" entry:"1699301001" modified:"1699301001" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+new [description:"cis194" entry:"1699301001" modified:"1699301663" project:"Haskell" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+---
+time 1699301668
+old [description:"Category Theory" entry:"1699301079" modified:"1699301079" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+new [description:"Category Theory" entry:"1699301079" modified:"1699301668" project:"Haskell" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+---
+time 1699376831
+new [description:"config taskwarrior" entry:"1699376831" modified:"1699376831" status:"pending" uuid:"7501870f-846d-4a95-a9ec-41b1191233f1"]
+---
+time 1699377503
+old [description:"K and R" entry:"1699300980" modified:"1699301654" project:"C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+new [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699377503" project:"C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699377576
+new [description:"AoC-15" entry:"1699377576" modified:"1699377576" status:"pending" uuid:"b9a02cbe-6cab-435c-96bf-4b8bb77c99c9"]
+---
+time 1699377665
+old [description:"AoC-15" entry:"1699377576" modified:"1699377576" status:"pending" uuid:"b9a02cbe-6cab-435c-96bf-4b8bb77c99c9"]
+new [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" dep_e0b97dd5-b4c8-479d-895a-b1795b54f9c2:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77,e0b97dd5-b4c8-479d-895a-b1795b54f9c2" description:"AoC-15" entry:"1699377576" modified:"1699377665" status:"pending" uuid:"b9a02cbe-6cab-435c-96bf-4b8bb77c99c9"]
+---
+time 1699377742
+old [description:"cis194" entry:"1699301001" modified:"1699301663" project:"Haskell" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+new [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"cis194" entry:"1699301001" modified:"1699377742" project:"Haskell" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+---
+time 1699377761
+old [description:"Programming in Haskell" entry:"1699300992" modified:"1699301660" project:"Haskell" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+new [dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"Programming in Haskell" entry:"1699300992" modified:"1699377761" project:"Haskell" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+---
+time 1699382924
+old [description:"config taskwarrior" entry:"1699376831" modified:"1699376831" status:"pending" uuid:"7501870f-846d-4a95-a9ec-41b1191233f1"]
+new [description:"config taskwarrior" entry:"1699376831" modified:"1699382924" status:"pending" tags:"rice" tags_rice:"x" uuid:"7501870f-846d-4a95-a9ec-41b1191233f1"]
+---
+time 1699383031
+old [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699377503" project:"C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+new [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699383031" project:"Study.Haskell" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699383066
+old [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699383031" project:"Study.Haskell" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+new [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699383066" project:"Study.C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699383248
+new [description:"Oracle Java Exam" due:"1701032400" entry:"1699383248" modified:"1699383248" project:"College.Certification" status:"pending" uuid:"4105e12b-9777-462a-a97a-163ba9366ad1"]
+---
+time 1699383473
+old [description:"Oracle Java Exam" due:"1701032400" entry:"1699383248" modified:"1699383248" project:"College.Certification" status:"pending" uuid:"4105e12b-9777-462a-a97a-163ba9366ad1"]
+new [description:"Oracle Java Exam" due:"1701082800" entry:"1699383248" modified:"1699383473" project:"College.Certification" status:"pending" uuid:"4105e12b-9777-462a-a97a-163ba9366ad1"]
+---
+time 1699383812
+old [description:"read lysis" due:"1690546823" end:"1699300947" entry:"1690201223" modified:"1699300947" status:"completed" tags:"plato" tags_plato:"x" uuid:"e8266e4f-0ae0-43f1-8ec2-03e6b289949a"]
+new [description:"read lysis" due:"1690546823" end:"1699300947" entry:"1690201223" modified:"1699383812" status:"deleted" tags:"plato" tags_plato:"x" uuid:"e8266e4f-0ae0-43f1-8ec2-03e6b289949a"]
+---
+time 1699386962
+old [description:"Category Theory" entry:"1699301079" modified:"1699301668" project:"Haskell" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+new [annotation_1699386962:"hi" description:"Category Theory" entry:"1699301079" modified:"1699386962" project:"Haskell" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+---
+time 1699388393
+old [annotation_1699386962:"hi" description:"Category Theory" entry:"1699301079" modified:"1699386962" project:"Haskell" status:"pending" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+new [annotation_1699386962:"hi" description:"Category Theory" end:"1699388390" entry:"1699301079" modified:"1699388393" project:"Haskell" status:"deleted" uuid:"770b2b2b-33d8-481d-a590-63bd617a175e"]
+---
+time 1699388409
+old [description:"Haskell Book" entry:"1699300985" modified:"1699301645" project:"Haskell" status:"pending" uuid:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77"]
+new [description:"Haskell Book" end:"1699388407" entry:"1699300985" modified:"1699388409" project:"Haskell" status:"deleted" uuid:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77"]
+---
+time 1699388409
+old [dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"Programming in Haskell" entry:"1699300992" modified:"1699377761" project:"Haskell" status:"pending" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+new [dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"Programming in Haskell" end:"1699388409" entry:"1699300992" modified:"1699388409" project:"Haskell" status:"deleted" uuid:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49"]
+---
+time 1699388410
+old [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"cis194" entry:"1699301001" modified:"1699377742" project:"Haskell" status:"pending" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+new [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77" description:"cis194" end:"1699388409" entry:"1699301001" modified:"1699388410" project:"Haskell" status:"deleted" uuid:"e0b97dd5-b4c8-479d-895a-b1795b54f9c2"]
+---
+time 1699388410
+old [description:"LA Axler" entry:"1699301021" modified:"1699301021" status:"pending" uuid:"355e9493-beef-43a2-a0d2-7774f74ac5f6"]
+new [description:"LA Axler" end:"1699388410" entry:"1699301021" modified:"1699388410" status:"deleted" uuid:"355e9493-beef-43a2-a0d2-7774f74ac5f6"]
+---
+time 1699388410
+old [description:"Susskind SR" entry:"1699301033" modified:"1699301033" status:"pending" uuid:"5a486c12-523c-48ad-bd21-a7b892c44f50"]
+new [description:"Susskind SR" end:"1699388410" entry:"1699301033" modified:"1699388410" status:"deleted" uuid:"5a486c12-523c-48ad-bd21-a7b892c44f50"]
+---
+time 1699388410
+old [description:"Feynman CM" entry:"1699301039" modified:"1699301039" status:"pending" uuid:"0d8bbb8a-536c-4ae8-813c-8e5d7e566dc2"]
+new [description:"Feynman CM" end:"1699388410" entry:"1699301039" modified:"1699388410" status:"deleted" uuid:"0d8bbb8a-536c-4ae8-813c-8e5d7e566dc2"]
+---
+time 1699388410
+old [description:"Iliad" entry:"1699301050" modified:"1699301050" status:"pending" uuid:"e5ece411-9c63-4801-91d0-a05aa6653344"]
+new [description:"Iliad" end:"1699388410" entry:"1699301050" modified:"1699388410" status:"deleted" uuid:"e5ece411-9c63-4801-91d0-a05aa6653344"]
+---
+time 1699388411
+old [description:"Odyssey" entry:"1699301056" modified:"1699301056" status:"pending" uuid:"34c02862-c323-43be-9d14-cd940c4c1c26"]
+new [description:"Odyssey" end:"1699388410" entry:"1699301056" modified:"1699388411" status:"deleted" uuid:"34c02862-c323-43be-9d14-cd940c4c1c26"]
+---
+time 1699388412
+old [description:"Plato" entry:"1699301063" modified:"1699301063" status:"pending" uuid:"eb39bc52-402b-4865-b1f6-70a6ed7537ad"]
+new [description:"Plato" end:"1699388411" entry:"1699301063" modified:"1699388412" status:"deleted" uuid:"eb39bc52-402b-4865-b1f6-70a6ed7537ad"]
+---
+time 1699388413
+old [description:"config taskwarrior" entry:"1699376831" modified:"1699382924" status:"pending" tags:"rice" tags_rice:"x" uuid:"7501870f-846d-4a95-a9ec-41b1191233f1"]
+new [description:"config taskwarrior" end:"1699388412" entry:"1699376831" modified:"1699388413" status:"deleted" tags:"rice" tags_rice:"x" uuid:"7501870f-846d-4a95-a9ec-41b1191233f1"]
+---
+time 1699388413
+old [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" dep_e0b97dd5-b4c8-479d-895a-b1795b54f9c2:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77,e0b97dd5-b4c8-479d-895a-b1795b54f9c2" description:"AoC-15" entry:"1699377576" modified:"1699377665" status:"pending" uuid:"b9a02cbe-6cab-435c-96bf-4b8bb77c99c9"]
+new [dep_1c373ecd-93bb-4ecc-afdf-af68ee6acb49:"x" dep_5e2f7acf-63a4-41f1-bca8-9abc63fd4d77:"x" dep_e0b97dd5-b4c8-479d-895a-b1795b54f9c2:"x" depends:"1c373ecd-93bb-4ecc-afdf-af68ee6acb49,5e2f7acf-63a4-41f1-bca8-9abc63fd4d77,e0b97dd5-b4c8-479d-895a-b1795b54f9c2" description:"AoC-15" end:"1699388413" entry:"1699377576" modified:"1699388413" status:"deleted" uuid:"b9a02cbe-6cab-435c-96bf-4b8bb77c99c9"]
+---
+time 1699388413
+old [description:"Oracle Java Exam" due:"1701082800" entry:"1699383248" modified:"1699383473" project:"College.Certification" status:"pending" uuid:"4105e12b-9777-462a-a97a-163ba9366ad1"]
+new [description:"Oracle Java Exam" due:"1701082800" end:"1699388413" entry:"1699383248" modified:"1699388413" project:"College.Certification" status:"deleted" uuid:"4105e12b-9777-462a-a97a-163ba9366ad1"]
+---
+time 1699388423
+old [annotation_1699377503:"best book for c" description:"K and R" entry:"1699300980" modified:"1699383066" project:"Study.C" status:"pending" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+new [annotation_1699377503:"best book for c" description:"K and R" end:"1699388422" entry:"1699300980" modified:"1699388423" project:"Study.C" status:"deleted" uuid:"9fde323f-5486-4ea8-96cd-a7a79d8d3b08"]
+---
+time 1699388466
+new [description:"2 test" entry:"1699388466" modified:"1699388466" status:"pending" uuid:"ef7de47a-bd9e-4879-b6d7-a0b4068ddd33"]
+---
+time 1699388474
+new [description:"add" entry:"1699388474" modified:"1699388474" status:"pending" uuid:"9540a5bc-b2a4-41e9-a4e5-513ddb437aab"]
+---
+time 1699388499
+old [description:"2 test" entry:"1699388466" modified:"1699388466" status:"pending" uuid:"ef7de47a-bd9e-4879-b6d7-a0b4068ddd33"]
+new [description:"2 test" end:"1699388499" entry:"1699388466" modified:"1699388499" status:"deleted" uuid:"ef7de47a-bd9e-4879-b6d7-a0b4068ddd33"]
+---
+time 1699388506
+old [description:"add" entry:"1699388474" modified:"1699388474" status:"pending" uuid:"9540a5bc-b2a4-41e9-a4e5-513ddb437aab"]
+new [description:"add" end:"1699388506" entry:"1699388474" modified:"1699388506" status:"deleted" uuid:"9540a5bc-b2a4-41e9-a4e5-513ddb437aab"]
+---
+time 1699388716
+new [description:"Finish Ch1-Ch11" entry:"1699388716" modified:"1699388716" project:"Coding.Haskell.Hutton" status:"pending" uuid:"0a415d00-4f25-45e3-b8fb-98714b7b9680"]
+---
+time 1699388754
+new [description:"Finish Ch1-Ch11" entry:"1699388754" modified:"1699388754" project:"Coding.Haskell.Allen" status:"pending" uuid:"428086ea-5cfb-4e08-b749-ac4eaf80ca31"]
+---
+time 1699388835
+new [description:"Ch-11" entry:"1699388835" modified:"1699388835" project:"Coding.Haskell.Allen" status:"pending" uuid:"fc465cd7-9d9a-415c-aa21-9d70b5166d26"]
+---
+time 1699388951
+new [description:"Ch-11" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"3bf6c746-b1d0-427e-becf-beffdab1b581"]
+---
+time 1699388951
+new [description:"Ch-12" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"8c8e7730-51d6-486d-94a5-ba0dc04670ff"]
+---
+time 1699388951
+new [description:"Ch-13" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"764027c8-6fbd-4c75-b4f6-2c6d88ec32b5"]
+---
+time 1699388951
+new [description:"Ch-14" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"bb270f72-3f7f-4824-986c-f2ab322a076a"]
+---
+time 1699388951
+new [description:"Ch-15" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"7641b43b-6775-4e36-b6d5-52d10cd526ad"]
+---
+time 1699388951
+new [description:"Ch-16" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"08d3ff05-d6ba-448a-a7a3-1d89b85b1d99"]
+---
+time 1699388951
+new [description:"Ch-17" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"214a39bd-2306-4c7a-8fdd-d8a9b09a9e66"]
+---
+time 1699388951
+new [description:"Ch-18" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"64e51b9a-a639-4f72-9873-9a797ea37393"]
+---
+time 1699388951
+new [description:"Ch-19" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"0dd71a48-b676-4443-8af4-c89d5dc07477"]
+---
+time 1699388951
+new [description:"Ch-20" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"dc6f4aee-c3a8-487e-85c5-ad5fc55e4cde"]
+---
+time 1699388951
+new [description:"Ch-21" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"71e2c4b9-48f1-4a56-8990-73140dcf7882"]
+---
+time 1699388951
+new [description:"Ch-22" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"8242d3ab-3ea0-4cb0-b504-24a8b1f435bd"]
+---
+time 1699388951
+new [description:"Ch-23" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"3b31a099-8438-474a-a354-abbf17f29421"]
+---
+time 1699388951
+new [description:"Ch-24" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"94c3ec72-8057-4626-93ce-ec26d6fcf7b1"]
+---
+time 1699388951
+new [description:"Ch-25" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"12c4485f-10fe-4dd1-9ca0-dcc80ebb15a7"]
+---
+time 1699388951
+new [description:"Ch-26" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"10fc775b-b2f0-46d9-a862-553e108c31d3"]
+---
+time 1699388952
+new [description:"Ch-27" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"173b95ee-edd6-4175-a554-162065d80eac"]
+---
+time 1699388952
+new [description:"Ch-28" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"adfe9fa6-881d-45bc-b6d1-55052fa9435f"]
+---
+time 1699388952
+new [description:"Ch-29" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"d0112d9d-c888-4d13-a776-b572e21605e2"]
+---
+time 1699388952
+new [description:"Ch-30" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"e55a744d-d018-4575-9a60-b1624291a046"]
+---
+time 1699388952
+new [description:"Ch-31" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"161e7dbe-1b60-4efc-93a2-f855993c2329"]
+---
+time 1699388997
+old [description:"Ch-11" entry:"1699388835" modified:"1699388835" project:"Coding.Haskell.Allen" status:"pending" uuid:"fc465cd7-9d9a-415c-aa21-9d70b5166d26"]
+new [description:"Ch-11" end:"1699388995" entry:"1699388835" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"fc465cd7-9d9a-415c-aa21-9d70b5166d26"]
+---
+time 1699388997
+old [description:"Ch-11" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"3bf6c746-b1d0-427e-becf-beffdab1b581"]
+new [description:"Ch-11" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"3bf6c746-b1d0-427e-becf-beffdab1b581"]
+---
+time 1699388997
+old [description:"Ch-12" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"8c8e7730-51d6-486d-94a5-ba0dc04670ff"]
+new [description:"Ch-12" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"8c8e7730-51d6-486d-94a5-ba0dc04670ff"]
+---
+time 1699388997
+old [description:"Ch-13" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"764027c8-6fbd-4c75-b4f6-2c6d88ec32b5"]
+new [description:"Ch-13" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"764027c8-6fbd-4c75-b4f6-2c6d88ec32b5"]
+---
+time 1699388997
+old [description:"Ch-14" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"bb270f72-3f7f-4824-986c-f2ab322a076a"]
+new [description:"Ch-14" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"bb270f72-3f7f-4824-986c-f2ab322a076a"]
+---
+time 1699388997
+old [description:"Ch-15" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"7641b43b-6775-4e36-b6d5-52d10cd526ad"]
+new [description:"Ch-15" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"7641b43b-6775-4e36-b6d5-52d10cd526ad"]
+---
+time 1699388997
+old [description:"Ch-16" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"08d3ff05-d6ba-448a-a7a3-1d89b85b1d99"]
+new [description:"Ch-16" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"08d3ff05-d6ba-448a-a7a3-1d89b85b1d99"]
+---
+time 1699388997
+old [description:"Ch-17" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"214a39bd-2306-4c7a-8fdd-d8a9b09a9e66"]
+new [description:"Ch-17" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"214a39bd-2306-4c7a-8fdd-d8a9b09a9e66"]
+---
+time 1699388997
+old [description:"Ch-18" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"64e51b9a-a639-4f72-9873-9a797ea37393"]
+new [description:"Ch-18" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"64e51b9a-a639-4f72-9873-9a797ea37393"]
+---
+time 1699388997
+old [description:"Ch-19" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"0dd71a48-b676-4443-8af4-c89d5dc07477"]
+new [description:"Ch-19" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"0dd71a48-b676-4443-8af4-c89d5dc07477"]
+---
+time 1699388997
+old [description:"Ch-20" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"dc6f4aee-c3a8-487e-85c5-ad5fc55e4cde"]
+new [description:"Ch-20" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"dc6f4aee-c3a8-487e-85c5-ad5fc55e4cde"]
+---
+time 1699388997
+old [description:"Ch-21" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"71e2c4b9-48f1-4a56-8990-73140dcf7882"]
+new [description:"Ch-21" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"71e2c4b9-48f1-4a56-8990-73140dcf7882"]
+---
+time 1699388997
+old [description:"Ch-22" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"8242d3ab-3ea0-4cb0-b504-24a8b1f435bd"]
+new [description:"Ch-22" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"8242d3ab-3ea0-4cb0-b504-24a8b1f435bd"]
+---
+time 1699388997
+old [description:"Ch-23" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"3b31a099-8438-474a-a354-abbf17f29421"]
+new [description:"Ch-23" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"3b31a099-8438-474a-a354-abbf17f29421"]
+---
+time 1699388997
+old [description:"Ch-24" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"94c3ec72-8057-4626-93ce-ec26d6fcf7b1"]
+new [description:"Ch-24" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"94c3ec72-8057-4626-93ce-ec26d6fcf7b1"]
+---
+time 1699388997
+old [description:"Ch-25" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"12c4485f-10fe-4dd1-9ca0-dcc80ebb15a7"]
+new [description:"Ch-25" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"12c4485f-10fe-4dd1-9ca0-dcc80ebb15a7"]
+---
+time 1699388997
+old [description:"Ch-26" entry:"1699388951" modified:"1699388951" project:"Coding.Haskell.Allen" status:"pending" uuid:"10fc775b-b2f0-46d9-a862-553e108c31d3"]
+new [description:"Ch-26" end:"1699388997" entry:"1699388951" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"10fc775b-b2f0-46d9-a862-553e108c31d3"]
+---
+time 1699388997
+old [description:"Ch-27" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"173b95ee-edd6-4175-a554-162065d80eac"]
+new [description:"Ch-27" end:"1699388997" entry:"1699388952" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"173b95ee-edd6-4175-a554-162065d80eac"]
+---
+time 1699388997
+old [description:"Ch-28" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"adfe9fa6-881d-45bc-b6d1-55052fa9435f"]
+new [description:"Ch-28" end:"1699388997" entry:"1699388952" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"adfe9fa6-881d-45bc-b6d1-55052fa9435f"]
+---
+time 1699388997
+old [description:"Ch-29" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"d0112d9d-c888-4d13-a776-b572e21605e2"]
+new [description:"Ch-29" end:"1699388997" entry:"1699388952" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"d0112d9d-c888-4d13-a776-b572e21605e2"]
+---
+time 1699388997
+old [description:"Ch-30" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"e55a744d-d018-4575-9a60-b1624291a046"]
+new [description:"Ch-30" end:"1699388997" entry:"1699388952" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"e55a744d-d018-4575-9a60-b1624291a046"]
+---
+time 1699388997
+old [description:"Ch-31" entry:"1699388952" modified:"1699388952" project:"Coding.Haskell.Allen" status:"pending" uuid:"161e7dbe-1b60-4efc-93a2-f855993c2329"]
+new [description:"Ch-31" end:"1699388997" entry:"1699388952" modified:"1699388997" project:"Coding.Haskell.Allen" status:"deleted" uuid:"161e7dbe-1b60-4efc-93a2-f855993c2329"]
+---
+time 1699389002
+new [description:"Ch-11" entry:"1699389001" modified:"1699389001" project:"Coding.Haskell.Allen" status:"pending" uuid:"7bdd0c34-09c1-4248-9dca-a82278ef6ef4"]
+---
+time 1699389002
+new [description:"Ch-12" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"fbbf2921-4885-4913-8237-cbff21f4f90b"]
+---
+time 1699389002
+new [description:"Ch-13" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"777153e6-3fb8-429a-a22e-971e9e5de247"]
+---
+time 1699389002
+new [description:"Ch-14" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"d4fcab79-c215-42d8-bbb3-b5d35d1a3d74"]
+---
+time 1699389002
+new [description:"Ch-15" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2beb292c-45d2-4d80-bccb-eca6f5d7cd48"]
+---
+time 1699389002
+new [description:"Ch-16" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"c7f62e3f-d145-4349-a8d0-a347e67a85f1"]
+---
+time 1699389002
+new [description:"Ch-17" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"10c581c8-9b4b-49de-bf08-60941036fa51"]
+---
+time 1699389002
+new [description:"Ch-18" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2fd7b4bb-6a0f-4ee1-86a4-6111969bf7c1"]
+---
+time 1699389002
+new [description:"Ch-19" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"62e9d962-27bd-4acd-bcdf-448b0c34e8a9"]
+---
+time 1699389002
+new [description:"Ch-20" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"517ee35a-0d69-41e7-8b03-faa286e17b6e"]
+---
+time 1699389002
+new [description:"Ch-21" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"ddcfd2d6-31c0-47f1-852a-e17f1b1b5352"]
+---
+time 1699389002
+new [description:"Ch-22" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"1f8193fd-5ad7-4989-b46f-496e463e9e0e"]
+---
+time 1699389002
+new [description:"Ch-23" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"e1fb42b9-389c-40db-bdee-4b8d2573c536"]
+---
+time 1699389002
+new [description:"Ch-24" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"49d7e414-f1b7-4a9d-bf03-168e72e221c5"]
+---
+time 1699389002
+new [description:"Ch-25" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"d120e2de-fb9f-42a6-b639-1564a2cc6848"]
+---
+time 1699389002
+new [description:"Ch-26" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"989b39fa-33b7-42de-bfb1-692400471d73"]
+---
+time 1699389002
+new [description:"Ch-27" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"b2450b09-794e-44f9-a808-84ffafd9b5bd"]
+---
+time 1699389002
+new [description:"Ch-28" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"11f50eea-22ae-4406-85b1-07cf27e9122a"]
+---
+time 1699389002
+new [description:"Ch-29" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"0e9bf109-843a-4ca0-a111-e131494a7918"]
+---
+time 1699389002
+new [description:"Ch-30" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2d3f261f-d690-4b57-a91c-626e5c5c54b8"]
+---
+time 1699389002
+new [description:"Ch-31" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"bd25ac76-b299-41e4-875b-12a8d143a2ff"]
+---
+time 1699389050
+old [description:"Ch-11" entry:"1699389001" modified:"1699389001" project:"Coding.Haskell.Allen" status:"pending" uuid:"7bdd0c34-09c1-4248-9dca-a82278ef6ef4"]
+new [description:"Ch-11" end:"1699389048" entry:"1699389001" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"7bdd0c34-09c1-4248-9dca-a82278ef6ef4"]
+---
+time 1699389050
+old [description:"Ch-12" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"fbbf2921-4885-4913-8237-cbff21f4f90b"]
+new [description:"Ch-12" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"fbbf2921-4885-4913-8237-cbff21f4f90b"]
+---
+time 1699389050
+old [description:"Ch-13" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"777153e6-3fb8-429a-a22e-971e9e5de247"]
+new [description:"Ch-13" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"777153e6-3fb8-429a-a22e-971e9e5de247"]
+---
+time 1699389050
+old [description:"Ch-14" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"d4fcab79-c215-42d8-bbb3-b5d35d1a3d74"]
+new [description:"Ch-14" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"d4fcab79-c215-42d8-bbb3-b5d35d1a3d74"]
+---
+time 1699389050
+old [description:"Ch-15" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2beb292c-45d2-4d80-bccb-eca6f5d7cd48"]
+new [description:"Ch-15" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"2beb292c-45d2-4d80-bccb-eca6f5d7cd48"]
+---
+time 1699389050
+old [description:"Ch-16" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"c7f62e3f-d145-4349-a8d0-a347e67a85f1"]
+new [description:"Ch-16" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"c7f62e3f-d145-4349-a8d0-a347e67a85f1"]
+---
+time 1699389050
+old [description:"Ch-17" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"10c581c8-9b4b-49de-bf08-60941036fa51"]
+new [description:"Ch-17" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"10c581c8-9b4b-49de-bf08-60941036fa51"]
+---
+time 1699389050
+old [description:"Ch-18" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2fd7b4bb-6a0f-4ee1-86a4-6111969bf7c1"]
+new [description:"Ch-18" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"2fd7b4bb-6a0f-4ee1-86a4-6111969bf7c1"]
+---
+time 1699389050
+old [description:"Ch-19" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"62e9d962-27bd-4acd-bcdf-448b0c34e8a9"]
+new [description:"Ch-19" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"62e9d962-27bd-4acd-bcdf-448b0c34e8a9"]
+---
+time 1699389050
+old [description:"Ch-20" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"517ee35a-0d69-41e7-8b03-faa286e17b6e"]
+new [description:"Ch-20" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"517ee35a-0d69-41e7-8b03-faa286e17b6e"]
+---
+time 1699389050
+old [description:"Ch-21" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"ddcfd2d6-31c0-47f1-852a-e17f1b1b5352"]
+new [description:"Ch-21" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"ddcfd2d6-31c0-47f1-852a-e17f1b1b5352"]
+---
+time 1699389050
+old [description:"Ch-22" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"1f8193fd-5ad7-4989-b46f-496e463e9e0e"]
+new [description:"Ch-22" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"1f8193fd-5ad7-4989-b46f-496e463e9e0e"]
+---
+time 1699389050
+old [description:"Ch-23" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"e1fb42b9-389c-40db-bdee-4b8d2573c536"]
+new [description:"Ch-23" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"e1fb42b9-389c-40db-bdee-4b8d2573c536"]
+---
+time 1699389050
+old [description:"Ch-24" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"49d7e414-f1b7-4a9d-bf03-168e72e221c5"]
+new [description:"Ch-24" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"49d7e414-f1b7-4a9d-bf03-168e72e221c5"]
+---
+time 1699389050
+old [description:"Ch-25" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"d120e2de-fb9f-42a6-b639-1564a2cc6848"]
+new [description:"Ch-25" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"d120e2de-fb9f-42a6-b639-1564a2cc6848"]
+---
+time 1699389050
+old [description:"Ch-26" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"989b39fa-33b7-42de-bfb1-692400471d73"]
+new [description:"Ch-26" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"989b39fa-33b7-42de-bfb1-692400471d73"]
+---
+time 1699389050
+old [description:"Ch-27" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"b2450b09-794e-44f9-a808-84ffafd9b5bd"]
+new [description:"Ch-27" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"b2450b09-794e-44f9-a808-84ffafd9b5bd"]
+---
+time 1699389050
+old [description:"Ch-28" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"11f50eea-22ae-4406-85b1-07cf27e9122a"]
+new [description:"Ch-28" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"11f50eea-22ae-4406-85b1-07cf27e9122a"]
+---
+time 1699389050
+old [description:"Ch-29" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"0e9bf109-843a-4ca0-a111-e131494a7918"]
+new [description:"Ch-29" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"0e9bf109-843a-4ca0-a111-e131494a7918"]
+---
+time 1699389050
+old [description:"Ch-30" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"2d3f261f-d690-4b57-a91c-626e5c5c54b8"]
+new [description:"Ch-30" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"2d3f261f-d690-4b57-a91c-626e5c5c54b8"]
+---
+time 1699389050
+old [description:"Ch-31" entry:"1699389002" modified:"1699389002" project:"Coding.Haskell.Allen" status:"pending" uuid:"bd25ac76-b299-41e4-875b-12a8d143a2ff"]
+new [description:"Ch-31" end:"1699389050" entry:"1699389002" modified:"1699389050" project:"Coding.Haskell.Allen" status:"deleted" uuid:"bd25ac76-b299-41e4-875b-12a8d143a2ff"]
+---
+time 1699389060
+new [description:"Ch-12" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"ff6c03e3-859c-4852-96a9-abb73423be16"]
+---
+time 1699389060
+new [description:"Ch-13" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+---
+time 1699389060
+new [description:"Ch-14" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+---
+time 1699389060
+new [description:"Ch-15" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"c63de939-5e6a-4fe1-bfdd-18643265da8c"]
+---
+time 1699389060
+new [description:"Ch-16" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+---
+time 1699389060
+new [description:"Ch-17" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"0453c208-6885-4d94-b7f7-62dc330040d9"]
+---
+time 1699389060
+new [description:"Ch-18" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"1c146164-12b0-4d6e-b891-a7894c9ddca6"]
+---
+time 1699389060
+new [description:"Ch-19" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"84d22e05-18fd-4703-8dbd-57440bfc48da"]
+---
+time 1699389060
+new [description:"Ch-20" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"7b46c899-3901-4075-93f8-cae4a6fbd225"]
+---
+time 1699389060
+new [description:"Ch-21" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699389060
+new [description:"Ch-22" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"d0a04128-2310-4aba-900c-2215b79c02a6"]
+---
+time 1699389060
+new [description:"Ch-23" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"079c43a9-6f83-420a-9022-fcb8213d6257"]
+---
+time 1699389061
+new [description:"Ch-24" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"d679c6b5-d130-49cf-a5b5-22fcb912b754"]
+---
+time 1699389061
+new [description:"Ch-25" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"77812d09-f503-4ca4-ae22-251175316895"]
+---
+time 1699389061
+new [description:"Ch-26" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"0df8f248-8274-4236-834f-ebfda86c7fe5"]
+---
+time 1699389061
+new [description:"Ch-27" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"097b1a58-f408-4a86-a39c-46f9452ce42e"]
+---
+time 1699389061
+new [description:"Ch-28" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"cd6a3706-9455-4013-8796-da60ea0745a3"]
+---
+time 1699389061
+new [description:"Ch-29" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"03c030c8-1a25-4663-aed9-0712ae443367"]
+---
+time 1699389061
+new [description:"Ch-30" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"cb17e8e0-2e9d-4a9b-84a7-226829a4af92"]
+---
+time 1699389061
+new [description:"Ch-31" entry:"1699389061" modified:"1699389061" project:"Coding.Haskell.Allen" status:"pending" uuid:"7179ed36-462c-469b-a9c1-7b54f5fda41b"]
+---
+time 1699389090
+new [description:"Ch-12" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"0b0a8464-054f-4fa8-8162-ab4e4f979777"]
+---
+time 1699389090
+new [description:"Ch-13" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"10c99080-e629-4452-a808-038295a97537"]
+---
+time 1699389090
+new [description:"Ch-14" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"4484f6d8-3770-4d41-9c57-bf940df8f85b"]
+---
+time 1699389090
+new [description:"Ch-15" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"fe5351a9-5168-49fa-b911-c46a24012b48"]
+---
+time 1699389090
+new [description:"Ch-16" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"f67f749c-eddf-4406-9144-5b324d66813f"]
+---
+time 1699389090
+new [description:"Ch-17" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"43ddb45a-7635-43ec-a475-eadbea6b2c2b"]
+---
+time 1699389211
+new [description:"Finish Ch1-Ch3" entry:"1699389211" modified:"1699389211" project:"Coding.Haskell.Milewski" status:"pending" uuid:"115e42c2-8336-4921-83b8-ca7b92d35b68"]
+---
+time 1699389244
+new [description:"Ch-4" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6990a969-3a25-4fa6-9f28-952824be62af"]
+---
+time 1699389244
+new [description:"Ch-5" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"0f49dce6-8b3c-44a4-ba3f-5ac25ec413fc"]
+---
+time 1699389244
+new [description:"Ch-6" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"1e4e9de6-5323-4aa4-a08a-205ff1f4f376"]
+---
+time 1699389244
+new [description:"Ch-7" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"d374d1cc-3c10-43ee-9484-5b5322f52c1c"]
+---
+time 1699389244
+new [description:"Ch-8" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6c1d131c-3595-45f0-b2b0-52dc6026bf71"]
+---
+time 1699389244
+new [description:"Ch-9" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"b780a2b4-b5eb-4d70-8849-b31366cd0990"]
+---
+time 1699389244
+new [description:"Ch-10" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"15ef1083-91c9-4b73-9145-4b0f79a70a0c"]
+---
+time 1699389244
+new [description:"Ch-11" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3c71a6ba-c34b-4513-9e69-059f5fe93604"]
+---
+time 1699389244
+new [description:"Ch-12" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"46974621-8310-4545-8245-b1f078c7603a"]
+---
+time 1699389244
+new [description:"Ch-13" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"5b76493f-1ac9-49fc-9c6b-ba77c9087776"]
+---
+time 1699389244
+new [description:"Ch-14" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"fb51518a-53a6-4c9b-be2b-eb6d38e81be5"]
+---
+time 1699389244
+new [description:"Ch-15" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3e698114-761b-42fa-b86c-41fb67a70b81"]
+---
+time 1699389244
+new [description:"Ch-16" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"db2c9001-aaee-499b-bc9d-0e3d23d05ecc"]
+---
+time 1699389244
+new [description:"Ch-17" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"0b9493f7-d4e6-43cc-a0cc-15b8d3e69799"]
+---
+time 1699389244
+new [description:"Ch-18" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"e35cae5e-8320-44f8-b0bf-547dded592fc"]
+---
+time 1699389244
+new [description:"Ch-19" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"88421ad6-97ac-4ab1-ae01-153214cb8142"]
+---
+time 1699389244
+new [description:"Ch-20" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"133d4fa2-b1dc-4e4b-9573-7ed1559716c3"]
+---
+time 1699389244
+new [description:"Ch-21" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"a89418ec-1aa7-4686-bce0-f5707509aef9"]
+---
+time 1699389245
+new [description:"Ch-22" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"dba60ef7-2779-4df2-89ed-5767d60b7ebd"]
+---
+time 1699389245
+new [description:"Ch-23" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6bafcf25-75a6-4cf4-935b-202ce27d8435"]
+---
+time 1699389245
+new [description:"Ch-24" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"7153d209-5a26-4edf-88cf-1b9832db8050"]
+---
+time 1699389245
+new [description:"Ch-25" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"40fec3f8-3fe2-4b67-a986-1845492f9445"]
+---
+time 1699389245
+new [description:"Ch-26" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"754dbdd9-59d2-41ca-bcab-08cf96132f21"]
+---
+time 1699389245
+new [description:"Ch-27" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"79a9a2a8-7a3b-40a2-b898-623012fc54c1"]
+---
+time 1699389245
+new [description:"Ch-28" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3a764916-44b4-4b88-b8f6-4d4f4345a313"]
+---
+time 1699389245
+new [description:"Ch-29" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6d958c9d-f199-4fa9-83a8-bb4e93b1fd3e"]
+---
+time 1699389245
+new [description:"Ch-30" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"0753855d-6cea-4ba6-ace9-8b4d7c1998c7"]
+---
+time 1699389245
+new [description:"Ch-31" entry:"1699389245" modified:"1699389245" project:"Coding.Haskell.Milewski" status:"pending" uuid:"ca8d93e7-c9ed-4340-a122-8c2e4deb813c"]
+---
+time 1699389313
+new [description:"Ch-1" entry:"1699389313" modified:"1699389313" project:"Coding.C.KnR" status:"pending" uuid:"5ef40fd2-e655-4899-ad0d-c83fadc04306"]
+---
+time 1699389377
+new [description:"Ch-2" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"9951c357-c101-47d4-a6da-6e6609fe1605"]
+---
+time 1699389377
+new [description:"Ch-3" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"c54f2346-d631-4496-a45f-5b32fbc42ba0"]
+---
+time 1699389377
+new [description:"Ch-4" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"21f2d437-1515-4da4-b69e-43863ca8df7b"]
+---
+time 1699389377
+new [description:"Ch-5" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"7f3e0316-acbe-429e-9e69-fca3dc8a6903"]
+---
+time 1699389377
+new [description:"Ch-6" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"a5bdf0e3-f184-4888-8e64-98711f7994e2"]
+---
+time 1699389377
+new [description:"Ch-7" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"287f7293-f7ba-45d2-af60-0430cb2b4482"]
+---
+time 1699389377
+new [description:"Ch-8" entry:"1699389377" modified:"1699389377" project:"Coding.C.KnR" status:"pending" uuid:"4fe3038c-7b21-4420-b44c-f3ee3a1b04b4"]
+---
+time 1699389674
+new [description:"Week 1" entry:"1699389674" modified:"1699389674" project:"Coding.Haskell.cis194" status:"pending" uuid:"e262a9e3-fa6d-4f5b-9d48-c82d56559c04"]
+---
+time 1699389764
+new [description:"Week 2" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+---
+time 1699389764
+new [description:"Week 3" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"522da78d-c0a1-4cc1-947c-d5fbd0b00447"]
+---
+time 1699389764
+new [description:"Week 4" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"0b2c39a5-dc22-4f27-a2e5-c4af7bdd1897"]
+---
+time 1699389764
+new [description:"Week 5" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"5094bac1-6435-4c8a-a233-75a07ee490fd"]
+---
+time 1699389764
+new [description:"Week 6" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"24b4ceef-95c3-4093-b5db-1ad2609707ea"]
+---
+time 1699389764
+new [description:"Week 7" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"3cce845b-5eaf-4bdc-835b-d684155ab5ee"]
+---
+time 1699389764
+new [description:"Week 8" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"841b5938-a1e3-41f6-b577-7f08ef4a51b2"]
+---
+time 1699389764
+new [description:"Week 9" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"5c77fe43-b7e4-44d2-b19d-89c76e089b90"]
+---
+time 1699389764
+new [description:"Week 10" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"26005a46-88e5-4223-8125-ad254800e624"]
+---
+time 1699389764
+new [description:"Week 11" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"98fa1e4f-5b1d-4c7c-bd4e-6459aac4554d"]
+---
+time 1699389764
+new [description:"Week 12" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"bcac5b96-7e0d-40b1-82ea-1863870cbcd7"]
+---
+time 1699389787
+old [description:"Week 1" entry:"1699389674" modified:"1699389674" project:"Coding.Haskell.cis194" status:"pending" uuid:"e262a9e3-fa6d-4f5b-9d48-c82d56559c04"]
+new [description:"Week 1" end:"1699389787" entry:"1699389674" modified:"1699389787" project:"Coding.Haskell.cis194" status:"completed" uuid:"e262a9e3-fa6d-4f5b-9d48-c82d56559c04"]
+---
+time 1699389858
+new [description:"Master 99 Problems" entry:"1699389858" modified:"1699389858" project:"Coding.Haskell" status:"pending" uuid:"575bfbaf-889a-4710-acb1-3a8611279af5"]
+---
+time 1699389948
+new [description:"setup install script" entry:"1699389948" modified:"1699389948" project:"Coding.Ricing" status:"pending" uuid:"2cb4393e-97ae-492a-a7b5-15374acd6c1d"]
+---
+time 1699390099
+new [description:"Susskind-3 Ch-1" entry:"1699390099" modified:"1699390099" project:"Study.Physics.SR" status:"pending" uuid:"aea9c357-a848-46ad-ac25-e68efc002e38"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-2" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-3" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-4" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-5" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-6" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-7" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-8" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-9" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-10" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+---
+time 1699390179
+new [description:"Susskind-3 Ch-11" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+---
+time 1699390251
+new [description:"Axler Ch-1" entry:"1699390251" modified:"1699390251" project:"Study.Math.LA" status:"pending" uuid:"fcbd9d06-72da-40fd-a537-bb1c658f6999"]
+---
+time 1699390266
+new [description:"Axler Ch-2" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+---
+time 1699390266
+new [description:"Axler Ch-3" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+---
+time 1699390266
+new [description:"Axler Ch-4" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+---
+time 1699390266
+new [description:"Axler Ch-5" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+---
+time 1699390266
+new [description:"Axler Ch-6" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+---
+time 1699390266
+new [description:"Axler Ch-7" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"da5ddb29-50c4-4ced-a538-b82ced34fb1b"]
+---
+time 1699390266
+new [description:"Axler Ch-8" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"eee6f1b0-df9e-40c8-a512-f7a787549333"]
+---
+time 1699390266
+new [description:"Axler Ch-9" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"09b32368-2d3b-4814-accd-814b6d34a829"]
+---
+time 1699390266
+new [description:"Axler Ch-10" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"c8cab348-0415-4b0c-a0ea-c4507288cd6e"]
+---
+time 1699390378
+new [description:"Iliad Bk 1" entry:"1699390378" modified:"1699390378" project:"Theory.Literature.Homer" status:"pending" uuid:"349c3f9b-7879-489d-bd31-329d0563f8ff"]
+---
+time 1699390403
+new [description:"Iliad Bk 2" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f4d1cde0-7a66-41be-9ea1-e2b1626714ac"]
+---
+time 1699390403
+new [description:"Iliad Bk 3" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"ab8498e3-7ebc-4a40-8f07-1608a34507f5"]
+---
+time 1699390403
+new [description:"Iliad Bk 4" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"914cfb3f-ec96-4d68-8320-7e29b09e2149"]
+---
+time 1699390403
+new [description:"Iliad Bk 5" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"53d40b0a-acba-46f3-be5e-1382e49fc7fa"]
+---
+time 1699390403
+new [description:"Iliad Bk 6" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"9c89a1cf-3429-44da-b6ff-8c9d6671f5a4"]
+---
+time 1699390403
+new [description:"Iliad Bk 7" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f7f32810-5936-4c4e-8f46-c5aa7b8d340a"]
+---
+time 1699390403
+new [description:"Iliad Bk 8" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"7beb3d29-3975-4a57-9768-4ccbb8885183"]
+---
+time 1699390403
+new [description:"Iliad Bk 9" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"60457eaf-8cd9-4ef2-af59-75f6fe268fa1"]
+---
+time 1699390403
+new [description:"Iliad Bk 10" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"4d448309-4c53-4c46-9c9b-95951a963be4"]
+---
+time 1699390403
+new [description:"Iliad Bk 11" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c4ec014e-ace1-4ac7-b8ee-c570ceeccec0"]
+---
+time 1699390403
+new [description:"Iliad Bk 12" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"51eafeeb-efeb-4023-b2fb-68c3ce9a24bb"]
+---
+time 1699390403
+new [description:"Iliad Bk 13" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c34c364b-5055-4609-9502-f5e155f198ee"]
+---
+time 1699390403
+new [description:"Iliad Bk 14" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"32375f27-7c59-4273-8a9e-9fcb668d34b3"]
+---
+time 1699390403
+new [description:"Iliad Bk 15" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c3481ad7-0f59-4d58-a426-527012ee3f50"]
+---
+time 1699390403
+new [description:"Iliad Bk 16" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f2ff6f42-a96b-4404-a421-f21c64d3fd0e"]
+---
+time 1699390403
+new [description:"Iliad Bk 17" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"fba34b91-de85-4cfc-8696-bf3d37ff50ce"]
+---
+time 1699390403
+new [description:"Iliad Bk 18" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"15518960-14ab-494f-80e8-c6436a5e921d"]
+---
+time 1699390403
+new [description:"Iliad Bk 19" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c97e6b1c-8441-4139-9aad-3f8b20ee0bb0"]
+---
+time 1699390403
+new [description:"Iliad Bk 20" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"ed727222-1f41-47fd-9c90-53e45ee4f4fe"]
+---
+time 1699390403
+new [description:"Iliad Bk 21" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"8740528a-2e27-46da-a39a-5c8ed8ab77c2"]
+---
+time 1699390403
+new [description:"Iliad Bk 22" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"bfa53017-1863-40e3-874a-6ef5e486eca5"]
+---
+time 1699390403
+new [description:"Iliad Bk 23" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c788fff7-124b-4488-ab04-88c3acc65188"]
+---
+time 1699390403
+new [description:"Iliad Bk 24" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"1c6352c4-0ef9-41e2-9e71-41c4ed96466e"]
+---
+time 1699390418
+new [description:"Odyssey Bk 1" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"0f54b34e-1ea4-43f7-a2cd-d1a4380f7908"]
+---
+time 1699390418
+new [description:"Odyssey Bk 2" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"7c0779b9-190a-4af8-9068-1666a348b762"]
+---
+time 1699390418
+new [description:"Odyssey Bk 3" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"ff9ca42b-3726-4ec6-9f6e-40599d8755c9"]
+---
+time 1699390418
+new [description:"Odyssey Bk 4" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"32938bb1-82c2-4e60-a0a8-d871ed822ac3"]
+---
+time 1699390418
+new [description:"Odyssey Bk 5" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"6a8a322c-6826-409e-a801-0ff7411c0d7b"]
+---
+time 1699390418
+new [description:"Odyssey Bk 6" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"e6382ddd-f94a-462b-b5f5-3d3a439982b2"]
+---
+time 1699390418
+new [description:"Odyssey Bk 7" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"e0fc13de-b68d-4426-8ba2-4ced59cc58ab"]
+---
+time 1699390418
+new [description:"Odyssey Bk 8" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"58caf1f5-c084-4ee0-9a73-b0e6f6cc4893"]
+---
+time 1699390418
+new [description:"Odyssey Bk 9" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"ec1f44e2-85f7-43a1-8aa4-121a280a98f5"]
+---
+time 1699390418
+new [description:"Odyssey Bk 10" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"cb1239f7-4364-444b-9709-ce18d0c73768"]
+---
+time 1699390418
+new [description:"Odyssey Bk 11" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"08441b61-70e9-43f9-9203-c8f1c6273e68"]
+---
+time 1699390418
+new [description:"Odyssey Bk 12" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"232980d3-0dec-4777-8086-b81f98cf53d2"]
+---
+time 1699390418
+new [description:"Odyssey Bk 13" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"f37e4e3d-d219-4e6a-a136-fdd48dc765b1"]
+---
+time 1699390418
+new [description:"Odyssey Bk 14" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"dffdb530-2ecd-4d31-8149-9fa51e310854"]
+---
+time 1699390418
+new [description:"Odyssey Bk 15" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"5d22d1f9-83f8-4a23-be5e-7dfe77b6a050"]
+---
+time 1699390419
+new [description:"Odyssey Bk 16" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"4acf326d-d82f-4485-8270-f41da062fe7c"]
+---
+time 1699390419
+new [description:"Odyssey Bk 17" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"eebed72f-0348-40ce-be2c-c6ada02086e2"]
+---
+time 1699390419
+new [description:"Odyssey Bk 18" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"35d4366e-a5d1-4a4b-8953-a541f225ae48"]
+---
+time 1699390419
+new [description:"Odyssey Bk 19" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"4ede0fbd-c9f8-4cb3-bbcc-99a9a1657966"]
+---
+time 1699390419
+new [description:"Odyssey Bk 20" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"6e2a712d-4f68-4bd6-b23e-63aeca715952"]
+---
+time 1699390419
+new [description:"Odyssey Bk 21" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"06adfe09-5db1-4f33-9f66-a721bf3db999"]
+---
+time 1699390419
+new [description:"Odyssey Bk 22" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"6d471870-aa1b-4e8d-b902-a17cf74b9303"]
+---
+time 1699390419
+new [description:"Odyssey Bk 23" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"d5803abe-9861-4a8f-a59e-af321f2ae4fd"]
+---
+time 1699390419
+new [description:"Odyssey Bk 24" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"53cc6ea5-b6f2-49b3-a32c-89e31ef45d31"]
+---
+time 1699390582
+new [description:"Oracle JAVA Exam" due:"1701082800" entry:"1699390582" modified:"1699390582" project:"College.Certification.JAVA" status:"pending" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
+---
+time 1699390587
+new [description:"Oracle JAVA Exam" due:"1701082800" entry:"1699390587" modified:"1699390587" project:"College.Certification.JAVA" status:"pending" uuid:"bbd9355e-cdc4-43f8-86cf-4bd853b22bf9"]
+---
+time 1699390610
+old [description:"Oracle JAVA Exam" due:"1701082800" entry:"1699390587" modified:"1699390587" project:"College.Certification.JAVA" status:"pending" uuid:"bbd9355e-cdc4-43f8-86cf-4bd853b22bf9"]
+new [description:"Oracle JAVA Exam" due:"1701082800" end:"1699390608" entry:"1699390587" modified:"1699390610" project:"College.Certification.JAVA" status:"deleted" uuid:"bbd9355e-cdc4-43f8-86cf-4bd853b22bf9"]
+---
+time 1699390784
+new [description:"plan learning" entry:"1699390784" modified:"1699390784" project:"College.Backs.German" status:"pending" uuid:"3ede415c-e7c6-4fbc-8fad-bfb129b648e2"]
+---
+time 1699390787
+new [description:"plan learning" entry:"1699390787" modified:"1699390787" project:"College.Backs.EDC" status:"pending" uuid:"03b4dd22-ad69-43f4-9c4a-46944a5fc6b3"]
+---
+time 1699390790
+new [description:"plan learning" entry:"1699390790" modified:"1699390790" project:"College.Backs.IoT" status:"pending" uuid:"568cb0b0-3216-4d57-811d-bafd96fa3735"]
+---
+time 1699390798
+new [description:"plan learning" entry:"1699390798" modified:"1699390798" project:"College.Backs.Machines" status:"pending" uuid:"8a37707f-2569-409f-94a8-c2fb07faaf18"]
+---
+time 1699390801
+new [description:"plan learning" entry:"1699390801" modified:"1699390801" project:"College.Backs.STS" status:"pending" uuid:"e1939b43-243a-4fdd-a02c-8208ec774374"]
+---
+time 1699390820
+new [description:"See attendance and class timings" entry:"1699390820" modified:"1699390820" priority:"H" project:"College.Backs" status:"pending" uuid:"7d660b33-037d-41a2-85b3-224011af3483"]
+---
+time 1699390884
+new [description:"get everyone to git" entry:"1699390884" modified:"1699390884" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+---
+time 1699390900
+old [description:"get everyone to git" entry:"1699390884" modified:"1699390884" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+new [description:"get everyone to git" entry:"1699390884" modified:"1699390900" priority:"H" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+---
+time 1699391006
+new [description:"Get Bus details 2023-12-26" entry:"1699391006" modified:"1699391006" project:"College.Misc" status:"pending" uuid:"e6bc14e0-254d-49a8-ba97-8c4e920aa7c7"]
+---
+time 1699391143
+old [description:"Iliad Bk 1" entry:"1699390378" modified:"1699390378" project:"Theory.Literature.Homer" status:"pending" uuid:"349c3f9b-7879-489d-bd31-329d0563f8ff"]
+new [description:"Iliad Bk 1" entry:"1699390378" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"349c3f9b-7879-489d-bd31-329d0563f8ff"]
+---
+time 1699391143
+old [description:"Iliad Bk 2" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f4d1cde0-7a66-41be-9ea1-e2b1626714ac"]
+new [description:"Iliad Bk 2" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"f4d1cde0-7a66-41be-9ea1-e2b1626714ac"]
+---
+time 1699391143
+old [description:"Iliad Bk 3" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"ab8498e3-7ebc-4a40-8f07-1608a34507f5"]
+new [description:"Iliad Bk 3" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"ab8498e3-7ebc-4a40-8f07-1608a34507f5"]
+---
+time 1699391143
+old [description:"Iliad Bk 4" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"914cfb3f-ec96-4d68-8320-7e29b09e2149"]
+new [description:"Iliad Bk 4" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"914cfb3f-ec96-4d68-8320-7e29b09e2149"]
+---
+time 1699391143
+old [description:"Iliad Bk 5" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"53d40b0a-acba-46f3-be5e-1382e49fc7fa"]
+new [description:"Iliad Bk 5" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"53d40b0a-acba-46f3-be5e-1382e49fc7fa"]
+---
+time 1699391143
+old [description:"Iliad Bk 6" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"9c89a1cf-3429-44da-b6ff-8c9d6671f5a4"]
+new [description:"Iliad Bk 6" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"9c89a1cf-3429-44da-b6ff-8c9d6671f5a4"]
+---
+time 1699391143
+old [description:"Iliad Bk 7" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f7f32810-5936-4c4e-8f46-c5aa7b8d340a"]
+new [description:"Iliad Bk 7" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"f7f32810-5936-4c4e-8f46-c5aa7b8d340a"]
+---
+time 1699391143
+old [description:"Iliad Bk 8" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"7beb3d29-3975-4a57-9768-4ccbb8885183"]
+new [description:"Iliad Bk 8" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"7beb3d29-3975-4a57-9768-4ccbb8885183"]
+---
+time 1699391143
+old [description:"Iliad Bk 9" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"60457eaf-8cd9-4ef2-af59-75f6fe268fa1"]
+new [description:"Iliad Bk 9" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"60457eaf-8cd9-4ef2-af59-75f6fe268fa1"]
+---
+time 1699391143
+old [description:"Iliad Bk 10" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"4d448309-4c53-4c46-9c9b-95951a963be4"]
+new [description:"Iliad Bk 10" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"4d448309-4c53-4c46-9c9b-95951a963be4"]
+---
+time 1699391143
+old [description:"Iliad Bk 11" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c4ec014e-ace1-4ac7-b8ee-c570ceeccec0"]
+new [description:"Iliad Bk 11" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"c4ec014e-ace1-4ac7-b8ee-c570ceeccec0"]
+---
+time 1699391143
+old [description:"Iliad Bk 12" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"51eafeeb-efeb-4023-b2fb-68c3ce9a24bb"]
+new [description:"Iliad Bk 12" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"51eafeeb-efeb-4023-b2fb-68c3ce9a24bb"]
+---
+time 1699391143
+old [description:"Iliad Bk 13" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c34c364b-5055-4609-9502-f5e155f198ee"]
+new [description:"Iliad Bk 13" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"c34c364b-5055-4609-9502-f5e155f198ee"]
+---
+time 1699391143
+old [description:"Iliad Bk 14" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"32375f27-7c59-4273-8a9e-9fcb668d34b3"]
+new [description:"Iliad Bk 14" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"32375f27-7c59-4273-8a9e-9fcb668d34b3"]
+---
+time 1699391143
+old [description:"Iliad Bk 15" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c3481ad7-0f59-4d58-a426-527012ee3f50"]
+new [description:"Iliad Bk 15" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"c3481ad7-0f59-4d58-a426-527012ee3f50"]
+---
+time 1699391143
+old [description:"Iliad Bk 16" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"f2ff6f42-a96b-4404-a421-f21c64d3fd0e"]
+new [description:"Iliad Bk 16" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"f2ff6f42-a96b-4404-a421-f21c64d3fd0e"]
+---
+time 1699391143
+old [description:"Iliad Bk 17" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"fba34b91-de85-4cfc-8696-bf3d37ff50ce"]
+new [description:"Iliad Bk 17" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"fba34b91-de85-4cfc-8696-bf3d37ff50ce"]
+---
+time 1699391144
+old [description:"Iliad Bk 18" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"15518960-14ab-494f-80e8-c6436a5e921d"]
+new [description:"Iliad Bk 18" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"15518960-14ab-494f-80e8-c6436a5e921d"]
+---
+time 1699391144
+old [description:"Iliad Bk 19" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c97e6b1c-8441-4139-9aad-3f8b20ee0bb0"]
+new [description:"Iliad Bk 19" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"c97e6b1c-8441-4139-9aad-3f8b20ee0bb0"]
+---
+time 1699391144
+old [description:"Iliad Bk 20" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"ed727222-1f41-47fd-9c90-53e45ee4f4fe"]
+new [description:"Iliad Bk 20" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"ed727222-1f41-47fd-9c90-53e45ee4f4fe"]
+---
+time 1699391144
+old [description:"Iliad Bk 21" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"8740528a-2e27-46da-a39a-5c8ed8ab77c2"]
+new [description:"Iliad Bk 21" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"8740528a-2e27-46da-a39a-5c8ed8ab77c2"]
+---
+time 1699391144
+old [description:"Iliad Bk 22" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"bfa53017-1863-40e3-874a-6ef5e486eca5"]
+new [description:"Iliad Bk 22" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"bfa53017-1863-40e3-874a-6ef5e486eca5"]
+---
+time 1699391144
+old [description:"Iliad Bk 23" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"c788fff7-124b-4488-ab04-88c3acc65188"]
+new [description:"Iliad Bk 23" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"c788fff7-124b-4488-ab04-88c3acc65188"]
+---
+time 1699391144
+old [description:"Iliad Bk 24" entry:"1699390403" modified:"1699390403" project:"Theory.Literature.Homer" status:"pending" uuid:"1c6352c4-0ef9-41e2-9e71-41c4ed96466e"]
+new [description:"Iliad Bk 24" entry:"1699390403" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"1c6352c4-0ef9-41e2-9e71-41c4ed96466e"]
+---
+time 1699391144
+old [description:"Odyssey Bk 1" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"0f54b34e-1ea4-43f7-a2cd-d1a4380f7908"]
+new [description:"Odyssey Bk 1" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"0f54b34e-1ea4-43f7-a2cd-d1a4380f7908"]
+---
+time 1699391144
+old [description:"Odyssey Bk 2" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"7c0779b9-190a-4af8-9068-1666a348b762"]
+new [description:"Odyssey Bk 2" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"7c0779b9-190a-4af8-9068-1666a348b762"]
+---
+time 1699391144
+old [description:"Odyssey Bk 3" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"ff9ca42b-3726-4ec6-9f6e-40599d8755c9"]
+new [description:"Odyssey Bk 3" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"ff9ca42b-3726-4ec6-9f6e-40599d8755c9"]
+---
+time 1699391144
+old [description:"Odyssey Bk 4" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"32938bb1-82c2-4e60-a0a8-d871ed822ac3"]
+new [description:"Odyssey Bk 4" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"32938bb1-82c2-4e60-a0a8-d871ed822ac3"]
+---
+time 1699391144
+old [description:"Odyssey Bk 5" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"6a8a322c-6826-409e-a801-0ff7411c0d7b"]
+new [description:"Odyssey Bk 5" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"6a8a322c-6826-409e-a801-0ff7411c0d7b"]
+---
+time 1699391144
+old [description:"Odyssey Bk 6" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"e6382ddd-f94a-462b-b5f5-3d3a439982b2"]
+new [description:"Odyssey Bk 6" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"e6382ddd-f94a-462b-b5f5-3d3a439982b2"]
+---
+time 1699391144
+old [description:"Odyssey Bk 7" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"e0fc13de-b68d-4426-8ba2-4ced59cc58ab"]
+new [description:"Odyssey Bk 7" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"e0fc13de-b68d-4426-8ba2-4ced59cc58ab"]
+---
+time 1699391144
+old [description:"Odyssey Bk 8" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"58caf1f5-c084-4ee0-9a73-b0e6f6cc4893"]
+new [description:"Odyssey Bk 8" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"58caf1f5-c084-4ee0-9a73-b0e6f6cc4893"]
+---
+time 1699391144
+old [description:"Odyssey Bk 9" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"ec1f44e2-85f7-43a1-8aa4-121a280a98f5"]
+new [description:"Odyssey Bk 9" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"ec1f44e2-85f7-43a1-8aa4-121a280a98f5"]
+---
+time 1699391144
+old [description:"Odyssey Bk 10" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"cb1239f7-4364-444b-9709-ce18d0c73768"]
+new [description:"Odyssey Bk 10" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"cb1239f7-4364-444b-9709-ce18d0c73768"]
+---
+time 1699391144
+old [description:"Odyssey Bk 11" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"08441b61-70e9-43f9-9203-c8f1c6273e68"]
+new [description:"Odyssey Bk 11" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"08441b61-70e9-43f9-9203-c8f1c6273e68"]
+---
+time 1699391144
+old [description:"Odyssey Bk 12" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"232980d3-0dec-4777-8086-b81f98cf53d2"]
+new [description:"Odyssey Bk 12" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"232980d3-0dec-4777-8086-b81f98cf53d2"]
+---
+time 1699391144
+old [description:"Odyssey Bk 13" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"f37e4e3d-d219-4e6a-a136-fdd48dc765b1"]
+new [description:"Odyssey Bk 13" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"f37e4e3d-d219-4e6a-a136-fdd48dc765b1"]
+---
+time 1699391144
+old [description:"Odyssey Bk 14" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"dffdb530-2ecd-4d31-8149-9fa51e310854"]
+new [description:"Odyssey Bk 14" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"dffdb530-2ecd-4d31-8149-9fa51e310854"]
+---
+time 1699391144
+old [description:"Odyssey Bk 15" entry:"1699390418" modified:"1699390418" project:"Theory.Literature.Homer" status:"pending" uuid:"5d22d1f9-83f8-4a23-be5e-7dfe77b6a050"]
+new [description:"Odyssey Bk 15" entry:"1699390418" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"5d22d1f9-83f8-4a23-be5e-7dfe77b6a050"]
+---
+time 1699391144
+old [description:"Odyssey Bk 16" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"4acf326d-d82f-4485-8270-f41da062fe7c"]
+new [description:"Odyssey Bk 16" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"4acf326d-d82f-4485-8270-f41da062fe7c"]
+---
+time 1699391144
+old [description:"Odyssey Bk 17" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"eebed72f-0348-40ce-be2c-c6ada02086e2"]
+new [description:"Odyssey Bk 17" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"eebed72f-0348-40ce-be2c-c6ada02086e2"]
+---
+time 1699391144
+old [description:"Odyssey Bk 18" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"35d4366e-a5d1-4a4b-8953-a541f225ae48"]
+new [description:"Odyssey Bk 18" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"35d4366e-a5d1-4a4b-8953-a541f225ae48"]
+---
+time 1699391144
+old [description:"Odyssey Bk 19" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"4ede0fbd-c9f8-4cb3-bbcc-99a9a1657966"]
+new [description:"Odyssey Bk 19" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"4ede0fbd-c9f8-4cb3-bbcc-99a9a1657966"]
+---
+time 1699391144
+old [description:"Odyssey Bk 20" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"6e2a712d-4f68-4bd6-b23e-63aeca715952"]
+new [description:"Odyssey Bk 20" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"6e2a712d-4f68-4bd6-b23e-63aeca715952"]
+---
+time 1699391144
+old [description:"Odyssey Bk 21" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"06adfe09-5db1-4f33-9f66-a721bf3db999"]
+new [description:"Odyssey Bk 21" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"06adfe09-5db1-4f33-9f66-a721bf3db999"]
+---
+time 1699391144
+old [description:"Odyssey Bk 22" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"6d471870-aa1b-4e8d-b902-a17cf74b9303"]
+new [description:"Odyssey Bk 22" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"6d471870-aa1b-4e8d-b902-a17cf74b9303"]
+---
+time 1699391144
+old [description:"Odyssey Bk 23" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"d5803abe-9861-4a8f-a59e-af321f2ae4fd"]
+new [description:"Odyssey Bk 23" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"d5803abe-9861-4a8f-a59e-af321f2ae4fd"]
+---
+time 1699391144
+old [description:"Odyssey Bk 24" entry:"1699390419" modified:"1699390419" project:"Theory.Literature.Homer" status:"pending" uuid:"53cc6ea5-b6f2-49b3-a32c-89e31ef45d31"]
+new [description:"Odyssey Bk 24" entry:"1699390419" modified:"1699391144" project:"Theory.Homer" status:"pending" uuid:"53cc6ea5-b6f2-49b3-a32c-89e31ef45d31"]
+---
+time 1699391250
+new [description:"Get Protein Powder" entry:"1699391250" modified:"1699391250" project:"Health.Gym" status:"pending" uuid:"e3a5b6a9-2a18-48cc-bc44-e89968814517"]
+---
+time 1699391269
+old [description:"Get Protein Powder" entry:"1699391250" modified:"1699391250" project:"Health.Gym" status:"pending" uuid:"e3a5b6a9-2a18-48cc-bc44-e89968814517"]
+new [description:"Get Protein Powder" entry:"1699391250" modified:"1699391269" project:"Health" status:"pending" uuid:"e3a5b6a9-2a18-48cc-bc44-e89968814517"]
+---
+time 1699391363
+old [description:"Iliad Bk 1" entry:"1699390378" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"349c3f9b-7879-489d-bd31-329d0563f8ff"]
+new [description:"Iliad Bk 1" end:"1699391360" entry:"1699390378" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"349c3f9b-7879-489d-bd31-329d0563f8ff"]
+---
+time 1699391363
+old [description:"Iliad Bk 2" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"f4d1cde0-7a66-41be-9ea1-e2b1626714ac"]
+new [description:"Iliad Bk 2" end:"1699391363" entry:"1699390403" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"f4d1cde0-7a66-41be-9ea1-e2b1626714ac"]
+---
+time 1699391363
+old [description:"Iliad Bk 3" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"ab8498e3-7ebc-4a40-8f07-1608a34507f5"]
+new [description:"Iliad Bk 3" end:"1699391363" entry:"1699390403" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"ab8498e3-7ebc-4a40-8f07-1608a34507f5"]
+---
+time 1699391363
+old [description:"Iliad Bk 4" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"914cfb3f-ec96-4d68-8320-7e29b09e2149"]
+new [description:"Iliad Bk 4" end:"1699391363" entry:"1699390403" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"914cfb3f-ec96-4d68-8320-7e29b09e2149"]
+---
+time 1699391363
+old [description:"Iliad Bk 5" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"53d40b0a-acba-46f3-be5e-1382e49fc7fa"]
+new [description:"Iliad Bk 5" end:"1699391363" entry:"1699390403" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"53d40b0a-acba-46f3-be5e-1382e49fc7fa"]
+---
+time 1699391363
+old [description:"Iliad Bk 6" entry:"1699390403" modified:"1699391143" project:"Theory.Homer" status:"pending" uuid:"9c89a1cf-3429-44da-b6ff-8c9d6671f5a4"]
+new [description:"Iliad Bk 6" end:"1699391363" entry:"1699390403" modified:"1699391363" project:"Theory.Homer" status:"completed" uuid:"9c89a1cf-3429-44da-b6ff-8c9d6671f5a4"]
+---
+time 1699414650
+old [description:"Finish Ch1-Ch11" entry:"1699388754" modified:"1699388754" project:"Coding.Haskell.Allen" status:"pending" uuid:"428086ea-5cfb-4e08-b749-ac4eaf80ca31"]
+new [description:"Finish Ch1-Ch11" end:"1699414646" entry:"1699388754" modified:"1699414650" project:"Coding.Haskell.Allen" status:"deleted" uuid:"428086ea-5cfb-4e08-b749-ac4eaf80ca31"]
+---
+time 1699414692
+new [description:"Ch-1" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"e7ebd305-b65e-4a4d-978b-eb82cf2d481a"]
+---
+time 1699414692
+new [description:"Ch-2" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"72ec32eb-fb42-4a84-b40e-53636cdcfddd"]
+---
+time 1699414692
+new [description:"Ch-3" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"1d6e772f-e3b9-4422-8ed4-5154bf1f50db"]
+---
+time 1699414692
+new [description:"Ch-4" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"437f4e51-aa85-461d-bfbc-61085832b1f3"]
+---
+time 1699414692
+new [description:"Ch-5" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"1243fdc2-338d-424d-9686-7cccb2ac75f3"]
+---
+time 1699414692
+new [description:"Ch-6" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"710286f7-0fd0-43c8-8681-1a7eea1f5e03"]
+---
+time 1699414692
+new [description:"Ch-7" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"ba92bf31-8806-4d2b-8195-387f8db2a2e3"]
+---
+time 1699414692
+new [description:"Ch-8" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"4bfff281-4096-4296-a56f-b71c185f81fa"]
+---
+time 1699414692
+new [description:"Ch-9" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"c5b04b19-94ff-4e0c-aa2a-5907706ad9dc"]
+---
+time 1699414692
+new [description:"Ch-10" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"30786ed1-4d87-44aa-ba89-8d8723df79cc"]
+---
+time 1699414692
+new [description:"Ch-11" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"5ff75d9e-1aee-4c8f-ac2d-4e0df13a53da"]
+---
+time 1699414718
+old [description:"Finish Ch1-Ch11" entry:"1699388716" modified:"1699388716" project:"Coding.Haskell.Hutton" status:"pending" uuid:"0a415d00-4f25-45e3-b8fb-98714b7b9680"]
+new [description:"Finish Ch1-Ch11" end:"1699414716" entry:"1699388716" modified:"1699414718" project:"Coding.Haskell.Hutton" status:"deleted" uuid:"0a415d00-4f25-45e3-b8fb-98714b7b9680"]
+---
+time 1699414735
+new [description:"Ch-1" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"345fbc85-469c-41b1-88a3-f5fa7f32e07e"]
+---
+time 1699414735
+new [description:"Ch-2" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"1241d247-05d6-4b82-bb26-959df4ca0ede"]
+---
+time 1699414735
+new [description:"Ch-3" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"f4398fee-2ef6-4475-9431-cd66a9c66ebf"]
+---
+time 1699414735
+new [description:"Ch-4" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"840e30f5-1200-49d9-8ec2-202ec9540141"]
+---
+time 1699414735
+new [description:"Ch-5" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"48103785-85bf-4f12-9b53-d9f4a7d202b0"]
+---
+time 1699414735
+new [description:"Ch-6" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"a433a99b-e1cf-4ac0-8851-65898ad2e018"]
+---
+time 1699414735
+new [description:"Ch-7" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"a4edd3f3-7363-4922-ac50-e809c7a79915"]
+---
+time 1699414735
+new [description:"Ch-8" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"270646a1-f6c6-4720-bf05-30beb7cbb73d"]
+---
+time 1699414735
+new [description:"Ch-9" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+---
+time 1699414735
+new [description:"Ch-10" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+---
+time 1699414735
+new [description:"Ch-11" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699414762
+old [description:"Finish Ch1-Ch3" entry:"1699389211" modified:"1699389211" project:"Coding.Haskell.Milewski" status:"pending" uuid:"115e42c2-8336-4921-83b8-ca7b92d35b68"]
+new [description:"Finish Ch1-Ch3" end:"1699414760" entry:"1699389211" modified:"1699414762" project:"Coding.Haskell.Milewski" status:"deleted" uuid:"115e42c2-8336-4921-83b8-ca7b92d35b68"]
+---
+time 1699414782
+new [description:"Ch-1" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"099c11ed-be19-4a8b-98f9-b02d70d3c206"]
+---
+time 1699414782
+new [description:"Ch-2" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"80432c1c-1ab9-46cc-ac3a-271063fb9eeb"]
+---
+time 1699414782
+new [description:"Ch-3" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"cbd238f5-b50d-42d7-86bf-88e0e451d120"]
+---
+time 1699417079
+old [description:"Ch-1" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"345fbc85-469c-41b1-88a3-f5fa7f32e07e"]
+new [description:"Ch-1" end:"1699417079" entry:"1699414735" modified:"1699417079" project:"Coding.Haskell.Hutton" status:"completed" uuid:"345fbc85-469c-41b1-88a3-f5fa7f32e07e"]
+---
+time 1699417189
+old [description:"Ch-3" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"f4398fee-2ef6-4475-9431-cd66a9c66ebf"]
+new [description:"Ch-3" end:"1699417189" entry:"1699414735" modified:"1699417189" project:"Coding.Haskell.Hutton" status:"completed" uuid:"f4398fee-2ef6-4475-9431-cd66a9c66ebf"]
+---
+time 1699418294
+old [description:"Ch-2" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"1241d247-05d6-4b82-bb26-959df4ca0ede"]
+new [description:"Ch-2" end:"1699418294" entry:"1699414735" modified:"1699418294" project:"Coding.Haskell.Hutton" status:"completed" uuid:"1241d247-05d6-4b82-bb26-959df4ca0ede"]
+---
+time 1699418722
+old [description:"Ch-4" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"840e30f5-1200-49d9-8ec2-202ec9540141"]
+new [description:"Ch-4" end:"1699418722" entry:"1699414735" modified:"1699418722" project:"Coding.Haskell.Hutton" status:"completed" uuid:"840e30f5-1200-49d9-8ec2-202ec9540141"]
+---
+time 1699418782
+new [description:"Find Syllabus" entry:"1699418782" modified:"1699418782" project:"College.Certification.JAVA" status:"pending" uuid:"d61ce6af-76a0-4380-a63b-0e2648071d61"]
+---
+time 1699422637
+old [description:"Ch-5" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"48103785-85bf-4f12-9b53-d9f4a7d202b0"]
+new [description:"Ch-5" end:"1699422637" entry:"1699414735" modified:"1699422637" project:"Coding.Haskell.Hutton" status:"completed" uuid:"48103785-85bf-4f12-9b53-d9f4a7d202b0"]
+---
+time 1699424918
+old [description:"Ch-6" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"a433a99b-e1cf-4ac0-8851-65898ad2e018"]
+new [description:"Ch-6" end:"1699424918" entry:"1699414735" modified:"1699424918" project:"Coding.Haskell.Hutton" status:"completed" uuid:"a433a99b-e1cf-4ac0-8851-65898ad2e018"]
+---
+time 1699454782
+old [description:"See attendance and class timings" entry:"1699390820" modified:"1699390820" priority:"H" project:"College.Backs" status:"pending" uuid:"7d660b33-037d-41a2-85b3-224011af3483"]
+new [description:"See attendance and class timings" end:"1699454782" entry:"1699390820" modified:"1699454782" priority:"H" project:"College.Backs" status:"completed" uuid:"7d660b33-037d-41a2-85b3-224011af3483"]
+---
+time 1699484838
+old [description:"Ch-7" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"a4edd3f3-7363-4922-ac50-e809c7a79915"]
+new [description:"Ch-7" end:"1699484838" entry:"1699414735" modified:"1699484838" project:"Coding.Haskell.Hutton" status:"completed" uuid:"a4edd3f3-7363-4922-ac50-e809c7a79915"]
+---
+time 1699485770
+old [description:"Ch-8" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"270646a1-f6c6-4720-bf05-30beb7cbb73d"]
+new [description:"Ch-8" end:"1699485770" entry:"1699414735" modified:"1699485770" project:"Coding.Haskell.Hutton" status:"completed" uuid:"270646a1-f6c6-4720-bf05-30beb7cbb73d"]
+---
+time 1699501364
+old [description:"Ch-1" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"e7ebd305-b65e-4a4d-978b-eb82cf2d481a"]
+new [description:"Ch-1" end:"1699501363" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"e7ebd305-b65e-4a4d-978b-eb82cf2d481a"]
+---
+time 1699501364
+old [description:"Ch-2" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"72ec32eb-fb42-4a84-b40e-53636cdcfddd"]
+new [description:"Ch-2" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"72ec32eb-fb42-4a84-b40e-53636cdcfddd"]
+---
+time 1699501364
+old [description:"Ch-3" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"1d6e772f-e3b9-4422-8ed4-5154bf1f50db"]
+new [description:"Ch-3" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"1d6e772f-e3b9-4422-8ed4-5154bf1f50db"]
+---
+time 1699501364
+old [description:"Ch-4" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"437f4e51-aa85-461d-bfbc-61085832b1f3"]
+new [description:"Ch-4" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"437f4e51-aa85-461d-bfbc-61085832b1f3"]
+---
+time 1699501364
+old [description:"Ch-5" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"1243fdc2-338d-424d-9686-7cccb2ac75f3"]
+new [description:"Ch-5" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"1243fdc2-338d-424d-9686-7cccb2ac75f3"]
+---
+time 1699501364
+old [description:"Ch-6" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"710286f7-0fd0-43c8-8681-1a7eea1f5e03"]
+new [description:"Ch-6" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"710286f7-0fd0-43c8-8681-1a7eea1f5e03"]
+---
+time 1699501364
+old [description:"Ch-7" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"ba92bf31-8806-4d2b-8195-387f8db2a2e3"]
+new [description:"Ch-7" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"ba92bf31-8806-4d2b-8195-387f8db2a2e3"]
+---
+time 1699501364
+old [description:"Ch-8" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"4bfff281-4096-4296-a56f-b71c185f81fa"]
+new [description:"Ch-8" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"4bfff281-4096-4296-a56f-b71c185f81fa"]
+---
+time 1699501364
+old [description:"Ch-9" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"c5b04b19-94ff-4e0c-aa2a-5907706ad9dc"]
+new [description:"Ch-9" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"c5b04b19-94ff-4e0c-aa2a-5907706ad9dc"]
+---
+time 1699501364
+old [description:"Ch-10" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"30786ed1-4d87-44aa-ba89-8d8723df79cc"]
+new [description:"Ch-10" end:"1699501364" entry:"1699414692" modified:"1699501364" project:"Coding.Haskell.Allen" status:"completed" uuid:"30786ed1-4d87-44aa-ba89-8d8723df79cc"]
+---
+time 1699508083
+old [description:"Ch-11" entry:"1699414692" modified:"1699414692" project:"Coding.Haskell.Allen" status:"pending" uuid:"5ff75d9e-1aee-4c8f-ac2d-4e0df13a53da"]
+new [description:"Ch-11" end:"1699508083" entry:"1699414692" modified:"1699508083" project:"Coding.Haskell.Allen" status:"completed" uuid:"5ff75d9e-1aee-4c8f-ac2d-4e0df13a53da"]
+---
+time 1699592268
+old [description:"Ch-12" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"ff6c03e3-859c-4852-96a9-abb73423be16"]
+new [description:"Ch-12" end:"1699592268" entry:"1699389060" modified:"1699592268" project:"Coding.Haskell.Allen" status:"completed" uuid:"ff6c03e3-859c-4852-96a9-abb73423be16"]
+---
+time 1699678512
+old [description:"Ch-13" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+new [description:"due today" entry:"1699389060" modified:"1699678512" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+---
+time 1699678528
+old [description:"due today" entry:"1699389060" modified:"1699678512" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+new [description:"Ch-13" entry:"1699389060" modified:"1699678528" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+---
+time 1699678539
+old [description:"Ch-13" entry:"1699389060" modified:"1699678528" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+new [description:"Ch-13" due:"1699650000" entry:"1699389060" modified:"1699678539" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+---
+time 1699678555
+old [description:"Ch-13" due:"1699650000" entry:"1699389060" modified:"1699678539" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+new [description:"Ch-13" due:"1699736400" entry:"1699389060" modified:"1699678555" project:"Coding.Haskell.Allen" status:"pending" uuid:"3c76f817-214a-4a21-afc1-53b0aea3d96d"]
+---
+time 1699678569
+old [description:"Ch-14" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+new [description:"Ch-14" due:"1699736400" entry:"1699389060" modified:"1699678569" project:"Coding.Haskell.Allen" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+---
+time 1699678626
+old [description:"Ch-1" entry:"1699389313" modified:"1699389313" project:"Coding.C.KnR" status:"pending" uuid:"5ef40fd2-e655-4899-ad0d-c83fadc04306"]
+new [description:"Ch-1" due:"1699650000" entry:"1699389313" modified:"1699678626" project:"Coding.C.KnR" status:"pending" uuid:"5ef40fd2-e655-4899-ad0d-c83fadc04306"]
+---
+time 1699678632
+old [description:"Ch-1" due:"1699650000" entry:"1699389313" modified:"1699678626" project:"Coding.C.KnR" status:"pending" uuid:"5ef40fd2-e655-4899-ad0d-c83fadc04306"]
+new [description:"Ch-1" due:"1699736400" entry:"1699389313" modified:"1699678632" project:"Coding.C.KnR" status:"pending" uuid:"5ef40fd2-e655-4899-ad0d-c83fadc04306"]
+---
+time 1699678745
+old [description:"Ch-9" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+new [description:"Ch-9" due:"1699937943" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+---
+time 1699678745
+old [description:"Ch-10" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+new [description:"Ch-10" due:"1699937945" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+---
+time 1699678745
+old [description:"Ch-11" entry:"1699414735" modified:"1699414735" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699937945" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699679016
+old [description:"Ch-9" due:"1699937943" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+new [description:"Ch-9" due:"1699765414" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+---
+time 1699679016
+old [description:"Ch-10" due:"1699937945" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+new [description:"Ch-10" due:"1699765416" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+---
+time 1699679016
+old [description:"Ch-11" due:"1699937945" entry:"1699414735" modified:"1699678745" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699765416" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699679141
+old [description:"Ch-9" due:"1699765414" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+new [description:"Ch-9" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+---
+time 1699679141
+old [description:"Ch-10" due:"1699765416" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+new [description:"Ch-10" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+---
+time 1699679141
+old [description:"Ch-11" due:"1699765416" entry:"1699414735" modified:"1699679016" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699679153
+old [description:"Ch-9" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+new [description:"Ch-9" due:"1699822800" entry:"1699414735" modified:"1699679153" project:"Coding.Haskell.Hutton" status:"pending" uuid:"cdd11d4e-8b9b-4469-a362-31cc121741b3"]
+---
+time 1699679153
+old [description:"Ch-10" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+new [description:"Ch-10" due:"1699822800" entry:"1699414735" modified:"1699679153" project:"Coding.Haskell.Hutton" status:"pending" uuid:"9461b58b-8a26-4e75-856c-93504bd7d9ae"]
+---
+time 1699679153
+old [description:"Ch-11" due:"1699736400" entry:"1699414735" modified:"1699679141" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699822800" entry:"1699414735" modified:"1699679153" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699679193
+old [description:"Ch-14" due:"1699736400" entry:"1699389060" modified:"1699678569" project:"Coding.Haskell.Allen" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+new [description:"Ch-14" due:"1699736400" entry:"1699389060" modified:"1699679193" project:"Coding.Haskell" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+---
+time 1699679256
+old [description:"Ch-1" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"099c11ed-be19-4a8b-98f9-b02d70d3c206"]
+new [description:"Ch-1" due:"1699909200" entry:"1699414782" modified:"1699679256" project:"Coding.Haskell.Milewski" status:"pending" uuid:"099c11ed-be19-4a8b-98f9-b02d70d3c206"]
+---
+time 1699679256
+old [description:"Ch-2" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"80432c1c-1ab9-46cc-ac3a-271063fb9eeb"]
+new [description:"Ch-2" due:"1699909200" entry:"1699414782" modified:"1699679256" project:"Coding.Haskell.Milewski" status:"pending" uuid:"80432c1c-1ab9-46cc-ac3a-271063fb9eeb"]
+---
+time 1699679256
+old [description:"Ch-3" entry:"1699414782" modified:"1699414782" project:"Coding.Haskell.Milewski" status:"pending" uuid:"cbd238f5-b50d-42d7-86bf-88e0e451d120"]
+new [description:"Ch-3" due:"1699909200" entry:"1699414782" modified:"1699679256" project:"Coding.Haskell.Milewski" status:"pending" uuid:"cbd238f5-b50d-42d7-86bf-88e0e451d120"]
+---
+time 1699679360
+old [description:"Week 2" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+new [description:"Week 2" due:"1699909200" entry:"1699389764" modified:"1699679360" project:"Coding.Haskell.cis194" status:"pending" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+---
+time 1699679384
+old [description:"get everyone to git" entry:"1699390884" modified:"1699390900" priority:"H" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+new [description:"get everyone to git" due:"1699650000" entry:"1699390884" modified:"1699679384" priority:"H" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+---
+time 1699679411
+old [description:"Oracle JAVA Exam" due:"1701082800" entry:"1699390582" modified:"1699390582" project:"College.Certification.JAVA" status:"pending" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
+new [description:"Oracle JAVA Exam" due:"1699650000" entry:"1699390582" modified:"1699679411" project:"College.Certification.JAVA" status:"pending" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
+---
+time 1699681511
+old [description:"Ch-21" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681511" project:"Coding.Haskell.Allen" start:"1699681511" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681514
+old [description:"Ch-21" entry:"1699389060" modified:"1699681511" project:"Coding.Haskell.Allen" start:"1699681511" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681514" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681515
+old [description:"Ch-21" entry:"1699389060" modified:"1699681514" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681515" project:"Coding.Haskell.Allen" start:"1699681515" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681516
+old [description:"Ch-21" entry:"1699389060" modified:"1699681515" project:"Coding.Haskell.Allen" start:"1699681515" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681516" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681517
+old [description:"Ch-21" entry:"1699389060" modified:"1699681516" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681517" project:"Coding.Haskell.Allen" start:"1699681517" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681518
+old [description:"Ch-21" entry:"1699389060" modified:"1699681517" project:"Coding.Haskell.Allen" start:"1699681517" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681518" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681518
+old [description:"Ch-21" entry:"1699389060" modified:"1699681518" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681518" project:"Coding.Haskell.Allen" start:"1699681518" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681519
+old [description:"Ch-21" entry:"1699389060" modified:"1699681518" project:"Coding.Haskell.Allen" start:"1699681518" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681519" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681520
+old [description:"Ch-21" entry:"1699389060" modified:"1699681519" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681520" project:"Coding.Haskell.Allen" start:"1699681520" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681521
+old [description:"Ch-21" entry:"1699389060" modified:"1699681520" project:"Coding.Haskell.Allen" start:"1699681520" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681521" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681521
+old [description:"Ch-21" entry:"1699389060" modified:"1699681521" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681521" project:"Coding.Haskell.Allen" start:"1699681521" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681523
+old [description:"Ch-21" entry:"1699389060" modified:"1699681521" project:"Coding.Haskell.Allen" start:"1699681521" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681523" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681528
+old [description:"Ch-21" entry:"1699389060" modified:"1699681523" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681528" project:"Coding.Haskell.Allen" start:"1699681528" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699681530
+old [description:"Ch-21" entry:"1699389060" modified:"1699681528" project:"Coding.Haskell.Allen" start:"1699681528" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+new [description:"Ch-21" entry:"1699389060" modified:"1699681530" project:"Coding.Haskell.Allen" status:"pending" uuid:"ccc2fbae-7b9b-472b-9c2b-97e6fb7fdea8"]
+---
+time 1699682057
+old [description:"Week 2" due:"1699909200" entry:"1699389764" modified:"1699679360" project:"Coding.Haskell.cis194" status:"pending" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+new [description:"Week 2" due:"1699909200" entry:"1699389764" modified:"1699682057" project:"Coding.Haskell.cis194" status:"pending" tags:"next" tags_next:"x" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+---
+time 1699682058
+old [description:"Week 2" due:"1699909200" entry:"1699389764" modified:"1699682057" project:"Coding.Haskell.cis194" status:"pending" tags:"next" tags_next:"x" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+new [description:"Week 2" due:"1699909200" entry:"1699389764" modified:"1699682058" project:"Coding.Haskell.cis194" status:"pending" uuid:"5a66b312-01ae-478c-ae20-4c7af807479c"]
+---
+time 1699682059
+old [description:"Ch-11" due:"1699822800" entry:"1699414735" modified:"1699679153" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699822800" entry:"1699414735" modified:"1699682059" project:"Coding.Haskell.Hutton" status:"pending" tags:"next" tags_next:"x" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699682060
+old [description:"Ch-11" due:"1699822800" entry:"1699414735" modified:"1699682059" project:"Coding.Haskell.Hutton" status:"pending" tags:"next" tags_next:"x" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+new [description:"Ch-11" due:"1699822800" entry:"1699414735" modified:"1699682060" project:"Coding.Haskell.Hutton" status:"pending" uuid:"6a5a6e41-1ff5-438f-9e7d-e9b4322dd9b7"]
+---
+time 1699682471
+old [description:"Axler Ch-1" entry:"1699390251" modified:"1699390251" project:"Study.Math.LA" status:"pending" uuid:"fcbd9d06-72da-40fd-a537-bb1c658f6999"]
+new [description:"Axler Ch-1" end:"1699682471" entry:"1699390251" modified:"1699682471" project:"Study.Math.LA" status:"completed" uuid:"fcbd9d06-72da-40fd-a537-bb1c658f6999"]
+---
+time 1699685136
+old [description:"Axler Ch-2" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+new [description:"Axler Ch-2" due:"1699736399" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+---
+time 1699685136
+old [description:"Axler Ch-3" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+new [description:"Axler Ch-3" due:"1699736401" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+---
+time 1699685136
+old [description:"Axler Ch-4" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+new [description:"Axler Ch-4" due:"1699736403" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+---
+time 1699685136
+old [description:"Axler Ch-5" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+new [description:"Axler Ch-5" due:"1699736405" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+---
+time 1699685136
+old [description:"Axler Ch-6" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+new [description:"Axler Ch-6" due:"1699736407" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-1" entry:"1699390099" modified:"1699390099" project:"Study.Physics.SR" status:"pending" uuid:"aea9c357-a848-46ad-ac25-e68efc002e38"]
+new [description:"Susskind-3 Ch-1" due:"1699736400" entry:"1699390099" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"aea9c357-a848-46ad-ac25-e68efc002e38"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-2" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+new [description:"Susskind-3 Ch-2" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-3" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+new [description:"Susskind-3 Ch-3" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-4" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+new [description:"Susskind-3 Ch-4" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-5" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+new [description:"Susskind-3 Ch-5" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-6" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+new [description:"Susskind-3 Ch-6" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-7" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+new [description:"Susskind-3 Ch-7" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+---
+time 1699685136
+old [description:"Susskind-3 Ch-8" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+new [description:"Susskind-3 Ch-8" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+---
+time 1699685137
+old [description:"Susskind-3 Ch-9" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+new [description:"Susskind-3 Ch-9" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+---
+time 1699685137
+old [description:"Susskind-3 Ch-10" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+new [description:"Susskind-3 Ch-10" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+---
+time 1699685137
+old [description:"Susskind-3 Ch-11" entry:"1699390179" modified:"1699390179" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+new [description:"Susskind-3 Ch-11" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+---
+time 1699685186
+old [description:"Axler Ch-2" due:"1699736399" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+new [description:"Axler Ch-2" due:"1699736400" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+---
+time 1699685186
+old [description:"Axler Ch-4" due:"1699736403" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+new [description:"Axler Ch-4" due:"1699736402" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+---
+time 1699685186
+old [description:"Axler Ch-5" due:"1699736405" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+new [description:"Axler Ch-5" due:"1699736403" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+---
+time 1699685186
+old [description:"Axler Ch-6" due:"1699736407" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+new [description:"Axler Ch-6" due:"1699736404" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+---
+time 1699685252
+old [description:"Susskind-3 Ch-2" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+new [description:"Susskind-3 Ch-2" due:"1699822800" entry:"1699390179" modified:"1699685252" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+---
+time 1699685263
+old [description:"Susskind-3 Ch-2" due:"1699822800" entry:"1699390179" modified:"1699685252" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+new [description:"Susskind-3 Ch-2" due:"1699909200" entry:"1699390179" modified:"1699685263" project:"Study.Physics.SR" status:"pending" uuid:"67612642-421e-42cf-930c-d8e795585d68"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-3" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+new [description:"Susskind-3 Ch-3" due:"1731221601" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-4" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+new [description:"Susskind-3 Ch-4" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-5" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+new [description:"Susskind-3 Ch-5" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-6" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+new [description:"Susskind-3 Ch-6" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-7" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+new [description:"Susskind-3 Ch-7" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-8" due:"1699736400" entry:"1699390179" modified:"1699685136" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+new [description:"Susskind-3 Ch-8" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-9" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+new [description:"Susskind-3 Ch-9" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-10" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+new [description:"Susskind-3 Ch-10" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+---
+time 1699685603
+old [description:"Susskind-3 Ch-11" due:"1699736400" entry:"1699390179" modified:"1699685137" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+new [description:"Susskind-3 Ch-11" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+---
+time 1699685603
+old [description:"Axler Ch-2" due:"1699736400" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+new [description:"Axler Ch-2" due:"1731221603" entry:"1699390266" modified:"1699685603" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+---
+time 1699685774
+old [description:"Susskind-3 Ch-3" due:"1731221601" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+new [description:"Susskind-3 Ch-3" due:"1700082000" entry:"1699390179" modified:"1699685774" project:"Study.Physics.SR" status:"pending" uuid:"48b1e6ff-041b-49c6-a29d-a20aac1b7889"]
+---
+time 1699685782
+old [description:"Susskind-3 Ch-4" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+new [description:"Susskind-3 Ch-4" due:"1700254800" entry:"1699390179" modified:"1699685782" project:"Study.Physics.SR" status:"pending" uuid:"e78984fc-e45d-443a-be5c-3b0f735d6674"]
+---
+time 1699685785
+old [description:"Susskind-3 Ch-5" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+new [description:"Susskind-3 Ch-5" due:"1700427600" entry:"1699390179" modified:"1699685785" project:"Study.Physics.SR" status:"pending" uuid:"21572688-fcc3-457d-a4a8-4cf43f07b0bc"]
+---
+time 1699685788
+old [description:"Susskind-3 Ch-6" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+new [description:"Susskind-3 Ch-6" due:"1700600400" entry:"1699390179" modified:"1699685788" project:"Study.Physics.SR" status:"pending" uuid:"2372eec6-170a-483c-8704-5c590131e8b9"]
+---
+time 1699685791
+old [description:"Susskind-3 Ch-7" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+new [description:"Susskind-3 Ch-7" due:"1700773200" entry:"1699390179" modified:"1699685791" project:"Study.Physics.SR" status:"pending" uuid:"3494594d-1d24-41f6-95b4-e2a5f73c44a2"]
+---
+time 1699685794
+old [description:"Susskind-3 Ch-8" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+new [description:"Susskind-3 Ch-8" due:"1700946000" entry:"1699390179" modified:"1699685794" project:"Study.Physics.SR" status:"pending" uuid:"baad664f-c42e-496f-99c2-9dd825ca640c"]
+---
+time 1699685798
+old [description:"Susskind-3 Ch-9" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+new [description:"Susskind-3 Ch-9" due:"1701118800" entry:"1699390179" modified:"1699685798" project:"Study.Physics.SR" status:"pending" uuid:"125af552-862c-4e0d-b07d-dd23f85bcff3"]
+---
+time 1699685806
+old [description:"Susskind-3 Ch-10" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+new [description:"Susskind-3 Ch-10" due:"1701291600" entry:"1699390179" modified:"1699685806" project:"Study.Physics.SR" status:"pending" uuid:"60a75f91-c071-4e69-8786-5ce9db86bdfb"]
+---
+time 1699685809
+old [description:"Susskind-3 Ch-11" due:"1731221603" entry:"1699390179" modified:"1699685603" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+new [description:"Susskind-3 Ch-11" due:"1701464400" entry:"1699390179" modified:"1699685809" project:"Study.Physics.SR" status:"pending" uuid:"36a07805-4c76-43f2-8ebd-0247dd054b78"]
+---
+time 1699686026
+old [description:"Axler Ch-3" due:"1699736401" entry:"1699390266" modified:"1699685136" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+new [description:"Axler Ch-3" due:"1699822800" entry:"1699390266" modified:"1699686026" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+---
+time 1699686058
+old [description:"Axler Ch-4" due:"1699736402" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+new [description:"Axler Ch-4" due:"1699995600" entry:"1699390266" modified:"1699686058" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+---
+time 1699686061
+old [description:"Axler Ch-5" due:"1699736403" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+new [description:"Axler Ch-5" due:"1700168400" entry:"1699390266" modified:"1699686061" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+---
+time 1699686063
+old [description:"Axler Ch-7" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"da5ddb29-50c4-4ced-a538-b82ced34fb1b"]
+new [description:"Axler Ch-7" due:"1700341200" entry:"1699390266" modified:"1699686063" project:"Study.Math.LA" status:"pending" uuid:"da5ddb29-50c4-4ced-a538-b82ced34fb1b"]
+---
+time 1699686066
+old [description:"Axler Ch-8" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"eee6f1b0-df9e-40c8-a512-f7a787549333"]
+new [description:"Axler Ch-8" due:"1700514000" entry:"1699390266" modified:"1699686066" project:"Study.Math.LA" status:"pending" uuid:"eee6f1b0-df9e-40c8-a512-f7a787549333"]
+---
+time 1699686069
+old [description:"Axler Ch-9" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"09b32368-2d3b-4814-accd-814b6d34a829"]
+new [description:"Axler Ch-9" due:"1700686800" entry:"1699390266" modified:"1699686069" project:"Study.Math.LA" status:"pending" uuid:"09b32368-2d3b-4814-accd-814b6d34a829"]
+---
+time 1699686072
+old [description:"Axler Ch-10" entry:"1699390266" modified:"1699390266" project:"Study.Math.LA" status:"pending" uuid:"c8cab348-0415-4b0c-a0ea-c4507288cd6e"]
+new [description:"Axler Ch-10" due:"1700859600" entry:"1699390266" modified:"1699686072" project:"Study.Math.LA" status:"pending" uuid:"c8cab348-0415-4b0c-a0ea-c4507288cd6e"]
+---
+time 1699686165
+old [description:"Axler Ch-6" due:"1699736404" entry:"1699390266" modified:"1699685186" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+new [description:"Axler Ch-6" due:"1700341200" entry:"1699390266" modified:"1699686165" project:"Study.Math.LA" status:"pending" uuid:"ccae0ef8-f2a9-422f-8a4c-14bc56991ae1"]
+---
+time 1699686167
+old [description:"Axler Ch-7" due:"1700341200" entry:"1699390266" modified:"1699686063" project:"Study.Math.LA" status:"pending" uuid:"da5ddb29-50c4-4ced-a538-b82ced34fb1b"]
+new [description:"Axler Ch-7" due:"1700514000" entry:"1699390266" modified:"1699686167" project:"Study.Math.LA" status:"pending" uuid:"da5ddb29-50c4-4ced-a538-b82ced34fb1b"]
+---
+time 1699686170
+old [description:"Axler Ch-8" due:"1700514000" entry:"1699390266" modified:"1699686066" project:"Study.Math.LA" status:"pending" uuid:"eee6f1b0-df9e-40c8-a512-f7a787549333"]
+new [description:"Axler Ch-8" due:"1700686800" entry:"1699390266" modified:"1699686170" project:"Study.Math.LA" status:"pending" uuid:"eee6f1b0-df9e-40c8-a512-f7a787549333"]
+---
+time 1699686172
+old [description:"Axler Ch-9" due:"1700686800" entry:"1699390266" modified:"1699686069" project:"Study.Math.LA" status:"pending" uuid:"09b32368-2d3b-4814-accd-814b6d34a829"]
+new [description:"Axler Ch-9" due:"1700859600" entry:"1699390266" modified:"1699686172" project:"Study.Math.LA" status:"pending" uuid:"09b32368-2d3b-4814-accd-814b6d34a829"]
+---
+time 1699686175
+old [description:"Axler Ch-10" due:"1700859600" entry:"1699390266" modified:"1699686072" project:"Study.Math.LA" status:"pending" uuid:"c8cab348-0415-4b0c-a0ea-c4507288cd6e"]
+new [description:"Axler Ch-10" due:"1701032400" entry:"1699390266" modified:"1699686175" project:"Study.Math.LA" status:"pending" uuid:"c8cab348-0415-4b0c-a0ea-c4507288cd6e"]
+---
+time 1699686244
+old [description:"Axler Ch-2" due:"1731221603" entry:"1699390266" modified:"1699685603" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+new [description:"Axler Ch-2" due:"1699822800" entry:"1699390266" modified:"1699686244" project:"Study.Math.LA" status:"pending" uuid:"496eea8e-d08c-423b-bed4-ac712be6d3ec"]
+---
+time 1699686247
+old [description:"Axler Ch-3" due:"1699822800" entry:"1699390266" modified:"1699686026" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+new [description:"Axler Ch-3" due:"1699995600" entry:"1699390266" modified:"1699686247" project:"Study.Math.LA" status:"pending" uuid:"ec026f47-575c-4979-9f31-bba8e2d318fc"]
+---
+time 1699686251
+old [description:"Axler Ch-4" due:"1699995600" entry:"1699390266" modified:"1699686058" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+new [description:"Axler Ch-4" due:"1700168400" entry:"1699390266" modified:"1699686251" project:"Study.Math.LA" status:"pending" uuid:"1053aa8e-2f24-4d17-b86e-acdac75e20a8"]
+---
+time 1699686254
+old [description:"Axler Ch-5" due:"1700168400" entry:"1699390266" modified:"1699686061" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+new [description:"Axler Ch-5" due:"1700341200" entry:"1699390266" modified:"1699686254" project:"Study.Math.LA" status:"pending" uuid:"2c85d09e-cf82-4c71-b8d2-5819ff1f6c53"]
+---
+time 1699689422
+new [description:"Ch-14" due:"1699736400" entry:"1699689422" modified:"1699689422" project:"Coding.Haskell.Allen" status:"pending" uuid:"03ef4cb7-d926-4d41-a287-3106748388f8"]
+---
+time 1699689498
+old [description:"Ch-14" due:"1699736400" entry:"1699389060" modified:"1699679193" project:"Coding.Haskell" status:"pending" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+new [description:"Ch-14" due:"1699736400" end:"1699689498" entry:"1699389060" modified:"1699689498" project:"Coding.Haskell" status:"completed" uuid:"a9690a27-1ee1-4365-9f50-3fde1ba597ea"]
+---
+time 1699689598
+new [description:"Ch-15" due:"1699995600" entry:"1699689598" modified:"1699689598" project:"Coding.Haskell.Allen" status:"pending" uuid:"397dca06-2bd7-4319-baf5-e348c22664da"]
+---
+time 1699689671
+old [description:"Ch-16" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+new [description:"Ch-16" due:"1700082000" entry:"1699389060" modified:"1699689671" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+---
+time 1699689696
+old [description:"Ch-17" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"0453c208-6885-4d94-b7f7-62dc330040d9"]
+new [description:"Ch-17" due:"1700168400" entry:"1699389060" modified:"1699689696" project:"Coding.Haskell.Allen" status:"pending" uuid:"0453c208-6885-4d94-b7f7-62dc330040d9"]
+---
+time 1699689928
+old [description:"Ch-4" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6990a969-3a25-4fa6-9f28-952824be62af"]
+new [description:"Ch-4" due:"1700082000" entry:"1699389244" modified:"1699689928" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6990a969-3a25-4fa6-9f28-952824be62af"]
+---
+time 1699689928
+old [description:"Ch-5" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"0f49dce6-8b3c-44a4-ba3f-5ac25ec413fc"]
+new [description:"Ch-5" due:"1700082000" entry:"1699389244" modified:"1699689928" project:"Coding.Haskell.Milewski" status:"pending" uuid:"0f49dce6-8b3c-44a4-ba3f-5ac25ec413fc"]
+---
+time 1699689928
+old [description:"Ch-6" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"1e4e9de6-5323-4aa4-a08a-205ff1f4f376"]
+new [description:"Ch-6" due:"1700082000" entry:"1699389244" modified:"1699689928" project:"Coding.Haskell.Milewski" status:"pending" uuid:"1e4e9de6-5323-4aa4-a08a-205ff1f4f376"]
+---
+time 1699689972
+old [description:"Week 3" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"522da78d-c0a1-4cc1-947c-d5fbd0b00447"]
+new [description:"Week 3" due:"1700168400" entry:"1699389764" modified:"1699689972" project:"Coding.Haskell.cis194" status:"pending" uuid:"522da78d-c0a1-4cc1-947c-d5fbd0b00447"]
+---
+time 1699690002
+old [description:"Ch-7" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"d374d1cc-3c10-43ee-9484-5b5322f52c1c"]
+new [description:"Ch-7" due:"1700168400" entry:"1699389244" modified:"1699690002" project:"Coding.Haskell.Milewski" status:"pending" uuid:"d374d1cc-3c10-43ee-9484-5b5322f52c1c"]
+---
+time 1699690002
+old [description:"Ch-8" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6c1d131c-3595-45f0-b2b0-52dc6026bf71"]
+new [description:"Ch-8" due:"1700168400" entry:"1699389244" modified:"1699690002" project:"Coding.Haskell.Milewski" status:"pending" uuid:"6c1d131c-3595-45f0-b2b0-52dc6026bf71"]
+---
+time 1699690002
+old [description:"Ch-9" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"b780a2b4-b5eb-4d70-8849-b31366cd0990"]
+new [description:"Ch-9" due:"1700168400" entry:"1699389244" modified:"1699690002" project:"Coding.Haskell.Milewski" status:"pending" uuid:"b780a2b4-b5eb-4d70-8849-b31366cd0990"]
+---
+time 1699690002
+old [description:"Ch-10" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"15ef1083-91c9-4b73-9145-4b0f79a70a0c"]
+new [description:"Ch-10" due:"1700168400" entry:"1699389244" modified:"1699690002" project:"Coding.Haskell.Milewski" status:"pending" uuid:"15ef1083-91c9-4b73-9145-4b0f79a70a0c"]
+---
+time 1699690042
+old [description:"Ch-16" due:"1700082000" entry:"1699389060" modified:"1699689671" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+new [description:"Ch-16" due:"1700254800" entry:"1699389060" modified:"1699690042" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+---
+time 1699690089
+old [description:"Ch-16" due:"1700254800" entry:"1699389060" modified:"1699690042" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+new [description:"Ch-16" due:"1700341200" entry:"1699389060" modified:"1699690089" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+---
+time 1699690101
+old [description:"Ch-16" due:"1700341200" entry:"1699389060" modified:"1699690089" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+new [description:"Ch-16" due:"1700254800" entry:"1699389060" modified:"1699690101" project:"Coding.Haskell.Allen" status:"pending" uuid:"bf33fa30-03b6-466a-ba51-e4ab7ab7d2d1"]
+---
+time 1699690109
+old [description:"Ch-17" due:"1700168400" entry:"1699389060" modified:"1699689696" project:"Coding.Haskell.Allen" status:"pending" uuid:"0453c208-6885-4d94-b7f7-62dc330040d9"]
+new [description:"Ch-17" due:"1700341200" entry:"1699389060" modified:"1699690109" project:"Coding.Haskell.Allen" status:"pending" uuid:"0453c208-6885-4d94-b7f7-62dc330040d9"]
+---
+time 1699690160
+old [description:"Ch-18" entry:"1699389060" modified:"1699389060" project:"Coding.Haskell.Allen" status:"pending" uuid:"1c146164-12b0-4d6e-b891-a7894c9ddca6"]
+new [description:"Ch-18" due:"1700427600" entry:"1699389060" modified:"1699690160" project:"Coding.Haskell.Allen" status:"pending" uuid:"1c146164-12b0-4d6e-b891-a7894c9ddca6"]
+---
+time 1699690198
+old [description:"Ch-12" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"0b0a8464-054f-4fa8-8162-ab4e4f979777"]
+new [description:"Ch-12" due:"1700514000" entry:"1699389090" modified:"1699690198" project:"Coding.Haskell.Hutton" status:"pending" uuid:"0b0a8464-054f-4fa8-8162-ab4e4f979777"]
+---
+time 1699690214
+old [description:"Ch-13" entry:"1699389090" modified:"1699389090" project:"Coding.Haskell.Hutton" status:"pending" uuid:"10c99080-e629-4452-a808-038295a97537"]
+new [description:"Ch-13" due:"1700600400" entry:"1699389090" modified:"1699690214" project:"Coding.Haskell.Hutton" status:"pending" uuid:"10c99080-e629-4452-a808-038295a97537"]
+---
+time 1699690318
+old [description:"Ch-11" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3c71a6ba-c34b-4513-9e69-059f5fe93604"]
+new [description:"Ch-11" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3c71a6ba-c34b-4513-9e69-059f5fe93604"]
+---
+time 1699690318
+old [description:"Ch-12" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"46974621-8310-4545-8245-b1f078c7603a"]
+new [description:"Ch-12" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"46974621-8310-4545-8245-b1f078c7603a"]
+---
+time 1699690318
+old [description:"Ch-13" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"5b76493f-1ac9-49fc-9c6b-ba77c9087776"]
+new [description:"Ch-13" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"5b76493f-1ac9-49fc-9c6b-ba77c9087776"]
+---
+time 1699690338
+old [description:"Week 4" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"0b2c39a5-dc22-4f27-a2e5-c4af7bdd1897"]
+new [description:"Week 4" due:"1700686800" entry:"1699389764" modified:"1699690338" project:"Coding.Haskell.cis194" status:"pending" uuid:"0b2c39a5-dc22-4f27-a2e5-c4af7bdd1897"]
+---
+time 1699690347
+old [description:"Week 5" entry:"1699389764" modified:"1699389764" project:"Coding.Haskell.cis194" status:"pending" uuid:"5094bac1-6435-4c8a-a233-75a07ee490fd"]
+new [description:"Week 5" due:"1700773200" entry:"1699389764" modified:"1699690347" project:"Coding.Haskell.cis194" status:"pending" uuid:"5094bac1-6435-4c8a-a233-75a07ee490fd"]
+---
+time 1699690388
+old [description:"Ch-14" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"fb51518a-53a6-4c9b-be2b-eb6d38e81be5"]
+new [description:"Ch-14" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"fb51518a-53a6-4c9b-be2b-eb6d38e81be5"]
+---
+time 1699690388
+old [description:"Ch-15" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3e698114-761b-42fa-b86c-41fb67a70b81"]
+new [description:"Ch-15" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3e698114-761b-42fa-b86c-41fb67a70b81"]
+---
+time 1699690388
+old [description:"Ch-16" entry:"1699389244" modified:"1699389244" project:"Coding.Haskell.Milewski" status:"pending" uuid:"db2c9001-aaee-499b-bc9d-0e3d23d05ecc"]
+new [description:"Ch-16" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"db2c9001-aaee-499b-bc9d-0e3d23d05ecc"]
+---
+time 1699690429
+old [description:"Ch-14" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"fb51518a-53a6-4c9b-be2b-eb6d38e81be5"]
+new [description:"Ch-14" due:"1700859600" entry:"1699389244" modified:"1699690429" project:"Coding.Haskell.Milewski" status:"pending" uuid:"fb51518a-53a6-4c9b-be2b-eb6d38e81be5"]
+---
+time 1699690429
+old [description:"Ch-15" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3e698114-761b-42fa-b86c-41fb67a70b81"]
+new [description:"Ch-15" due:"1700859600" entry:"1699389244" modified:"1699690429" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3e698114-761b-42fa-b86c-41fb67a70b81"]
+---
+time 1699690429
+old [description:"Ch-16" due:"1700773200" entry:"1699389244" modified:"1699690388" project:"Coding.Haskell.Milewski" status:"pending" uuid:"db2c9001-aaee-499b-bc9d-0e3d23d05ecc"]
+new [description:"Ch-16" due:"1700859600" entry:"1699389244" modified:"1699690429" project:"Coding.Haskell.Milewski" status:"pending" uuid:"db2c9001-aaee-499b-bc9d-0e3d23d05ecc"]
+---
+time 1699690445
+old [description:"Week 5" due:"1700773200" entry:"1699389764" modified:"1699690347" project:"Coding.Haskell.cis194" status:"pending" uuid:"5094bac1-6435-4c8a-a233-75a07ee490fd"]
+new [description:"Week 5" due:"1700859600" entry:"1699389764" modified:"1699690445" project:"Coding.Haskell.cis194" status:"pending" uuid:"5094bac1-6435-4c8a-a233-75a07ee490fd"]
+---
+time 1699690449
+old [description:"Week 4" due:"1700686800" entry:"1699389764" modified:"1699690338" project:"Coding.Haskell.cis194" status:"pending" uuid:"0b2c39a5-dc22-4f27-a2e5-c4af7bdd1897"]
+new [description:"Week 4" due:"1700773200" entry:"1699389764" modified:"1699690449" project:"Coding.Haskell.cis194" status:"pending" uuid:"0b2c39a5-dc22-4f27-a2e5-c4af7bdd1897"]
+---
+time 1699690455
+old [description:"Ch-11" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3c71a6ba-c34b-4513-9e69-059f5fe93604"]
+new [description:"Ch-11" due:"1700773200" entry:"1699389244" modified:"1699690455" project:"Coding.Haskell.Milewski" status:"pending" uuid:"3c71a6ba-c34b-4513-9e69-059f5fe93604"]
+---
+time 1699690455
+old [description:"Ch-12" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"46974621-8310-4545-8245-b1f078c7603a"]
+new [description:"Ch-12" due:"1700773200" entry:"1699389244" modified:"1699690455" project:"Coding.Haskell.Milewski" status:"pending" uuid:"46974621-8310-4545-8245-b1f078c7603a"]
+---
+time 1699690455
+old [description:"Ch-13" due:"1700686800" entry:"1699389244" modified:"1699690318" project:"Coding.Haskell.Milewski" status:"pending" uuid:"5b76493f-1ac9-49fc-9c6b-ba77c9087776"]
+new [description:"Ch-13" due:"1700773200" entry:"1699389244" modified:"1699690455" project:"Coding.Haskell.Milewski" status:"pending" uuid:"5b76493f-1ac9-49fc-9c6b-ba77c9087776"]
+---
+time 1699690530
+old [description:"Ch-18" due:"1700427600" entry:"1699389060" modified:"1699690160" project:"Coding.Haskell.Allen" status:"pending" uuid:"1c146164-12b0-4d6e-b891-a7894c9ddca6"]
+new [description:"Ch-18" due:"1700686800" entry:"1699389060" modified:"1699690530" project:"Coding.Haskell.Allen" status:"pending" uuid:"1c146164-12b0-4d6e-b891-a7894c9ddca6"]
+---
+time 1699691031
+old [description:"get everyone to git" due:"1699650000" entry:"1699390884" modified:"1699679384" priority:"H" project:"College.Certification.MERN" status:"pending" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+new [description:"get everyone to git" due:"1699650000" end:"1699691031" entry:"1699390884" modified:"1699691031" priority:"H" project:"College.Certification.MERN" status:"completed" uuid:"e48300cf-5c32-4fde-a1ed-ab6bebc7b8cd"]
+---
+time 1699697822
+new [description:"C-f C-b in vim insert" entry:"1699697822" modified:"1699697822" project:"Coding.Ricing" status:"pending" uuid:"b927c36c-18c2-4af0-b01f-2acc95984d45"]
+---
+time 1699698117
+old [description:"C-f C-b in vim insert" entry:"1699697822" modified:"1699697822" project:"Coding.Ricing" status:"pending" uuid:"b927c36c-18c2-4af0-b01f-2acc95984d45"]
+new [description:"C-f C-b in vim insert" end:"1699698117" entry:"1699697822" modified:"1699698117" project:"Coding.Ricing" status:"completed" uuid:"b927c36c-18c2-4af0-b01f-2acc95984d45"]
+---
+time 1699698785
+new [description:"figure out nvim-cmp tab and CR hurtinlfrun" entry:"1699698785" modified:"1699698785" project:"Coding.Ricing" status:"pending" uuid:"44a1df99-467a-479a-8e51-69f565dafa99"]
+---
+time 1699804334
+old [description:"Oracle JAVA Exam" due:"1699650000" entry:"1699390582" modified:"1699679411" project:"College.Certification.JAVA" status:"pending" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
+new [description:"Oracle JAVA Exam" due:"1699650000" end:"1699804334" entry:"1699390582" modified:"1699804334" project:"College.Certification.JAVA" status:"completed" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
+---

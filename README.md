@@ -99,4 +99,3 @@ several basic sudo commands without a password (`shutdown`, `reboot`,
 ## TODO 
 - betterlockscreen -u ~/.wallpapers/socrates.jpg 
 - fusuma 
--  khal/khal;

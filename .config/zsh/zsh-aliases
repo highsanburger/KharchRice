@@ -1,5 +1,21 @@
 #!/bin/sh
 
+# Taskwarrior
+alias t=task
+alias tui=taskwarrior-tui
+tp() {
+  task project:"$1"
+}
+alias tn='clear;task next'
+alias ts='clear;task summary'
+alias ta='task add'
+alias tan='task add scheduled:today'
+alias tat='task add scheduled:tomorrow until:sch+14d'
+alias tm='task modify'
+alias trol="task sch:yes status:pending modify sch:tod"
+alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H; calcurse -r; timew | grep -v "no active time"'
+alias tal='task add dep:"$(task +LATEST uuids)"'
+
 #GPUs
 alias gputest='glxinfo | grep "OpenGL renderer"'
 alias fanauto=' nbfc set -f 0 -a && nbfc set -f 1 -a'
@@ -47,13 +63,23 @@ alias v=nvim
 alias o=xdg-open
 
 # git
-alias commit='git commit -m'
-alias push='git push origin master'
+alias gm='git commit -m'
+alias gp='git push -u origin main'
 alias gc='git clone'
+alias gl='git pull'
+alias gs='git status'
+alias ga='git add .'
+
 
 # Programs
 alias n=node
+
 alias g=ghci
+alias ci='cabal init'
+alias cb='cabal build'
+alias cr='cabal run'
+alias cg='cabal repl'
+
 alias gw='ghci -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -Wmissing-import-lists'
 alias ls=lsd 
 alias f=lfrun

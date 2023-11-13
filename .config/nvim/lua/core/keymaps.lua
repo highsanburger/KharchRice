@@ -54,6 +54,16 @@ end
 -- Map Ctrl + Q to the SaveAndQuit function
 vim.api.nvim_set_keymap("n", "<C-q>", "<cmd>lua Close()<CR>", { noremap = true, silent = true })
 
+-- Define a function to open a vertical terminal and run ghci
+function OpenGhciTerminal()
+	local current_file = vim.fn.expand("%:p") -- Get the full path of the current file
+	local cmd = "vsplit term://ghci " .. current_file
+	vim.cmd(cmd)
+end
+
+-- Map the function to Leader + r
+vim.api.nvim_set_keymap("n", "<Leader>r", ":lua OpenGhciTerminal()<CR>", { noremap = true, silent = true })
+
 -- Leader
 map("n", "<leader>;", "<cmd>Alpha<CR>", opts)
 
@@ -193,78 +203,20 @@ opts.desc = "Go to next diagnostic"
 map("n", "gN", vim.diagnostic.goto_next, opts) -- jump to next diagnostic in buffer
 
 -- Vimtex
--- map('n','<leader>ll','<Cmd>VimtexCompile<CR>',opts)
--- local map = vim.keymap.set
--- local opts = { noremap = true, silent = true }
---
--- -- Compile
--- map('n', '<leader>ll', '<Cmd>VimtexCompile<CR>', opts)
---
--- -- View
--- map('n', '<leader>lv', '<Cmd>VimtexView<CR>', opts)
---
--- map('n', '<leader>le', '<Cmd>VimtexErrors<CR>', opts)
---
--- -- Open Table of Contents
--- map('n', '<leader>lt', '<Cmd>VimtexTocToggle<CR>', opts)
---
--- -- Jump to Next Section or Environment Start
--- map('n', ']m', ']]', opts)
---
--- -- Jump to Previous Section or Environment Start
--- map('n', '[m', '[[', opts)
---
--- -- Rename Label and Update References
--- map('n', '<leader>lr', '<Cmd>VimtexLabelRename<CR>', opts)
---
--- -- Manage Citations
--- map('n', '<leader>lc', '<Cmd>VimtexCite<CR>', opts)
---
--- -- Add an Environment
--- map('n', '<leader>la', '<Cmd>VimtexEnv<CR>', opts)
---
--- -- Build the Document
--- map('n', '<leader>lb', '<Cmd>VimtexBuild<CR>', opts)
---
--- -- Clean Auxiliary Files
--- map('n', '<leader>lx', '<Cmd>VimtexClean<CR>', opts)
--- -- Neorg
--- map("n", "<leader>nt", "<Cmd>Neorg toc<CR>", opts) -- Plugins --
--- map("n", "<leader>nm", "<Cmd>Neorg inject-metadata<CR>", opts) -- Plugins --
--- map("n", "<leader>nx", "<Cmd>Neorg toggle-concealer<CR>", opts) -- Plugins --
---
--- map("n", "<leader>njj", "<Cmd>Neorg journal today<CR>", opts) -- Plugins --
--- map("n", "<leader>njy", "<Cmd>Neorg journal yesterday<CR>", opts) -- Plugins --
--- map("n", "<leader>njt", "<Cmd>Neorg journal tomorrow<CR>", opts) -- Plugins --
--- map("n", "<leader>njp", "<Cmd>Neorg journal template<CR>", opts) -- Plugins --
--- map("n", "<leader>njp", "<Cmd>Neorg journal template<CR>", opts) -- Plugins --
--- map("n", "<leader>njc", "<Cmd>Neorg journal toc open<CR>", opts) -- Plugins --
--- map("n", "<leader>nju", "<Cmd>Neorg journal toc update<CR>", opts) -- Plugins --
+map("n", "<leader>xx", "<Cmd>VimtexCompile<CR>", opts) -- Compile
+map("n", "<leader>xv", "<Cmd>VimtexView<CR>", opts) -- View
+map("n", "<leader>xt", "<Cmd>VimtexTocToggle<CR>", opts) -- Open Table of Contents
+map("n", "<leader>xe", "<Cmd>VimtexErrors<CR>", opts)
+map("n", "]m", "]]", opts) -- Jump to Next Section or Environment Start
+map("n", "[m", "[[", opts) -- Jump to Previous Section or Environment Start
+map("n", "<leader>xr", "<Cmd>VimtexLabelRename<CR>", opts) -- Rename Label and Update References
+map("n", "<leader>xc", "<Cmd>VimtexCite<CR>", opts) -- Manage Citations
+map("n", "<leader>xa", "<Cmd>VimtexEnv<CR>", opts) -- Add an Environment
+map("n", "<leader>xb", "<Cmd>VimtexBuild<CR>", opts) -- Build the Document
+map("n", "<leader>xl", "<Cmd>VimtexClean<CR>", opts) -- Clean Auxiliary Files
 
--- -- Obsidian
-
--- local function create_obsidian_note()
---     local title = vim.fn.input("Enter the title of the new note: ")
---     if title ~= "" then
---         vim.cmd(string.format("ObsidianNew %s", title))
---     else
---         print("Note creation canceled.")
---     end
--- end
-
--- map('n', '<leader>on', '<Cmd>lua create_obsidian_note()<CR>', opts)
-
--- map("n", "<leader>oo", "<Cmd>ObsidianOpen<CR>", opts) -- Plugins --
--- map("n", "<leader>on", "<Cmd>ObsidianNew<CR>", opts) -- Plugins --
--- map("n", "<leader>oq", "<Cmd>ObsidianQuickSwitch<CR>", opts) -- Plugins --
--- map("n", "<leader>of", "<Cmd>ObsidianFollowLink<CR>", opts) -- Plugins --
--- map("n", "<leader>ob", "<Cmd>ObsidianBacklinks<CR>", opts) -- Plugins --
--- map("n", "<leader>ot", "<Cmd>ObsidianToday<CR>", opts) -- Plugins --
--- map("n", "<leader>oy", "<Cmd>ObsidianYesterday<CR>", opts) -- Plugins --
--- map("n", "<leader>om", "<Cmd>ObsidianTemplate<CR>", opts) -- Plugins --
--- map("n", "<leader>os", "<Cmd>ObsidianSearch<CR>", opts) -- Plugins --
--- map("v", "<leader>ol", "<Cmd>ObsidianLink<CR>", opts) -- Plugins --
--- map("n", "<leader>ok", "<Cmd>ObsidianLinkNew<CR>", opts) -- Plugins --
+-- NvimTree
+map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- -- DAP
 -- keymap("n", "<leader>db", "<cmd>lua require'dap'.toggle_breakpoint()<cr>", opts)
@@ -276,83 +228,3 @@ map("n", "gN", vim.diagnostic.goto_next, opts) -- jump to next diagnostic in buf
 -- keymap("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<cr>", opts)
 -- keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 -- keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
---
-
--- NvimTree
-
-map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
-
-local function on_attach(bufnr)
-	local api = require("nvim-tree.api")
-
-	local function opts(desc)
-		return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
-	end
-
-	-- Default mappings. Feel free to modify or remove as you wish.
-	--
-	-- BEGIN_DEFAULT_ON_ATTACH
-	map("n", "<C-]>", api.tree.change_root_to_node, opts("CD"))
-	map("n", "<C-e>", api.node.open.replace_tree_buffer, opts("Open: In Place"))
-	map("n", "<C-k>", api.node.show_info_popup, opts("Info"))
-	map("n", "<C-r>", api.fs.rename_sub, opts("Rename: Omit Filename"))
-	map("n", "<C-t>", api.node.open.tab, opts("Open: New Tab"))
-	map("n", "<C-v>", api.node.open.vertical, opts("Open: Vertical Split"))
-	map("n", "<C-x>", api.node.open.horizontal, opts("Open: Horizontal Split"))
-	map("n", "<BS>", api.node.navigate.parent_close, opts("Close Directory"))
-	map("n", "<CR>", api.node.open.edit, opts("Open"))
-	map("n", "<Tab>", api.node.open.preview, opts("Open Preview"))
-	map("n", ">", api.node.navigate.sibling.next, opts("Next Sibling"))
-	map("n", "<", api.node.navigate.sibling.prev, opts("Previous Sibling"))
-	map("n", ".", api.node.run.cmd, opts("Run Command"))
-	map("n", "-", api.tree.change_root_to_parent, opts("Up"))
-	map("n", "a", api.fs.create, opts("Create"))
-	map("n", "bmv", api.marks.bulk.move, opts("Move Bookmarked"))
-	map("n", "B", api.tree.toggle_no_buffer_filter, opts("Toggle No Buffer"))
-	map("n", "c", api.fs.copy.node, opts("Copy"))
-	map("n", "C", api.tree.toggle_git_clean_filter, opts("Toggle Git Clean"))
-	map("n", "[c", api.node.navigate.git.prev, opts("Prev Git"))
-	map("n", "]c", api.node.navigate.git.next, opts("Next Git"))
-	map("n", "d", api.fs.remove, opts("Delete"))
-	map("n", "D", api.fs.trash, opts("Trash"))
-	map("n", "E", api.tree.expand_all, opts("Expand All"))
-	map("n", "e", api.fs.rename_basename, opts("Rename: Basename"))
-	map("n", "]e", api.node.navigate.diagnostics.next, opts("Next Diagnostic"))
-	map("n", "[e", api.node.navigate.diagnostics.prev, opts("Prev Diagnostic"))
-	map("n", "F", api.live_filter.clear, opts("Clean Filter"))
-	map("n", "f", api.live_filter.start, opts("Filter"))
-	map("n", "g?", api.tree.toggle_help, opts("Help"))
-	map("n", "gy", api.fs.copy.absolute_path, opts("Copy Absolute Path"))
-	map("n", "H", api.tree.toggle_hidden_filter, opts("Toggle Dotfiles"))
-	map("n", "I", api.tree.toggle_gitignore_filter, opts("Toggle Git Ignore"))
-	map("n", "J", api.node.navigate.sibling.last, opts("Last Sibling"))
-	map("n", "K", api.node.navigate.sibling.first, opts("First Sibling"))
-	map("n", "m", api.marks.toggle, opts("Toggle Bookmark"))
-	map("n", "o", api.node.open.edit, opts("Open"))
-	map("n", "O", api.node.open.no_window_picker, opts("Open: No Window Picker"))
-	map("n", "p", api.fs.paste, opts("Paste"))
-	map("n", "P", api.node.navigate.parent, opts("Parent Directory"))
-	map("n", "q", api.tree.close, opts("Close"))
-	map("n", "r", api.fs.rename, opts("Rename"))
-	map("n", "R", api.tree.reload, opts("Refresh"))
-	map("n", "s", api.node.run.system, opts("Run System"))
-	map("n", "S", api.tree.search_node, opts("Search"))
-	map("n", "U", api.tree.toggle_custom_filter, opts("Toggle Hidden"))
-	map("n", "W", api.tree.collapse_all, opts("Collapse"))
-	map("n", "x", api.fs.cut, opts("Cut"))
-	map("n", "y", api.fs.copy.filename, opts("Copy Name"))
-	map("n", "Y", api.fs.copy.relative_path, opts("Copy Relative Path"))
-	map("n", "<2-LeftMouse>", api.node.open.edit, opts("Open"))
-	map("n", "<2-RightMouse>", api.tree.change_root_to_node, opts("CD"))
-	-- END_DEFAULT_ON_ATTACH
-
-	-- Mappings migrated from view.mappings.list
-	--
-	-- You will need to insert "your code goes here" for any mappings with a custom action_cb
-	map("n", "l", api.node.open.edit, opts("Open"))
-	map("n", "<CR>", api.node.open.edit, opts("Open"))
-	map("n", "o", api.node.open.edit, opts("Open"))
-	map("n", "h", api.node.navigate.parent_close, opts("Close Directory"))
-	map("n", "v", api.node.open.vertical, opts("Open: Vertical Split"))
-end
-map("n", "<leader>c", "<Cmd>BufferClose<CR>", opts)

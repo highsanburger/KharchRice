@@ -33,8 +33,8 @@ o.showcmd = false -- hide (partial) command in the last line of the screen (for 
 o.ruler = false -- hide the line and column number of the cursor position
 o.numberwidth = 4 -- minimal number of columns to use for the line number {default 4}
 o.signcolumn = "yes" -- always show the sign column, otherwise it would shift the text each time
-o.wrap = false -- display lines as one long line
-o.scrolloff = 8 -- minimal number of screen lines to keep above and below the cursor
+o.wrap = true -- DONT display lines as one long line
+o.scrolloff = 3 -- minimal number of screen lines to keep above and below the cursor
 o.sidescrolloff = 8 -- minimal number of screen columns to keep to the left and right of the cursor if wrap is `false`
 o.guifont = "monospace:h17" -- the font used in graphical neovim applications
 o.shortmess:append("c") -- hide all the completion messages, e.g. "-- XXX completion (YYY)", "match 1 of 2", "The only match", "Pattern not found"
