@@ -69,6 +69,7 @@ alias gc='git clone'
 alias gl='git pull'
 alias gs='git status'
 alias ga='git add .'
+alias gk='git checkout'
 
 
 # Programs
@@ -160,3 +161,12 @@ jv() {
   java $f2
   /bin/rm -f $f2.class
 }
+
+ch() {
+  file=$1
+  file_name=${file%.*}
+  mcs $file
+  mono $file_name.exe
+  rm -f $file_name.exe
+}
+

@@ -28,6 +28,7 @@ return {
 				"black", -- python formatter
 				"pylint", -- python linter
 				"eslint_d", -- js linter
+				"csharpier",
 			},
 		})
 
@@ -39,6 +40,10 @@ return {
 			local hl = "DiagnosticSign" .. type
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
+
+		lspconfig["texlab"].setup({
+			capabilities = capabilities,
+		})
 
 		lspconfig["hls"].setup({
 			filetypes = { "haskell", "lhaskell", "cabal" },
@@ -56,6 +61,10 @@ return {
 		lspconfig["jdtls"].setup({
 			capabilities = capabilities,
 		})
+		--require'lspconfig'.java_language_server.setup{}
+		-- lspconfig["java-language-server"].setup({
+		-- 	capabilities = capabilities,
+		-- })
 
 		-- configure html server
 		lspconfig["html"].setup({
@@ -81,6 +90,14 @@ return {
 
 		-- configure python server
 		lspconfig["pyright"].setup({
+			capabilities = capabilities,
+		})
+
+		-- configure C# server
+		local omnisharp_bin = "/home/khal/.local/bin/omnisharp/run"
+		local pid = vim.fn.getpid()
+		lspconfig["omnisharp"].setup({
+			cmd = { omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) },
 			capabilities = capabilities,
 		})
 

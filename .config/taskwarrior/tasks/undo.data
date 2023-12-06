@@ -1947,3 +1947,6 @@ time 1699804334
 old [description:"Oracle JAVA Exam" due:"1699650000" entry:"1699390582" modified:"1699679411" project:"College.Certification.JAVA" status:"pending" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
 new [description:"Oracle JAVA Exam" due:"1699650000" end:"1699804334" entry:"1699390582" modified:"1699804334" project:"College.Certification.JAVA" status:"completed" uuid:"a367899a-e805-4e8e-a2a8-a124a8a0d839"]
 ---
+time 1699870414
+new [description:"luasnips one file for each lang" entry:"1699870414" modified:"1699870414" project:"Coding.Ricing" status:"pending" uuid:"9bee7246-fd1c-4e95-bfb7-f61c524b5477"]
+---

@@ -20,7 +20,9 @@ return {
 	config = function()
 		local cmp = require("cmp")
 		local luasnip = require("luasnip")
+		-- require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./snips" }, include = { "latex" } }) -- Load only latex snippets
 		require("luasnip.loaders.from_vscode").lazy_load()
+		-- require("luasnip.loaders.from_snipmate").lazy_load()
 		luasnip.config.setup({})
 
 		cmp.setup({
@@ -65,7 +67,7 @@ return {
 				{ name = "path" },
 			},
 		})
-		require("luasnip").filetype_extend("javascript", { "javascriptreact" })
-		require("luasnip").filetype_extend("javascript", { "html" })
+		-- require('luasnip').filetype_extend("javascript", { "javascriptreact" })
+		-- require('luasnip').filetype_extend("javascript", { "html" })
 	end,
 }

@@ -209,3 +209,4 @@
 {"description":"C-f C-b in vim insert","end":"20231111T102157Z","entry":"20231111T101702Z","modified":"20231111T102157Z","project":"Coding.Ricing","status":"completed","uuid":"b927c36c-18c2-4af0-b01f-2acc95984d45"}
 {"description":"figure out nvim-cmp tab and CR hurtinlfrun","entry":"20231111T103305Z","modified":"20231111T103305Z","project":"Coding.Ricing","status":"pending","uuid":"44a1df99-467a-479a-8e51-69f565dafa99"}
 {"description":"Oracle JAVA Exam","due":"20231110T210000Z","end":"20231112T155214Z","entry":"20231107T205622Z","modified":"20231112T155214Z","project":"College.Certification.JAVA","status":"completed","uuid":"a367899a-e805-4e8e-a2a8-a124a8a0d839"}
+{"description":"luasnips one file for each lang","entry":"20231113T101334Z","modified":"20231113T101334Z","project":"Coding.Ricing","status":"pending","uuid":"9bee7246-fd1c-4e95-bfb7-f61c524b5477"}

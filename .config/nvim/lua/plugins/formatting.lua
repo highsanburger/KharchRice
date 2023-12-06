@@ -8,6 +8,8 @@ return {
 		conform.setup({
 			formatters_by_ft = {
 				-- haskell = { "ormolu" },
+				-- java = { "google-java-format" },
+				java = { "clangd" },
 				javascript = { "prettier" },
 				typescript = { "prettier" },
 				javascriptreact = { "prettier" },

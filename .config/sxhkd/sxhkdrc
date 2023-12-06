@@ -18,8 +18,8 @@ super + t
    tdrop -ma -w 1916 -y 0 $TERMINAL -e lfrun
 
 # Opening apps
-super + r ; {o,t}
-  {obsidian,teams}
+super + r ; {o,t,w}
+  {obsidian,teams,whatsie}
 
 # Program launcher
 super + Return

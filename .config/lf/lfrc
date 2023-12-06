@@ -272,6 +272,7 @@ map gbt cd ~/Books/Philosophy/Texts/
 
 map goo cd ~/Coding
 map gog cd ~/Coding/github/
+map gk cd ~/Coding/github/ticket-support-system/
 map goc cd ~/Coding/gitclones/
 map gol cd ~/Coding/langs/
 map gor cd ~/Coding/rices/
@@ -294,6 +295,7 @@ map gm cd ~/Music
 map gs cd ~/Psyche/Sophia/
 
 map gvv cd ~/Videos/
+map gvh cd ~/Videos/Computationabilitical/haskell
 map gvm cd ~/Videos/Movies/
 map gvn cd ~/Videos/Physics/NPTEL/
 

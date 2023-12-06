@@ -13,6 +13,12 @@ return {
 	"turbio/bracey.vim",
 	"tpope/vim-fugitive",
 	"tpope/vim-rhubarb",
+	{
+		"ianding1/leetcode.vim",
+		config = function()
+			vim.g.leetcode_browser = "chrome" -- or 'firefox'
+		end,
+	},
 
 	-- Detect tabstop and shiftwidth automatically
 	"tpope/vim-sleuth",
