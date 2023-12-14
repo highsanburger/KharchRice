@@ -24,6 +24,10 @@ return {
 					"typescript",
 					"vimdoc",
 					"vim",
+					"java",
+					"c_sharp",
+					"haskell",
+					"bash",
 				},
 
 				-- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)

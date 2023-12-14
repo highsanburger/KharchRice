@@ -23,8 +23,8 @@ o.undofile = true -- enable persistent undo
 o.updatetime = 300 -- faster completion (4000ms default)
 o.writebackup = false -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
 o.expandtab = true -- convert tabs to spaces
-o.shiftwidth = 2 -- the number of spaces inserted for each indentation
-o.tabstop = 8 -- insert 8 spaces for a tab
+o.shiftwidth = 4 -- the number of spaces inserted for each indentation
+o.tabstop = 4 -- insert 8 spaces for a tab
 o.cursorline = true -- highlight the current line
 o.number = true -- o.numbered lines
 o.relativenumber = true -- o.relatively numbered lines
@@ -34,7 +34,7 @@ o.ruler = false -- hide the line and column number of the cursor position
 o.numberwidth = 4 -- minimal number of columns to use for the line number {default 4}
 o.signcolumn = "yes" -- always show the sign column, otherwise it would shift the text each time
 o.wrap = true -- DONT display lines as one long line
-o.scrolloff = 3 -- minimal number of screen lines to keep above and below the cursor
+o.scrolloff = 0 -- minimal number of screen lines to keep above and below the cursor
 o.sidescrolloff = 8 -- minimal number of screen columns to keep to the left and right of the cursor if wrap is `false`
 o.guifont = "monospace:h17" -- the font used in graphical neovim applications
 o.shortmess:append("c") -- hide all the completion messages, e.g. "-- XXX completion (YYY)", "match 1 of 2", "The only match", "Pattern not found"
@@ -42,3 +42,4 @@ o.whichwrap:append("<,>,[,],h,l") -- keys allowed to move to the previous/next l
 o.iskeyword:append("-") -- treats words with `-` as single words
 o.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters which describes how automatic formatting is to be done
 o.linebreak = true
+o.virtualedit = "block" -- Making visual block betters ( treating enitre screen as cells)

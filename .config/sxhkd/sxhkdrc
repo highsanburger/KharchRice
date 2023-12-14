@@ -15,11 +15,11 @@ super + {space,b,B,v,V,e}
 
 # Scratchpad
 super + t
-   tdrop -ma -w 1916 -y 0 $TERMINAL -e lfrun
+   tdrop -ma -w 1906 -y 5 -x 5 $TERMINAL -e lfrun
 
 # Opening apps
-super + r ; {o,t,w}
-  {obsidian,teams,whatsie}
+super + r ; {o,t,w,s,d}
+  {obsidian,teams,whatsie,spotify,discord}
 
 # Program launcher
 super + Return

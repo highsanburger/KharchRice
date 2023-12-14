@@ -154,11 +154,15 @@ map("n", "<leader>tf", "<Cmd>Telescope find_files theme=ivy<CR>", opts)
 map("n", "<leader>tg", "<Cmd>Telescope live_grep theme=ivy<CR>", opts)
 map("n", "<leader>th", "<Cmd>Telescope help_tags theme=ivy<CR>", opts) -- Plugins --
 map("n", "<leader>tt", "<Cmd>Telescope builtin theme=dropdown<CR>", opts) -- Plugins --
-map("n", "<leader>tc", "<Cmd>Telescope colorscheme theme=dropdown<CR>", opts) -- Plugins --
+
+-- UI
+map("n", "<leader>uc", "<Cmd>Telescope colorscheme theme=dropdown<CR>", opts)
+map("n", "<leader>ut", "<Cmd>TransparentToggle<CR>", opts)
 
 -- Lsp
 
 map("n", "<leader>li", "<Cmd>LspInfo<CR>", opts)
+map("n", "<leader>lt", "<Cmd>TroubleToggle<CR>", opts)
 
 opts.desc = "Smart rename"
 map("n", "<leader>lr", vim.lsp.buf.rename, opts) -- smart rename

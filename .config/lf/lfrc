@@ -272,7 +272,7 @@ map gbt cd ~/Books/Philosophy/Texts/
 
 map goo cd ~/Coding
 map gog cd ~/Coding/github/
-map gk cd ~/Coding/github/ticket-support-system/
+map ga cd ~/Coding/github/advent-of-code/src/Y23
 map goc cd ~/Coding/gitclones/
 map gol cd ~/Coding/langs/
 map gor cd ~/Coding/rices/

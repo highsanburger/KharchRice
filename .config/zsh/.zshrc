@@ -102,3 +102,4 @@ function nvims() {
 
 colorscript random
 
+export PATH=$PATH:/home/khal/.spicetify

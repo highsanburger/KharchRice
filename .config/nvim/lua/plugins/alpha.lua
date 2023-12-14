@@ -1,6 +1,7 @@
 return {
 	"goolord/alpha-nvim",
 	event = "VimEnter",
+	-- TODO: Pls
 
 	config = function()
 		local alpha = require("alpha")

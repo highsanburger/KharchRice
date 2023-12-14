@@ -1,4 +1,9 @@
 #!/bin/sh
+# Dotnet
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$HOME/.dotnet/:$PATH
+export PATH=$HOME/.dotnet/tools/:$PATH
+
 export TASKRC=~/.config/taskwarrior/taskrc
 export TASKDATA=~/.config/taskwarrior/tasks
 export MANGOHUD=1
