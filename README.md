@@ -1,7 +1,6 @@
 # KharchRice
 
-“The philosophers have only interpreted the Arch of Linux, in various ways. The point, however, is to rice the Arch of Linux."
-
+“The philosophers have only interpreted the Arch of Linux, in various ways. The point, however, is to rice the Arch of Linux.“
 
 ## Installing
 
@@ -47,13 +46,11 @@ KARBS automatically installs and configures the following (simply rad) programs:
 After logging in to the shell, and upon entering `startx` the `~/.xinitrc` script will be run. In it we have started a bunch of daemons and most importantly in the last line have started our window manager `bspwm`. In its configuration file located at `~/.config/bspwm/bspwmrc` we have source `~/.xprofile` which I have arbitrarily decided to make the main file for exporting global variables. I know this isn't the most elegant solution and am open to hear your ideas.
 Just go through the aforementioned files to familiarize yourself with the setup of the system.
 
-
 ## Customization
 
 By default, KARBS uses the programs [here in progs.csv](progs.csv) and installs
 my dot files but you can easily change this by  modifying the default variables at the
 beginning of the script.
-
 
 ### The `progs.csv` list
 

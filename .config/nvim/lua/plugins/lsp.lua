@@ -81,6 +81,10 @@ return {
 			capabilities = capabilities,
 		})
 
+		lspconfig["tailwindcss"].setup({
+			capabilities = capabilities,
+		})
+
 		-- configure emmet language server
 		lspconfig["emmet_ls"].setup({
 			capabilities = capabilities,
@@ -101,6 +105,19 @@ return {
 			capabilities = capabilities,
 		})
 
+		-- configure bash language server
+		lspconfig["bashls"].setup({
+			capabilities = capabilities,
+
+			filetypes = { "sh" },
+		})
+
+		-- configure bash language server
+		-- lspconfig["shellcheck"].setup({
+		-- 	capabilities = capabilities,
+		--
+		-- 	filetypes = { "sh" },
+		-- })
 		-- configure lua server (with special settings)
 		lspconfig["lua_ls"].setup({
 			capabilities = capabilities,

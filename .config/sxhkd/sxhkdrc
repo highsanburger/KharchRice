@@ -71,7 +71,7 @@ super + Menu
 
 # playback 
 # Browsers
-super + shift + F1 
+super + F1 
   playerctl play-pause 
 
 XF86AudioPlay
@@ -84,7 +84,7 @@ super + shift + {F3,F4}
 #   playerctl position {30-,30+}
 
 # mpv 
-super + F1 
+super + shift + F1 
   xdotool key --window "$(xdotool search --class mpv)" p
 
 super + {F3,F4} 
@@ -122,7 +122,8 @@ super + shift + ctrl + F9
 
 # Screenshots 
 {_,ctrl} + Print   
-	flameshot {gui -p ~/Pictures/Screenshots/RA,gui -c}
+	flameshot {gui -p /home/khal/College/sem6/Machine\ Learning/ss,gui -c}
+
 
 # Lock
 super + Escape

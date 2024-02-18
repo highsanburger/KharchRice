@@ -158,6 +158,7 @@ map("n", "<leader>tt", "<Cmd>Telescope builtin theme=dropdown<CR>", opts) -- Plu
 -- UI
 map("n", "<leader>uc", "<Cmd>Telescope colorscheme theme=dropdown<CR>", opts)
 map("n", "<leader>ut", "<Cmd>TransparentToggle<CR>", opts)
+map("n", "<leader>uu", "<Cmd>NoiceDismiss<CR>", opts)
 
 -- Lsp
 
