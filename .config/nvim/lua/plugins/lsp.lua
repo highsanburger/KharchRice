@@ -1,4 +1,5 @@
 return {
+
 	"neovim/nvim-lspconfig", -- LSP Configuration & Plugins
 	dependencies = {
 		{ "williamboman/mason.nvim", config = true }, -- Automatically install LSPs to stdpath for neovim
@@ -11,8 +12,24 @@ return {
 		"WhoIsSethDaniel/mason-tool-installer.nvim", -- linting & formatting
 	},
 	config = function()
-		-- import lspconfig plugin
 		local lspconfig = require("lspconfig")
+
+		-- Use a loop to conveniently call 'setup' on multiple servers and
+		-- map buffer local keybindings when the language server attaches
+
+		local servers = { "gopls", "ccls", "cmake", "tsserver", "templ" }
+		for _, lsp in ipairs(servers) do
+			lspconfig[lsp].setup({
+				on_attach = on_attach,
+				capabilities = capabilities,
+			})
+		end
+
+		vim.filetype.add({ extension = { templ = "templ" } })
+
+		-- ...
+		lspconfig.htmx.setup({})
+		-- import lspconfig plugin
 
 		-- import cmp-nvim-lsp plugin
 		local cmp_nvim_lsp = require("cmp_nvim_lsp")
@@ -53,8 +70,28 @@ return {
 		lspconfig["clangd"].setup({
 			capabilities = capabilities,
 		})
+		require("lspconfig").rust_analyzer.setup({})
+		-- require("lspconfig").rust_analyzer.setup({
+		-- 	settings = {
+		-- 		["rust-analyzer"] = {
+		-- 			diagnostics = {
+		-- 				enable = false,
+		-- 			},
+		-- 		},
+		-- 	},
+		-- })
+		-- lspconfig["rust-analyzer"].setup({
+		-- 	capabilities = capabilities,
+		-- })
 
 		lspconfig["gopls"].setup({
+			capabilities = capabilities,
+		})
+
+		lspconfig["templ"].setup({
+			capabilities = capabilities,
+		})
+		lspconfig["templ"].setup({
 			capabilities = capabilities,
 		})
 

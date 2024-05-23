@@ -34,7 +34,7 @@ alias ytmp3='yt-dlp --extract-audio --audio-format mp3 '
 alias ytmp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"'
 alias ytmp4low='yt-dlp -f "bestvideo[height<=480]+bestaudio/best[height<=480]"'
 alias yt360='yt-dlp -f "bestvideo[height<=360]+bestaudio/best[height<=360]"'
-alias ytplaylist='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4" -ciw -o "%(title)s.%(ext)s" -v '
+alias ytplaylist='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4" -ciw -o "%(playlist_index)03d - %(title)s.%(ext)s" -v '
 alias ytlist="yt-dlp --write-sub -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]' "
 alias ytlow="yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' --embed-subs --merge-output-format mkv"
 alias ytlm="yt-dlp -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' --embed-subs --merge-output-format mkv -o '%(playlist_index)s-%(title)s.%(ext)s' "

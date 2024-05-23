@@ -5,7 +5,7 @@ super + n ; {s,p,l}
 
 # BASICs
 super + shift + space 
-  st
+  cool-retro-term
 super + ctrl + b 
   qutebrowser
 super + {space,b,B,v,V,e}
@@ -30,8 +30,8 @@ super + shift + Return
   rofi -no-lazy-grab -show run -modi run 
 
 # Switch Tabs
-# super + Tab
- # rofi -show window -modi drun -theme ~/.config/rofi/alttab.rasi
+super + Tab
+ rofi -show window -modi drun -theme ~/.config/rofi/alttab.rasi
 
 
 # Scripts
@@ -122,7 +122,7 @@ super + shift + ctrl + F9
 
 # Screenshots 
 {_,ctrl} + Print   
-	flameshot {gui -p /home/khal/College/sem6/Machine\ Learning/ss,gui -c}
+	flameshot {gui -p /home/khal/,gui -c}
 
 
 # Lock

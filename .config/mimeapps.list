@@ -24,3 +24,4 @@ x-scheme-handler/notion=notion-app.desktop
 x-scheme-handler/etcher=balena-etcher.desktop
 audio/mpeg=mpv.desktop
 x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop

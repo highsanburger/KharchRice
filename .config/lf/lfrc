@@ -45,6 +45,12 @@ cmd openvim ${{
     done 
   }}
 
+cmd openbrowser ${{
+  	for x in $fx; do
+        $BROWSER "$x"
+    done 
+  }}
+
 
 cmd mkdir ${{
   printf "Directory Name: "
@@ -93,6 +99,7 @@ cmd unarchive ${{
   esac
 }}
 map O openvim
+map B openbrowser
 map au unarchive
 map az %zip -r "$f" "$f"
 map at %tar -cvf "$f.tar" "$f"
@@ -268,10 +275,12 @@ map gh cd ~
 
 map gbb cd ~/Books 
 map gbp cd ~/Books/Programming/Haskell/
+map gw cd /home/khal/Coding/WEB
 map gbt cd ~/Books/Philosophy/Texts/
 
 map goo cd ~/Coding
 map gog cd ~/Coding/github/
+map gs cd ~/Coding/github/syncli
 map gj cd ~/Coding/github/JimD/
 map ga cd ~/Coding/github/kitabae
 map goc cd ~/Coding/gitclones/
@@ -280,7 +289,7 @@ map gor cd ~/Coding/rices/
 map gop cd ~/Coding/projs/
 
 
-map gei cd ~/College/sem6/
+map gei cd ~/College/sem6/IOT
 map gem cd ~/Downloads/MERN/HUBS/mern_stack_course/
 map gej cd ~/College/JAVA/
 
@@ -293,7 +302,6 @@ map gps cd ~/Pictures/Screenshots/
 
 map gm cd ~/Music
 
-map gs cd ~/Psyche/Sophia/
 
 map gvv cd ~/Videos/
 map gvh cd ~/Videos/Computationabilitical/haskell
@@ -304,6 +312,7 @@ map gvn cd ~/Videos/Physics/NPTEL/
 
 map glb cd ~/.local/bin
 map gls cd ~/.local/share
+map glf cd ~/Coding/gitclones/lf/
 
 map gcc cd ~/.config
 map gcp cd ~/.config/picom/

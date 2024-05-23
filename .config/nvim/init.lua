@@ -2,9 +2,10 @@ require("core.options")
 require("core.keymaps")
 require("core.autocommands")
 require("core.lazy_bootstrap")
-
--- vim.cmd.colorscheme("tokyonight-moon")
-vim.cmd.colorscheme("catppuccin-mocha")
+--
+-- vim.cmd.colorscheme("tokyonight-night")
+vim.cmd.colorscheme("catppuccin")
+-- vim.cmd.colorscheme("github_light")
 -- vim.cmd.colorscheme("moonfly")
 if vim.g.neovide then
 	-- Put anything you want to happen only in Neovide here

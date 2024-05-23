@@ -77,7 +77,8 @@ bindkey '^e' edit-command-line
 
 # Environment variables set everywhere
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+# export TERMINAL="alacritty"
+export TERMINAL="st"
 export BROWSER="brave"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
