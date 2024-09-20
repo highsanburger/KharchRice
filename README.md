@@ -1,7 +1,6 @@
 # Post Install
 
 ```curl https://raw.githubusercontent.com/highsanburger/KharchRice/main/post.sh```
-``````
 
 # KharchRice
 
@@ -97,7 +96,3 @@ effectively with the `newperms` function. At the end of installation,
 several basic sudo commands without a password (`shutdown`, `reboot`,
 `pacman -Syu`).
 
-
-## TODO 
-- betterlockscreen -u ~/.wallpapers/socrates.jpg 
-- fusuma 
