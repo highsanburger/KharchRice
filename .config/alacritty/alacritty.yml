@@ -2,8 +2,8 @@ env:
   TERM: xterm-256color
 font:
   normal:
-    # family: JetBrainsMonoNerdFont
-    family: Iosevka
+    family: JetBrainsMonoNerdFont
+    # family: Iosevka
     # family: FiraCodeNerdFont
     # family: Hack
     # family: HasklugNerdFontMono

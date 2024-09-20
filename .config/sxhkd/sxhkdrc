@@ -8,8 +8,8 @@ super + shift + space
   cool-retro-term
 super + ctrl + b 
   qutebrowser
-super + {space,b,B,v,V,e}
-  {$TERMINAL,$BROWSER,$BROWSER --incognito, $TERMINAL -e nvim, $TERMINAL -e lvim,$TERMINAL -e lfrun}
+super + {space,b,B,v,e}
+  {$TERMINAL,$BROWSER,$BROWSER --incognito, $TERMINAL -e nvim,$TERMINAL -e lfrun}
 # super + ctrl + e 
 #   emacsclient -c -a 'emacs'
 
@@ -37,16 +37,17 @@ super + Tab
 # Scripts
 super + g ; {e,m,x,k,n,z}
   ~/.local/bin/{emoji,mansplain,powermenu,killprocess,rofi-wifi-menu,muzic}
-super + g ; l
+# super + g ; l
+XF86Calculator
   rofi -show calc -modi calc -no-show-match -no-sort
 
 # TUI
-super + c ; {e,b,n,a,p,c,r}
-  $TERMINAL -e {lfrun,bluetuith,nmtui,pulsemixer,ncmpcpp,calcurse,newsboat}
+super + c ; {b,n,a,c,r}
+  $TERMINAL -e {bluetuith,nmtui,pulsemixer,calcurse,newsboat}
 
 # Editing configs
 super + y ; {s,b,l,n,p,a}
-  $TERMINAL -e nvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf,alacritty/alacritty.yml}
+  $TERMINAL -e nvim ~/.config/{sxhkd/sxhkdrc,bspwm/bspwmrc,lf/lfrc,nvim/init.lua,picom/picom.conf,alacritty/alacritty.toml}
 
 #Load Stuff 
 super + u ; {c}
@@ -60,28 +61,27 @@ super + {shift + minus ,minus,equal,shift + equal}
   picom-trans -c {0,-1,+2,100}
 
 # Toggle Bar
-Menu 
+XF86Launch2 
  polybar-msg cmd toggle; bspc config bottom_padding 0
-super + Menu
+
+super + XF86Launch2 
   ~/.config/polybar/launch.sh
 
 # Toggle Notifications
-{shift,ctrl} + Menu
+{shift,ctrl} + XF86Launch2 
   dunstctl {history-pop,close-all}
 
-# playback 
-# Browsers
-super + F1 
-  playerctl play-pause 
-
+# super + F1 
 XF86AudioPlay
   playerctl play-pause 
-super + {ctrl,_} + F2 
+
+# super + {ctrl,_} + F2 
+{XF86AudioPrev,XF86AudioNext}
   playerctl {previous,next}
-super + shift + {F3,F4} 
+
+# super + shift + {F3,F4} 
+ctrl + {XF86AudioPrev,XF86AudioNext}
   playerctl position {5-,5+} 
-# super + ctrl + {F3,F4}
-#   playerctl position {30-,30+}
 
 # mpv 
 super + shift + F1 
@@ -106,14 +106,19 @@ super + ctrl + {F5,F6}
     ~/.local/bin/changevolume {somedown,someup}
 {XF86AudioLowerVolume,XF86AudioRaiseVolume}
     ~/.local/bin/changevolume {somedown,someup}
-super + {_,ctrl} + F7
+# super + {_,ctrl} + F7
+{_,ctrl} + XF86AudioMute
     ~/.local/bin/changevolume {mute,max}
 
 # Brightness
-super + {F9,F10}
+# super + {F9,F10}
+{XF86MonBrightnessDown,XF86MonBrightnessUp}
   changebrightness {down,up}
-super + ctrl + {F9,F10}
+
+# super + ctrl + {F9,F10}
+ctrl + {XF86MonBrightnessDown,XF86MonBrightnessUp}
   changebrightness {min,max}
+
 # Bluelight filter
 super + shift + {F9,F10}
   source red_env.sh && redshift.sh {decrease,increase}
@@ -127,7 +132,7 @@ super + shift + ctrl + F9
 
 # Lock
 super + Escape
-  betterlockscreen -l pixel
+  betterlockscreen -l
 
 # swtich workspace
 super + {_,shift + }{1-9,0}

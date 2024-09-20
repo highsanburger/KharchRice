@@ -1,4 +1,0 @@
-for i in {11..31}
-do
-  task add "Ch-$i" project:Coding.Haskell.Allen
-done

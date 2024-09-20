@@ -1,10 +1,49 @@
 swipe:
   3:
     left:
-      command: bspc desktop -f prev
+      command: "xdotool key alt+Right" # History forward
+      threshold: 0.3
+      interval: 0.3
     right:
-      command: bspc desktop -f next
-threshold:
-  swipe: 0
-interval:
-  swipe: 0.5
+      command: "xdotool key alt+Left" # History back
+      threshold: 0.3
+      interval: 0.3
+    up:
+      command: "xdotool key XF86Launch2" # Activity
+      threshold: 0.3
+      interval: 0.3
+    down:
+      command: "xdotool key super+Tab" # Activity
+      threshold: 0.3
+      interval: 0.3
+  4:
+    left:
+      command: "xdotool key super+a" # Switch to next workspace
+      threshold: 0.3
+      interval: 0.3
+    right:
+      command: "xdotool key super+d" # Switch to previous workspace
+      threshold: 0.3
+      interval: 0.3
+    up:
+      command: "xdotool key super+A" # Switch to next workspace
+      threshold: 0.3
+      interval: 0.3
+    down:
+      command: "xdotool key super+D" # Switch to previous workspace
+      threshold: 0.3
+      interval: 0.3
+pinch:
+  in:
+    command: "xdotool key ctrl+minus" # Zoom in
+    threshold: 0.3
+    interval: 0.3
+  out:
+    command: "xdotool key ctrl+equal" # Zoom out
+    threshold: 0.3
+    interval: 0.3
+# hold:
+#   4:
+#     command: "xdotool key super+Tab" # Activity
+#     threshold: 0.3
+#     interval: 0.3

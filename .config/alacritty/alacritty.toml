@@ -1,0 +1,143 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+
+[cursor.style]
+blinking = "Always"
+
+[mouse]
+hide_when_typing = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10
+normal.family = "IosevkaNerdFont"
+normal.style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u001B[65;5u"
+key = "A"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[66;5u"
+key = "B"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[68;5u"
+key = "D"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[69;5u"
+key = "E"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[70;5u"
+key = "F"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[71;5u"
+key = "G"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[72;5u"
+key = "H"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[73;5u"
+key = "I"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[74;5u"
+key = "J"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[75;5u"
+key = "K"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[76;5u"
+key = "L"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[77;5u"
+key = "M"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[78;5u"
+key = "N"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[79;5u"
+key = "O"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[80;5u"
+key = "P"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[81;5u"
+key = "Q"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[82;5u"
+key = "R"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[83;5u"
+key = "S"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[84;5u"
+key = "T"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[85;5u"
+key = "U"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[87;5u"
+key = "W"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[88;5u"
+key = "X"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[89;5u"
+key = "Y"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[90;5u"
+key = "Z"
+mods = "Control|Shift"
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/zsh"

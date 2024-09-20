@@ -88,7 +88,7 @@ through the programs file and determines based on the tag of each program,
 which commands to run to install it. You can easily add new methods of
 installations and tags as well.
 
-Note that programs from the AUR can only be built by a non-root user. What
+*Note* that programs from the AUR can only be built by a non-root user. What
 KARBS does to bypass this by default is to temporarily allow the newly created
 user to use `sudo` without a password (so the user won't be prompted for a
 password multiple times in installation). This is done ad-hocly, but

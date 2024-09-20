@@ -77,8 +77,7 @@ bindkey '^e' edit-command-line
 
 # Environment variables set everywhere
 export EDITOR="nvim"
-# export TERMINAL="alacritty"
-export TERMINAL="st"
+export TERMINAL="alacritty"
 export BROWSER="brave"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
@@ -101,6 +100,8 @@ function nvims() {
   NVIM_APPNAME=$config nvim $@
 }
 
-colorscript random
+#colorscript random
 
 export PATH=$PATH:/home/khal/.spicetify
+
+[ -f "/home/khal/.ghcup/env" ] && . "/home/khal/.ghcup/env" # ghcup-env

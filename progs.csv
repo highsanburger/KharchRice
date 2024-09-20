@@ -14,10 +14,8 @@
 ,nsxiv,is a minimalist image viewer.
 ,python-pywal,sets the wallpaper and change colorscheme
 ,ffmpeg,can record and splice video and audio on the command line.
-,gnome-keyring,serves as the system keyring.
+,archlinux-keyring,serves as the system keyring.
 ,neovim,a tidier vim with some useful features
-,mpd,is a lightweight music daemon.
-,mpc,is a terminal interface for mpd.
 ,mpv,is the patrician's choice video player.
 ,man-db,lets you read man pages of programs.
 ,ncmpcpp,a ncurses interface for music with multiple formats and a powerful tag editor.
@@ -42,3 +40,22 @@ A,bluetuith,TUI Bluetooth Manager
 ,brightnessctl,CLI brightness utils
 ,pamixer,CLI volume utils
 A,dragon-drop,GUI like dragging files in LF
+,gparted,diskmgmt.exe
+,noto-fonts-emoji,😀
+A,getnf,ez way to install fonts
+,acpi, power management
+,arandr, xrandr frontend
+,bc,calculator
+,xorg-xev,Print contents of X events
+,noto-fonts,numbers weird browser
+,playerctl,play pause
+,clipmenu, clipboard management with rofi/dmenu
+,rofi-calc, calculator using rofi
+,xcape, for remapping caps and escape
+A,zoom, meetings
+,ttf-liberation, numbers weird no longer
+,texlive-basic, LaTeX-ing
+,texlive-latex,LaTeX-ing
+,texlive-latexrecommended, LaTeX-ing
+,texlive-fontsrecommended, LaTeX-ing
+,texlive-mathscience, LaTeX-ing
