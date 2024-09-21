@@ -1,4 +1,4 @@
-#
+#test
 # Toggle window flags
 super + n ; {s,p,l}
     bspc node -g {sticky,private,locked}
