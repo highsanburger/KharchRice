@@ -1,0 +1,61 @@
+#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+,neofetch,thigh highs
+,git, GOAT VCS !
+,zsh,GODSENT sheell
+,alacritty,G.O.A.T. $TERMINAL ! ! !
+,lf,Hella Extendable TUI File manager which literally embodies the Holy Ghost
+,picom,for your OMG HOW DOES YOUR COMPI LOOK LIKE THAT needs
+,polybar,dont waste your time ricing this retarded status bar lol
+,rofi,cheap but flashy dmenu clone
+,ueberzug,enables previews in the lf file manager.
+,betterlockscreen,allows you to lock your computer and quickly unlock with your password.
+,dunst,is a suckless notification system.
+,calcurse,terminal-based organizer for interactive and command line use
+,nsxiv,is a minimalist image viewer.
+,python-pywal,sets the wallpaper and change colorscheme
+,ffmpeg,can record and splice video and audio on the command line.
+,archlinux-keyring,serves as the system keyring.
+,neovim,a tidier vim with some useful features
+,mpv,is the patrician's choice video player.
+,man-db,lets you read man pages of programs.
+,ncmpcpp,a ncurses interface for music with multiple formats and a powerful tag editor.
+,newsboat,is a terminal RSS client.
+A,brave-bin,sensible privacy respecting browser
+A,sc-im,is an Excel-like terminal spreadsheet manager.
+,flameshot,can take quick screenshots at your request.
+,unclutter,hides an inactive mouse.
+,unzip,unzips zips.
+,xclip,allows for copying and pasting from the command line.
+,yt-dlp,can download any YouTube video (or playlist or channel) when given the link.
+,zathura,is a pdf viewer with vim-like bindings.
+,zathura-pdf-mupdf,allows mupdf pdf compatibility in zathura.
+A,tdrop,Glorified WM-independent dropdown creator
+,fzf,is a fuzzy finder tool used for easy selection and location of files.
+A,teams,Padhai Likhai
+A,spotify,spotify
+,discord,neckbeard activities
+A,bluetuith,TUI Bluetooth Manager
+,pulsemixer,TUI Audio Mixer
+,xdotool,window action utilities CLI
+,brightnessctl,CLI brightness utils
+,pamixer,CLI volume utils
+A,dragon-drop,GUI like dragging files in LF
+,gparted,diskmgmt.exe
+,noto-fonts-emoji,😀
+A,getnf,ez way to install fonts
+,acpi, power management
+,arandr, xrandr frontend
+,bc,calculator
+,xorg-xev,Print contents of X events
+,noto-fonts,numbers weird browser
+,playerctl,play pause
+,clipmenu, clipboard management with rofi/dmenu
+,rofi-calc, calculator using rofi
+,xcape, for remapping caps and escape
+A,zoom, meetings
+,ttf-liberation, numbers weird no longer
+,texlive-basic, LaTeX-ing
+,texlive-latex,LaTeX-ing
+,texlive-latexrecommended, LaTeX-ing
+,texlive-fontsrecommended, LaTeX-ing
+,texlive-mathscience, LaTeX-ing
