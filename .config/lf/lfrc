@@ -9,7 +9,7 @@ set ifs "\n"
 set preview true
 set drawbox true
 set cleaner '~/.config/lf/cleaner'
-set previewer '~/.config/lf/scope'
+set previewer '~/.config/lf/preview'
 set icons true
 set mouse true
 set incsearch true
@@ -268,7 +268,7 @@ map aw combine-webm
 #
 map gr cd /
 map gM cd /media/
-map gu cd /run/media/khal/
+map gu cd /run/media/khal/3935-3334/
 
 #  ~ HOME ~
 map gh cd ~
@@ -328,7 +328,8 @@ map gcd cd ~/.config/dunst/
 map gcr cd ~/.config/newsboat/
 map gck cd ~/.config/kitty/
 map gca cd ~/.config/alacritty/
-map gce cd ~/.config/emacs/
+map gce cd ~/.config/eww/
 map gct cd ~/.config/taskwarrior/
+map gcy cd ~/.config/polybar/
 
 

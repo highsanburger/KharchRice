@@ -1,5 +1,7 @@
 #!/bin/sh
 
+fenics() {eval "$(micromamba shell hook --shell zsh)" && micromamba activate fenics}
+
 # Taskwarrior
 alias t=task
 alias tui=taskwarrior-tui

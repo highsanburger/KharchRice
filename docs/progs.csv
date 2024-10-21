@@ -46,6 +46,7 @@ A,getnf,ez way to install fonts
 ,acpi, power management
 ,arandr, xrandr frontend
 ,bc,calculator
+,calc,calculator
 ,xorg-xev,Print contents of X events
 ,noto-fonts,numbers weird browser
 ,playerctl,play pause
@@ -59,3 +60,13 @@ A,zoom, meetings
 ,texlive-latexrecommended, LaTeX-ing
 ,texlive-fontsrecommended, LaTeX-ing
 ,texlive-mathscience, LaTeX-ing
+,lsd, better ls
+,reflector, pacman mirror updater
+,udiskie, usb automounter
+,pmount, sd card
+,bat, better cat
+,glow, markdown renderer
+A,python-pdf2image,pdf -> png
+A,epub-thumbnailer-git, epub -> png
+A,comicthumb, cbz -> png
+

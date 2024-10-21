@@ -39,13 +39,13 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				-- "ormolu", -- haskell
-				"prettier", -- prettier formatter
+				-- "prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"isort", -- python formatter
 				"black", -- python formatter
 				"pylint", -- python linter
-				"eslint_d", -- js linter
-				"csharpier",
+				-- "eslint_d", -- js linter
+				-- "csharpier",
 			},
 		})
 
@@ -131,6 +131,7 @@ return {
 
 		-- configure python server
 		lspconfig["pyright"].setup({
+			cmd = { "/home/khal/micromamba/envs/fenics/bin/python" },
 			capabilities = capabilities,
 		})
 
