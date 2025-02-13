@@ -139,5 +139,7 @@ mods = "Control|Shift"
 [selection]
 save_to_clipboard = false
 
-[shell]
+[terminal]
+
+[terminal.shell]
 program = "/usr/bin/zsh"
